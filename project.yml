@@ -1,0 +1,29 @@
+# Present state only; rationale and history live in admin/ and sessions/.
+project: gen_ai_workflows_data_equity
+stage: scaffold
+stages: [scaffold, outline, drafting, rehearsal, delivered]
+last_session: "2026-10-12"
+critical_path_blocker: "No infrastructure blocker. Audience, duration, and central argument await the next conceptual session."
+paths:
+  knowledge_base: knowledge-base
+  docs: docs
+open_decisions:
+  - id: audience-and-duration
+    question: "Who is the intended audience, and what is the session time budget?"
+    gated_on: "Author input and event requirements"
+  - id: core-message
+    question: "What is the central argument and intended audience takeaway?"
+    gated_on: "Next conceptual session"
+  - id: tool-literacy
+    question: "Can the author explain provenance, renv, and the local build unaided?"
+    gated_on: "Author review of docs/workflow-literacy.md"
+components:
+  scripts/00_setup.R: stub
+  tools/build-provenance.R: complete
+  artifacts/talk/deck.qmd: stub
+external_gates:
+  - "Explicit author request before committing; separate confirmation before publication."
+next_actions:
+  - "Author to stage, review, and commit the initial setup; no AI co-author trailer."
+  - "Discuss audience, duration, central message, and scope."
+  - "Develop knowledge-base/01 before drafting the narrative."

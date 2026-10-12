@@ -1,0 +1,25 @@
+# Stable source keys; examples provide structure, not research evidence.
+# name, kind, location, tracked, bib retain the seed registry schema.
+# Additional verification notes make the status of each input explicit.
+sources:
+  structural-handoff:
+    name: "Author-supplied structural handoff briefs"
+    kind: template
+    location: "admin/template-repos/"
+    tracked: true
+    bib: null
+    verification: "Reviewed for setup requirements; superseded where author decisions differ."
+  structural-examples:
+    name: "Author-supplied local structural examples"
+    kind: template
+    location: "External seed_files folder; not distributed"
+    tracked: false
+    bib: null
+    verification: "Used for formats and tooling only; research content excluded."
+  event-website:
+    name: "Oregon Data Equity Summit official website"
+    kind: website
+    location: "https://www.oregon.gov/odhs/data/Pages/data-equity-summit.aspx"
+    tracked: false
+    bib: null
+    verification: "Author-provided lead; not independently reviewed during repository setup."

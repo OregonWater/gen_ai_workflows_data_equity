@@ -1,0 +1,40 @@
+---
+title: 'Reproducibility notes'
+sources: []
+sessions: ["2026-10-12"]
+---
+
+## Environment
+
+Setup detected R 4.6.1 and Quarto 1.10.18 on Windows. The R packages yaml and renv are available. renv.lock records yaml 2.3.12 and renv 1.2.4. Packages were copied from the existing library; no downloads were needed.
+
+Quarto runs tools/build-provenance.R as its R pre-render hook. R must be discoverable by Quarto; QUARTO_R can identify its bin directory. On this machine its directory is C:/Program Files/R/R-4.6.1/bin. In a PowerShell session, prepend that directory to PATH before rendering if necessary. This affects only that terminal session.
+
+## Fresh clone
+
+Install R and Quarto, open the .Rproj, and run renv::restore(). Then run quarto render from the repository root. The .Rprofile activates the project environment.
+
+## Build outputs
+
+_site/index.html is the site;_site/artifacts/talk/deck.html is the deck. Outputs are local and ignored. No publication is part of the build.
+
+## Validation
+
+Passed on 2026-10-12:
+
+- Provenance: 17 pages, one session, three sources; zero errors/warnings.
+- Broken-copy checks: unknown source, unresolved feeds, and missing component all produced errors and nonzero exit; generated tables were unchanged.
+- renv::status(): consistent project library and lockfile (R 4.6.1, renv 1.2.4, yaml 2.3.12).
+- Local Markdown links and Git ignore checks passed.
+- Example-project residue and placeholder scan clean outside historical handoff briefs (dependency code excluded).
+- Quarto inspection recognizes the deck as reveal.js.
+
+The author checked the files, rendered and previewed the project site on 2026-10-12, and confirmed it works as expected. This closes the local rendering blocker based on author-reported validation. Earlier, the managed assistant session could not open the Quarto cache database; that remains a diagnostic limitation of that session, not a current project blocker. No separate assistant visual inspection is claimed.
+
+The managed session's Windows locale and renv sandbox activation required terminal-only diagnostic settings: LC_ALL=English_United States.utf8; RENV_CONFIG_SANDBOX_ENABLED=FALSE; RENV_CONFIG_CACHE_ENABLED=FALSE; RENV_CONFIG_SYNCHRONIZED_CHECK=FALSE; QUARTO_R=C:/Program Files/R/R-4.6.1/bin. These are not project defaults. The script explicitly reads UTF-8.
+
+Local render and preview are confirmed by the author. Clean-machine restore and author comprehension review remain open.
+
+## Limitations
+
+A clean-machine restore is not yet verified. Author comprehension review remains open. No data or substantive analyses are included.

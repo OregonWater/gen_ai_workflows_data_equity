@@ -1,0 +1,26 @@
+---
+title: "Frictionless Reasoning About a Resistant World"
+subtitle: "GenAI Supported Workflows and Data Equity"
+author: "Francisco J. Guerrero"
+format:
+  revealjs:
+    theme: white
+    slide-number: true
+    transition: none
+    center: false
+    width: 1280
+    height: 720
+    margin: 0.08
+    title-slide-attributes:
+      data-background-color: "#f4f6f8"
+    css: deck.css
+    footer: "2026 Oregon Data Equity Summit · Working draft"
+---
+
+## Presentation in development
+
+The argument, examples, and slide sequence will be developed in the next sessions.
+
+::: {.notes}
+Placeholder only. No substantive claims or narrative have been approved.
+:::
