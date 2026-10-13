@@ -1,7 +1,7 @@
 ---
 title: 'Decisions register'
 sources: []
-sessions: ["2026-10-12"]
+sessions: ["2026-10-12", "2026-10-13"]
 ---
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
@@ -124,8 +124,30 @@ The earlier managed-session cache failure remains historical diagnostic informat
 
 Status: resolved.
 
-## Open items requiring a decision
+## 2026-10-13 — audience-and-case-approach
 
-- **audience-and-duration:** audience, delivery format, and session time budget.
+Decision: Prioritize practitioners through an inductive TAPs case explaining what was done and why, then derive implications for managers/reviewers.
+
+Rationale: The author grounds the talk in evolving GenAI support for TAP development for Place-Based Integrated Water Planning supported by OWRD grants.
+
+Source boundary: The supplied presentation is an initial workflow account, not a final specification. TAPs is transitioning from design to building; not all staircase steps are complete.
+
+Alternatives considered: No additional alternatives recorded.
+
+Status: active; explicitly directed by the author. Central message remains open; individual speaking time was subsequently settled below.
+
+## 2026-10-13 — audience-baseline-and-preparation
+
+Decision: Hold knowledge-base/08 as a provisional preparation baseline until thesis/contribution, narrative and supporting-source work justify revision. Leave the desired takeaway open. Develop reasoning through narrative first, then inspect and refine it; this supersedes the earlier thesis-before-narrative next-action sequence.
+
+Confirmed constraints: 20-minute virtual talk with screen sharing; Q&A at the end of the presentation cycle. Complete draft October 21 for dry run and organizer content feedback; final version October 27 for rehearsal. Use OWRD branding, with CSS incorporation pending. Briefly introduce OWRD, its mission, planning and TAPs for unfamiliar attendees; verify factual wording before use.
+
+Rationale: Stabilize audience preparation while allowing the argument and evidence to develop. Alternatives considered: resolving the takeaway now; explicitly deferred by the author.
+
+Status: active; authorized by the author. No commit authorization inferred from preparing the file for a future commit.
+
+## Remaining open items after baseline agreement
+
+- **audience-and-duration:** duration and format settled; audience assumptions remain provisional until thesis/narrative/evidence review. Actual composition and AI familiarity remain unknown.
 - **core-message:** central argument, takeaway, and examples.
 - **tool-literacy:** author review of the mechanisms; understanding is not assumed from approval.

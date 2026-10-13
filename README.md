@@ -3,14 +3,14 @@
 A presentation project by **Francisco J. Guerrero** on GenAI supported workflows and data equity.
 
 **Venue:** 3rd Annual State of Oregon Data Equity Summit — Building Sustainable Data Equity Practices.
-[Official event website](https://www.oregon.gov/odhs/data/Pages/data-equity-summit.aspx) (provided by the author; event details have not yet been independently checked).
+[Official event website](https://www.oregon.gov/odhs/data/Pages/data-equity-summit.aspx) (checked October 13; audience research and remaining presenter requirements are recorded in knowledge-base/08).
 
 ## Start here
 
 - [Project overview](docs/project-overview.md)
 - [Repository guide](docs/repository-guide.md)
 - [Current project state](project.yml)
-- [Latest session](sessions/2026-10-12.md)
+- [Latest session](sessions/2026-10-13.md)
 - [Decisions](admin/decisions-register.md)
 - [Working protocol](knowledge-base/09_ai-working-instructions.md)
 
@@ -33,7 +33,7 @@ Use `quarto preview` for local browsing. See [reproducibility notes](docs/reprod
 
 ## Scope and status
 
-The structure and provenance checks are in place. The author successfully rendered and previewed the project site on 2026-10-12 and confirmed it works as expected; see reproducibility notes. For content, the argument, audience requirements, examples, and time budget remain open. The deck is a placeholder, not an approved narrative.
+The structure and provenance checks are in place. The author successfully rendered and previewed the project site on 2026-10-12 and confirmed it works as expected; see reproducibility notes. The provisional audience baseline, 20-minute virtual format and preparation deadlines are established. Narrative, central argument, concrete examples and desired takeaway remain open. The deck is a placeholder, not an approved narrative.
 
 No raw transcripts are stored. Session containers are the session record; the project log and decision register serve the distinct roles specified by the workflow.
 
