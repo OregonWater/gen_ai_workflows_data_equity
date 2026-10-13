@@ -2,6 +2,13 @@
 # name, kind, location, tracked, bib retain the seed registry schema.
 # Additional verification notes make the status of each input explicit.
 sources:
+  taps-genai-initial-presentation:
+    name: "Author-provided TAPs GenAI presentation with speaker notes (initial workflow account)"
+    kind: presentation
+    location: "references/source-pdfs/taps-genai-final-speaker-notes.pdf"
+    tracked: false
+    bib: null
+    verification: "Reviewed 2026-10-13: 23 pages of speaker notes, visual contact sheet and detailed diagrams on pages 8 and 13. Last-updated text July 24, 2026. Author clarifies initial account, not final specification; design-to-build transition with incomplete staircase steps. Underlying implementation and benefits not independently verified."
   structural-handoff:
     name: "Author-supplied structural handoff briefs"
     kind: template
@@ -22,4 +29,32 @@ sources:
     location: "https://www.oregon.gov/odhs/data/Pages/data-equity-summit.aspx"
     tracked: false
     bib: null
-    verification: "Author-provided lead; not independently reviewed during repository setup."
+    verification: "Checked 2026-10-13: audience, dates, format, accessibility, schedule and 2025 recap. Author-supplied screenshot of expanded Session 3 confirms Francisco Guerrero in Data Equity in the Age of AI on October 28; earlier text extraction missed the presenter list. Individual 20-minute duration is author-confirmed, not established by the page. The 2025 recap says two days, conflicting with contemporary three-day reports."
+  summit-2024-announcement:
+    name: "EIS Digest October 2024: first Data Equity Summit announcement"
+    kind: website
+    location: "https://content.govdelivery.com/accounts/ORDAS/bulletins/3bc6e31"
+    tracked: false
+    bib: null
+    verification: "Checked 2026-10-13 in indexed source text: November 19-20, 2024 virtual event, intended audience and governance focus."
+  summit-2025-preview:
+    name: "EIS Digest August 2025: Data Equity Summit preview"
+    kind: website
+    location: "https://content.govdelivery.com/accounts/ORDAS/bulletins/3edb6dc"
+    tracked: false
+    bib: null
+    verification: "Checked 2026-10-13: intended audience, planned themes, three-day virtual format and response to prior participant feedback. Plans are not evidence of delivered outcomes."
+  summit-2025-report:
+    name: "November 2025 EIS Digest: Data Equity Summit report"
+    kind: website
+    location: "https://content.govdelivery.com/accounts/ORDAS/bulletins/3fb22e2"
+    tracked: false
+    bib: null
+    verification: "Checked 2026-10-13: October 28-30, 2025; reports more than 950 attendees across the event, without defining unique attendance or session counts."
+  summit-2024-recap-lead:
+    name: "Staging-domain summit page retaining 2024 recap"
+    kind: website
+    location: "https://stage.oregon.gov/odhs/data/Pages/data-equity-summit.aspx"
+    tracked: false
+    bib: null
+    verification: "Limited lead, 2026-10-13: search-index text available, direct retrieval failed. Historical topic leads only; not relied on as confirmed program evidence."

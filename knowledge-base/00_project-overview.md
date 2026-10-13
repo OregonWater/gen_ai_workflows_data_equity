@@ -1,7 +1,7 @@
 ---
 title: 'Project overview'
 sources: []
-sessions: ["2026-10-12"]
+sessions: ["2026-10-12", "2026-10-13"]
 ---
 
 ## Artifact
@@ -14,4 +14,4 @@ Frictionless Reasoning About a Resistant World — Francisco J. Guerrero.
 
 ## Stage
 
-Scaffold. Current state lives in ../project.yml; audience and argument development begin next session.
+Scaffold. Current state lives in [project.yml](../project.yml). A provisional audience baseline and presentation constraints are established. Next, develop narrative reasoning and inspect/refine the thesis and contribution, with sources supporting substantive claims. No narrative or final takeaway is adopted yet.
