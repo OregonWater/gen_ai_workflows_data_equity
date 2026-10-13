@@ -1,7 +1,7 @@
 ---
 title: 'Project log'
 sources: []
-sessions: ["2026-10-12"]
+sessions: ["2026-10-12", "2026-10-13"]
 ---
 
 ## 2026-10-12
@@ -10,3 +10,15 @@ Conversation zero established the presentation identity, public scope, authoring
 
 
 The author subsequently checked the files, rendered and previewed the site, and confirmed it works as expected, closing the rendering blocker. The author chose no AI co-author trailers; AI assistance remains documented in sessions. The assistant updated the records and project state; staging, review, and committing are reserved for the author.
+
+## 2026-10-13
+
+At the author's request, checked the event website and previous-edition state bulletins to inform audience discussion. Recorded intended audience and format, historical context, a source discrepancy and open presenter requirements. Audience implications remain proposals; no thesis or slides adopted. Git inspection found initial commit cb27a56 and a clean working tree before research, closing the stale setup-commit action. Sources and reasoning are recorded in the dated session; no commit or publication performed.
+
+The author subsequently selected a practitioner-first inductive TAPs case and provided an initial presentation with speaker notes. Assessed it in the same session, distinguishing reported activity, possible support and future-facing steps. Recorded the explicit design-to-build status and incomplete staircase; no final operating specification or demonstrated benefit inferred. Updated the case foundation, audience direction and decisions. The source PDF remains ignored; no slide drafting or commit performed.
+
+Consolidated knowledge-base/08 into the author's requested stable provisional audience baseline. Recorded 20-minute virtual format, end-of-cycle Q&A, October 21 draft/feedback and October 27 final/rehearsal milestones, OWRD branding pending CSS implementation, and the need to introduce agency/planning context. Desired takeaway remains open. Subsequent work follows the author's narrative-first reasoning preference and considers the repository as an accompanying experimental case. Audience refinement is deferred until thesis, narrative and supporting-evidence work. No commit performed.
+
+Corrected the assignment status after the author supplied a screenshot of the expanded official Session 3 presenter list: Francisco Guerrero is listed for Data Equity in the Age of AI on October 28. Recorded the extraction limitation and updated the source verification note; individual duration remains author-confirmed.
+
+At close-out, reconciled stale status/timing statements and decision headings. Recorded the existence and intended future use of private brainstorming/webinar-question notes without reading or publishing their contents; confirmed Git exclusion. The author committed the audience baseline; remaining public documentation awaits review. The assistant made no commit. Audience content remains stable while narrative, thesis and evidence work are next.
