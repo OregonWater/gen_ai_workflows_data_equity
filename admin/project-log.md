@@ -1,13 +1,12 @@
 ---
 title: 'Project log'
 sources: []
-sessions: ["2026-10-12", "2026-10-13"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14"]
 ---
 
 ## 2026-10-12
 
 Conversation zero established the presentation identity, public scope, authoring approach, licensing, and working protocol. The author redirected an initial generic scaffold toward the supplied structural seeds and approved a migration map. Implementation creates governance, source/session tracking, knowledge-base shells, and a local site/deck build. Borrowed examples supply structure only. No commit or publication is authorized. Validation and remaining limitations are recorded in the session container.
-
 
 The author subsequently checked the files, rendered and previewed the site, and confirmed it works as expected, closing the rendering blocker. The author chose no AI co-author trailers; AI assistance remains documented in sessions. The assistant updated the records and project state; staging, review, and committing are reserved for the author.
 
@@ -22,3 +21,7 @@ Consolidated knowledge-base/08 into the author's requested stable provisional au
 Corrected the assignment status after the author supplied a screenshot of the expanded official Session 3 presenter list: Francisco Guerrero is listed for Data Equity in the Age of AI on October 28. Recorded the extraction limitation and updated the source verification note; individual duration remains author-confirmed.
 
 At close-out, reconciled stale status/timing statements and decision headings. Recorded the existence and intended future use of private brainstorming/webinar-question notes without reading or publishing their contents; confirmed Git exclusion. The author committed the audience baseline; remaining public documentation awaits review. The assistant made no commit. Audience content remains stable while narrative, thesis and evidence work are next.
+
+## 2026-10-14
+
+Discussed the provisional backbone and narrative-first development. Created two development artifacts at the author's direction; the author committed the initial backbone and wrote a first exploratory narrative. Assistant reviewed the narrative and proposed focused Q&A; no answers were collected before the author requested close-out. Preserve the author's deadline caution: clarify only what is needed for a defensible talk, defer peripheral exploration, and protect the October 21 draft and October 27 final milestones. See the dated session for reasoning, open questions, evidence boundaries, and validation. No assistant commit or publication performed.

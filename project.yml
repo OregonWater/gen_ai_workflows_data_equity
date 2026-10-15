@@ -2,7 +2,7 @@
 project: gen_ai_workflows_data_equity
 stage: scaffold
 stages: [scaffold, outline, drafting, rehearsal, delivered]
-last_session: "2026-10-13"
+last_session: "2026-10-14"
 critical_path_blocker: "No infrastructure blocker. Audience baseline and 20-minute format established; narrative, central argument and supporting case evidence remain to be developed."
 paths:
   knowledge_base: knowledge-base
@@ -24,7 +24,7 @@ components:
 external_gates:
   - "Explicit author request before committing; separate confirmation before publication."
 next_actions:
-  - "Develop narrative reasoning, then inspect and refine thesis/contribution; keep desired takeaway open."
-  - "Select concrete TAPs episodes and examine this repository's accompanying experimental role; review sources needed to support claims."
+  - "Resume focused narrative Q&A; clarify consequential choices and evidence limits, then reconcile with the provisional backbone. Keep desired takeaway open."
+  - "Prioritize questions that change the argument, explain the selected case, or prevent misleading claims; defer peripheral detail to protect draft and rehearsal deadlines."
   - "Prepare a complete draft for October 21 feedback and dry run; final version ready October 27 for rehearsal."
   - "Revisit the audience baseline after thesis, narrative and evidence work; incorporate OWRD styling into deck CSS during slide development."
