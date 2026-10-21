@@ -1,7 +1,7 @@
 ---
 title: 'Audience and venue'
 sources: [event-website, summit-2024-announcement, summit-2025-preview, summit-2025-report]
-sessions: ["2026-10-12", "2026-10-13"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-21"]
 ---
 
 ## Confirmed by the author
@@ -60,9 +60,16 @@ Keep introductory context proportionate to the 20-minute talk. Check agency, mis
 
 The author develops reasoning through narrative first, then inspection and refinement. Work on [core thesis and contribution](01_core-thesis-and-contribution.md) and the [narrative skeleton](07_narrative-skeleton.md) will inform the later audience review. The repository itself offers an accompanying experimental case of adapting selected TAPs workflow practices; its role belongs in that discussion without shifting the central emphasis away from TAPs or assuming audience familiarity with repositories.
 
+## Organizer feedback — 2026-10-19
+
+In the author's account of a conversation with the summit organizer, the audience may be predominantly nontechnical and more interested in the reasoning behind technology decisions than in implementation detail. The reported discussion emphasized thought processes, questions, judgment, human dignity, accountability, and institutional responsibility as possible entry points.
+
+Preparation implication: explain technical mechanisms only to the extent needed to make a consequential choice, its reasoning, or its limits understandable. This is a signal for shaping the talk, not a measured profile of attendees or evidence that they are uninterested in all technical content. Actual composition and familiarity remain unknown. See the [October 21 session](../sessions/2026-10-21.md) for the source boundary and open questions.
+
 ## Open or deferred
 
 - Desired takeaway: refine after developing and inspecting the thesis and narrative, with evidence supporting substantive claims.
 - Actual attendee composition and AI familiarity: unknown; the assumptions above guide preparation.
+- Technical depth: use the organizer's reported feedback as a provisional guide; let the practical reasoning determine which details are necessary.
 - Presenter-specific accessibility/delivery instructions: not established here. Event-level ASL/CART provision does not specify presenter requirements.
 - OWRD CSS styling: agreed direction, implementation pending.

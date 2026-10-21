@@ -1,7 +1,7 @@
 ---
 title: 'Core thesis and contribution'
 sources: [taps-genai-initial-presentation]
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21"]
 ---
 
 ## One-sentence message
@@ -20,6 +20,14 @@ The author clarifies that TAPs is transitioning from design to building, with in
 
 Next: examine a concrete development episode and its artifacts. The source alone does not establish the chronology of evolving support, time savings, completed validation or successful public reuse.
 
+### WRIS evidence matrix — October 21
+
+The author has assembled an evidence matrix from organizational files that traces a possible case arc: from schema and spatial attribution toward record meaning, the interpretation of query rows, translation between administrative and technical models, and questions of represented population and completeness. It may offer a concrete way to show how the questions changed, rather than making implementation detail the talk's subject.
+
+This is a description of the author's synthesis, not independent verification of the underlying records. The matrix's cited passages still need checking before claims are used in public material. The source registry is unchanged, and no empirical or general benefit claim is established by this note.
+
+The author also identifies Philosophy of Technology as a possible conceptual home for questions about technology, understanding, representation, assumptions, agency, and responsibility. This remains an emerging lens, not an adopted theory or a claim about what the literature establishes. The talk is not intended to be a philosophy lecture; any scholarly grounding should serve the practical case and be checked before use.
+
 ## Boundaries and what not to claim
 
 Do not treat the working title as an established argument. No results or performance claims have been established. Structural examples do not establish a research affiliation.
@@ -29,3 +37,5 @@ Do not treat the working title as an established argument. No results or perform
 The [working backbone](../artifacts/talk/development/backbone-working.md) preserves provisional definitions, propositions, and a message box; its quotations and substantive claims remain unchecked. The [exploratory narrative](../artifacts/talk/development/workflow-and-representation-narrative.md) contains author-reported experiences and assistant-prepared prompts. Neither is an adopted thesis or evidence of general workflow benefits.
 
 Develop the narrative and inspect backbone consistency in separate passes, then reconcile them. The next session resumes focused Q&A about a consequential query-design choice, followed by only the clarification needed to support a defensible example. The author requests explicit attention to the October 21 draft and October 27 final deadlines. See the [October 14 session](../sessions/2026-10-14.md) for open questions and a proposed sufficiency rule.
+
+October 21 update: organizer feedback, as reported by the author, suggests emphasizing reasoning and judgment over a deep technical walkthrough for a potentially nontechnical audience. Actual attendee composition remains unknown. See the [October 21 session](../sessions/2026-10-21.md); no central message or final narrative has been adopted.
