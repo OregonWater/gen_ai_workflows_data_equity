@@ -2,15 +2,15 @@
 project: gen_ai_workflows_data_equity
 stage: scaffold
 stages: [scaffold, outline, drafting, rehearsal, delivered]
-last_session: "2026-10-14"
-critical_path_blocker: "No infrastructure blocker. Audience baseline and 20-minute format established; narrative, central argument and supporting case evidence remain to be developed."
+last_session: "2026-10-21"
+critical_path_blocker: "No infrastructure blocker. A WRIS evidence matrix is assembled, but its source passages need verification and a bounded, reasoning-centered narrative and central takeaway remain to be developed."
 paths:
   knowledge_base: knowledge-base
   docs: docs
 open_decisions:
   - id: audience-and-duration
     question: "How should the provisional audience baseline be refined after thesis, narrative and evidence work?"
-    gated_on: "Core thesis/contribution, narrative skeleton and supporting source review; duration and format settled"
+    gated_on: "Use organizer feedback and the selected, evidence-checked example to refine the provisional audience baseline; duration and format settled"
   - id: core-message
     question: "What is the central argument and intended audience takeaway?"
     gated_on: "Next conceptual session"
@@ -24,7 +24,7 @@ components:
 external_gates:
   - "Explicit author request before committing; separate confirmation before publication."
 next_actions:
-  - "Resume focused narrative Q&A; clarify consequential choices and evidence limits, then reconcile with the provisional backbone. Keep desired takeaway open."
-  - "Prioritize questions that change the argument, explain the selected case, or prevent misleading claims; defer peripheral detail to protect draft and rehearsal deadlines."
-  - "Prepare a complete draft for October 21 feedback and dry run; final version ready October 27 for rehearsal."
-  - "Revisit the audience baseline after thesis, narrative and evidence work; incorporate OWRD styling into deck CSS during slide development."
+  - "Select a bounded WRIS example from the evidence matrix and verify only the organizational source passages needed to support it."
+  - "Develop a plain-language narrative centered on consequential reasoning and judgment; use technical detail only where it clarifies the case. Keep the central takeaway open until the narrative and evidence are inspected."
+  - "Check whether Philosophy of Technology clarifies the practical case; verify and register relevant scholarship before using literature claims. The talk is not a philosophy lecture."
+  - "Confirm status of the October 21 complete-draft feedback/dry run; final version is due October 27 for rehearsal. Incorporate OWRD styling into deck CSS during slide development."

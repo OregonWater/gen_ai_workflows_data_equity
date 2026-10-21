@@ -1,7 +1,7 @@
 ---
 title: 'Project log'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21"]
 ---
 
 ## 2026-10-12
@@ -21,6 +21,10 @@ Consolidated knowledge-base/08 into the author's requested stable provisional au
 Corrected the assignment status after the author supplied a screenshot of the expanded official Session 3 presenter list: Francisco Guerrero is listed for Data Equity in the Age of AI on October 28. Recorded the extraction limitation and updated the source verification note; individual duration remains author-confirmed.
 
 At close-out, reconciled stale status/timing statements and decision headings. Recorded the existence and intended future use of private brainstorming/webinar-question notes without reading or publishing their contents; confirmed Git exclusion. The author committed the audience baseline; remaining public documentation awaits review. The assistant made no commit. Audience content remains stable while narrative, thesis and evidence work are next.
+
+## 2026-10-21
+
+Recorded the author's completed WRIS evidence matrix as a potential bounded case, while distinguishing the matrix from independently checked source records. Incorporated the organizer's reported preference for reasoning over implementation depth into the provisional audience guidance. Noted Philosophy of Technology as a possible conceptual home for the author's questions, without treating it as a verified literature finding or the talk's genre. The next work is to select and verify a plain-language example, then develop the narrative and revisit the message. No claim was added to the claims register; no commit or publication was performed.
 
 ## 2026-10-14
 

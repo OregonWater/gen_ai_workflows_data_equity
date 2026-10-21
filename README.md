@@ -10,7 +10,7 @@ A presentation project by **Francisco J. Guerrero** on GenAI supported workflows
 - [Project overview](docs/project-overview.md)
 - [Repository guide](docs/repository-guide.md)
 - [Current project state](project.yml)
-- [Latest session](sessions/2026-10-14.md)
+- [Latest session](sessions/2026-10-21.md)
 - [Decisions](admin/decisions-register.md)
 - [Working protocol](knowledge-base/09_ai-working-instructions.md)
 
@@ -33,7 +33,7 @@ Use `quarto preview` for local browsing. See [reproducibility notes](docs/reprod
 
 ## Scope and status
 
-The structure and provenance checks are in place. The author successfully rendered and previewed the project site on 2026-10-12 and confirmed it works as expected; see reproducibility notes. The provisional audience baseline, 20-minute virtual format and preparation deadlines are established. Narrative, central argument, concrete examples and desired takeaway remain open. The deck is a placeholder, not an approved narrative.
+The structure and provenance checks are in place. The author successfully rendered and previewed the project site on 2026-10-12 and confirmed it works as expected; see reproducibility notes. The 20-minute virtual format and preparation deadlines are established. A WRIS evidence matrix is available to shape a candidate example, with its underlying sources still to be checked. Organizer feedback suggests emphasizing reasoning over a deep technical walkthrough; the audience's actual composition remains unknown. Narrative, central argument and desired takeaway remain open. The deck is a placeholder, not an approved narrative.
 
 No raw transcripts are stored. Session containers are the session record; the project log and decision register serve the distinct roles specified by the workflow.
 
