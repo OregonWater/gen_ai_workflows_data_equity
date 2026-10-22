@@ -1,7 +1,7 @@
 ---
 title: 'Repository guide'
 sources: []
-sessions: ["2026-10-12"]
+sessions: ["2026-10-12", "2026-10-22"]
 ---
 
 ## Folder roles
@@ -13,6 +13,7 @@ sessions: ["2026-10-12"]
 | sessions/ | One dated session container per day |
 | knowledge-base/ | Ten numbered pages of current understanding |
 | references/ | Source registry, bibliography, external-input guidance |
+| references/source-assessments/ | Public, source-keyed reading assessments; use references/source-assessment-guide.md |
 | docs/ | Human-facing project and workflow documentation |
 | artifacts/talk/ | Editable reveal.js deck, notes, and reusable assets |
 | scripts/ and R/ | Numbered analysis scripts and reusable functions |

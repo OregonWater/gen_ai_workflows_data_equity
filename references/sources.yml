@@ -8,7 +8,7 @@ sources:
     location: "https://adrenaline.ucsd.edu/kirsh/Articles/Interaction/thinkingexternalrepresentations.pdf"
     tracked: false
     bib: kirsh2010external
-    verification: "Screened 2026-10-22: author-hosted manuscript; abstract, introduction and selected discussion of interaction/materiality read. Metadata identifies AI & Society 25:441–454, DOI 10.1007/s00146-010-0272-8. Not a full critical review or evidence specific to GenAI or TAPs."
+    verification: "Advanced 2026-10-22: author supplied first-pass notes (exact reading coverage unspecified); assistant checked targeted manuscript passages in sections 1–6 and 8–10, including interaction/closed-world setup, coordination costs, shared objects, persistence/traces, reformulation and construction. AI & Society 25:441–454, DOI 10.1007/s00146-010-0272-8. Detailed open assessment is in references/source-assessments/kirsh-2010-external-representations.md. Original empirical studies and all formal claims not independently evaluated; no complete critical review or TAPs/GenAI effect established."
   hollan-etal-2000-distributed-cognition:
     name: "Hollan, Hutchins and Kirsh (2000): Distributed Cognition: Toward a New Foundation for Human-Computer Interaction Research"
     kind: journal-article

@@ -6,6 +6,8 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22"]
 
 ## 2026-10-22
 
+End of day: added a source-assessment guide and detailed Kirsh reading record, incorporating the author's first-pass notes and separately attributed passage analysis. Updated source verification and the literature map, preserved open questions, and recorded next-session reading priorities. Closed the dated session at the author's request; no final definition or additional slide claims adopted.
+
 Same-day continuation: added provisional thesis, contribution and timed-outline drafts, then recorded second-meeting feedback and the proposed concept-centered framing. Added a seven-source literature shortlist, verified bibliographic metadata and explicit screening limits. The definition, framework, revised outline and WRIS evidence checks remain open; the lunch break is a checkpoint rather than session closure.
 
 Developed the provisional WRIS case and hybrid reasoning externalization argument; registered five candidate claims and two checked sources with verification limits. Recorded the author's scope boundary for public-interpretation examples and reconciled the next-session handoff. Final thesis, source checks for the case chronology, and a timed outline remain open. The earlier Windows render repair was committed separately.
