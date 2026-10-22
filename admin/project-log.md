@@ -24,6 +24,8 @@ At close-out, reconciled stale status/timing statements and decision headings. R
 
 ## 2026-10-21
 
+In a later Codex-assisted continuation, explored a higher-level TAPs narrative and compared thematic, story-led, and question-led structures. The question-led option remains an assistant proposal; no structure or message was adopted. The author deferred a concrete example to next session and requested a slide-completion strategy in light of deadline pressure. Recorded the handoff without copying private notes into the public record. No claims, sources, or slides were promoted; no commit or publication performed.
+
 Recorded the author's completed WRIS evidence matrix as a potential bounded case, while distinguishing the matrix from independently checked source records. Incorporated the organizer's reported preference for reasoning over implementation depth into the provisional audience guidance. Noted Philosophy of Technology as a possible conceptual home for the author's questions, without treating it as a verified literature finding or the talk's genre. The next work is to select and verify a plain-language example, then develop the narrative and revisit the message. No claim was added to the claims register; no commit or publication was performed.
 
 ## 2026-10-14

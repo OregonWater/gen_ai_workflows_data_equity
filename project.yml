@@ -3,7 +3,7 @@ project: gen_ai_workflows_data_equity
 stage: scaffold
 stages: [scaffold, outline, drafting, rehearsal, delivered]
 last_session: "2026-10-21"
-critical_path_blocker: "No infrastructure blocker. A WRIS evidence matrix is assembled, but its source passages need verification and a bounded, reasoning-centered narrative and central takeaway remain to be developed."
+critical_path_blocker: "No infrastructure blocker. Narrative, example, and central takeaway remain open; deadline pressure makes a bounded slide-completion strategy the immediate priority. Candidate evidence still needs verification."
 paths:
   knowledge_base: knowledge-base
   docs: docs
@@ -24,7 +24,8 @@ components:
 external_gates:
   - "Explicit author request before committing; separate confirmation before publication."
 next_actions:
-  - "Select a bounded WRIS example from the evidence matrix and verify only the organizational source passages needed to support it."
-  - "Develop a plain-language narrative centered on consequential reasoning and judgment; use technical detail only where it clarifies the case. Keep the central takeaway open until the narrative and evidence are inspected."
+  - "Agree on a deadline-aware slide-completion strategy and confirm the October 21 draft/feedback status; protect the October 27 final/rehearsal deadline."
+  - "Author to supply a short TAPs-level example of difficulty understanding, revisiting, or explaining the work and what changed in response. Select the example and verify supporting evidence; WRIS remains a candidate."
+  - "Review the provisional question-led TAPs narrative: why GenAI, preserving understanding, and accountability to others. No structure or takeaway is adopted; limit further exploration to what the slides need."
   - "Check whether Philosophy of Technology clarifies the practical case; verify and register relevant scholarship before using literature claims. The talk is not a philosophy lecture."
-  - "Confirm status of the October 21 complete-draft feedback/dry run; final version is due October 27 for rehearsal. Incorporate OWRD styling into deck CSS during slide development."
+  - "Incorporate OWRD styling into deck CSS during slide development."

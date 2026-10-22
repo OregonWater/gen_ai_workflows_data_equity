@@ -21,4 +21,4 @@ This is a presentation project with a public development record. Infrastructure 
 
 ## Next session
 
-Use the WRIS matrix to identify a bounded, plain-language example and verify the source passages needed for it. Develop the reasoning-centered narrative, then inspect/refine the thesis and desired takeaway. Philosophy of Technology is a provisional conceptual lens, not the talk's genre or a settled theory; consult relevant scholarship only where it clarifies the practical case. See the [October 21 session](../sessions/2026-10-21.md).
+Agree on a deadline-aware slide-completion strategy. The author will supply a short TAPs-level example about understanding, revisiting, or explaining the work and the response to that difficulty. Review the provisional question-led TAPs narrative; no structure or takeaway is adopted. WRIS remains a candidate example, with source verification required before public claims. Philosophy of Technology remains a provisional lens; further exploration should serve the practical talk. See the [October 21 session](../sessions/2026-10-21.md).
