@@ -2,6 +2,55 @@
 # name, kind, location, tracked, bib retain the seed registry schema.
 # Additional verification notes make the status of each input explicit.
 sources:
+  kirsh-2010-external-representations:
+    name: "Kirsh (2010): Thinking with external representations"
+    kind: journal-article
+    location: "https://adrenaline.ucsd.edu/kirsh/Articles/Interaction/thinkingexternalrepresentations.pdf"
+    tracked: false
+    bib: kirsh2010external
+    verification: "Screened 2026-10-22: author-hosted manuscript; abstract, introduction and selected discussion of interaction/materiality read. Metadata identifies AI & Society 25:441–454, DOI 10.1007/s00146-010-0272-8. Not a full critical review or evidence specific to GenAI or TAPs."
+  hollan-etal-2000-distributed-cognition:
+    name: "Hollan, Hutchins and Kirsh (2000): Distributed Cognition: Toward a New Foundation for Human-Computer Interaction Research"
+    kind: journal-article
+    location: "https://interactivity.ucsd.edu/articles/DCog/DCog.pdf"
+    tracked: false
+    bib: hollan2000distributed
+    verification: "Screened 2026-10-22: indexed abstract and metadata from the authors' UCSD-hosted manuscript, ACM TOCHI 7(2):174–196. Direct full-PDF retrieval failed due to file size. Relevant framework identified; full article and detailed claims remain to be read."
+  dellermann-etal-2019-hybrid-intelligence:
+    name: "Dellermann, Ebel, Söllner and Leimeister (2019): Hybrid Intelligence"
+    kind: journal-article
+    location: "https://pubs.wi-kassel.de/wp-content/uploads/2019/09/JML_744.pdf"
+    tracked: false
+    bib: dellermann2019hybrid
+    verification: "Screened 2026-10-22: institutional manuscript opening and sections 2–4, particularly the explicit definition in section 4; publisher metadata checked. BISE 61:637–643, DOI 10.1007/s12599-019-00595-2. Definition includes superior performance and continuous mutual learning, not established in TAPs. No general superiority or model-updating claim adopted."
+  suchman-2007-reconfigurations:
+    name: "Suchman (2007): Human-Machine Reconfigurations: Plans and Situated Actions, second edition"
+    kind: book
+    location: "https://doi.org/10.1017/CBO9780511808418"
+    tracked: false
+    bib: suchman2007reconfigurations
+    verification: "Screened 2026-10-22: Cambridge publisher description and opening excerpt, especially pages 1–2 on configuring human/machine agency. Excerpt: https://assets.cambridge.org/97805218/58915/excerpt/9780521858915_excerpt.pdf . Full book not read; not a settled theory of contemporary LLM agency."
+  bender-koller-2020-form-meaning:
+    name: "Bender and Koller (2020): Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data"
+    kind: conference-paper
+    location: "https://aclanthology.org/2020.acl-main.463/"
+    tracked: false
+    bib: benderkoller2020climbing
+    verification: "Screened 2026-10-22: ACL metadata and abstract plus manuscript introduction defining the scope of language models trained only on form and meaning as relation to communicative intent. ACL 2020:5185–5198, DOI 10.18653/v1/2020.acl-main.463. Position paper, not an empirical verdict on every current multimodal, tool-using or otherwise grounded system."
+  bucinca-etal-2021-trust-think:
+    name: "Buçinca, Malaya and Gajos (2021): To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-Assisted Decision-Making"
+    kind: journal-article
+    location: "https://arxiv.org/html/2102.09692"
+    tracked: false
+    bib: bucinca2021trust
+    verification: "Screened 2026-10-22: authors' Harvard indexed abstract and arXiv manuscript abstract/introduction. Published PACM HCI 5(CSCW1), DOI 10.1145/3449287. Reported N=199 and intervention/preference trade-off checked; complete methods/statistical analysis not reviewed. Task-specific decision support, not direct evidence for GenAI repositories or TAPs."
+  buneman-etal-2001-provenance:
+    name: "Buneman, Khanna and Tan (2001): Why and Where: A Characterization of Data Provenance"
+    kind: conference-paper
+    location: "https://homepages.inf.ed.ac.uk/opb/papers/ICDT2001.pdf"
+    tracked: false
+    bib: buneman2001provenance
+    verification: "Screened 2026-10-22: author-hosted abstract and introduction/examples; institutional metadata checked, ICDT 2001:316–330, DOI 10.1007/3-540-44503-X_20. Formal query provenance, not a theory of human reasoning or decision rationale; proofs and formal results not reviewed."
   midcoast-water-rights-memo-2021:
     name: "Burright and Lovellford: Water Rights Summary for Mid-Coast Planning Area and Sub-Areas"
     kind: technical-memorandum

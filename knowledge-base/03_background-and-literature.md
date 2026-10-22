@@ -1,17 +1,31 @@
 ---
 title: 'Background and literature'
-sources: []
-sessions: ["2026-10-12"]
+sources: [kirsh-2010-external-representations, hollan-etal-2000-distributed-cognition, dellermann-etal-2019-hybrid-intelligence, suchman-2007-reconfigurations, bender-koller-2020-form-meaning, bucinca-etal-2021-trust-think, buneman-etal-2001-provenance]
+sessions: ["2026-10-12", "2026-10-22"]
 ---
 
 ## Evidence base
 
-No literature has been assessed for the talk yet.
+An initial primary-source screening was conducted on October 22 to contextualize the author's emerging concept of Hybrid Reasoning Externalization. This is a targeted shortlist, not a systematic review or a final theoretical framework. The exact combined phrase should be presented as an explicitly defined working synthesis; this search establishes neither its novelty nor its standing as a field-standard term. These sources address related concepts and offer useful tensions, rather than validating the entire proposed practice or the TAPs case.
 
 ## Source summaries
 
-Add verified summaries with registry keys.
+| Source and registry key | Relevance to the working concept | Important boundary | Reading status and next passage |
+| --- | --- | --- | --- |
+| [Kirsh (2010), Thinking with external representations](https://adrenaline.ucsd.edu/kirsh/Articles/Interaction/thinkingexternalrepresentations.pdf); kirsh-2010-external-representations | External representations participate in thought and permit further transformation and shared examination. Strong starting point for artifacts as part of the process. | Theoretical account predates conversational GenAI; does not establish that every generated artifact improves reasoning. | Abstract, introduction and selected materiality discussion screened. Prioritize opening sections and the argument about shared objects and re-representation. |
+| [Hollan, Hutchins and Kirsh (2000), Distributed Cognition](https://interactivity.ucsd.edu/articles/DCog/DCog.pdf); hollan-etal-2000-distributed-cognition | Unit of analysis includes people and technological environments, helping locate the repository within the activity. | Does not automatically attribute human-like agency to AI or document the mechanisms of this case. | Author-hosted indexed abstract checked; full PDF retrieval failed due to size. Read full framework before using detailed claims. |
+| [Dellermann et al. (2019), Hybrid Intelligence](https://pubs.wi-kassel.de/wp-content/uploads/2019/09/JML_744.pdf); dellermann-etal-2019-hybrid-intelligence | Provides an explicit neighboring definition of hybrid human/AI activity. Useful for identifying what the talk means by hybrid. | Section 4 includes superior performance and continuing mutual learning. These are stronger requirements than joint production of representations and are unestablished in TAPs. In-session context changes do not establish model training. | Opening and selected sections 2–4 read. Prioritize section 4 as a definition to compare, not silently adopt. |
+| [Suchman (2007), Human-Machine Reconfigurations](https://doi.org/10.1017/CBO9780511808418); suchman-2007-reconfigurations | Examines how human/machine capacities for action are configured in practice; useful for the agency question. | Avoid presenting the book as settling whether current AI has agency or moral responsibility. | Publisher description and opening [excerpt](https://assets.cambridge.org/97805218/58915/excerpt/9780521858915_excerpt.pdf), especially pages 1–2, screened; full book unread. |
+| [Bender and Koller (2020), Climbing towards NLU](https://aclanthology.org/2020.acl-main.463/); bender-koller-2020-form-meaning | Disciplines use of form, meaning and understanding; relevant to the claim that model output is direct access to collective knowledge. | Position paper with a specific definition of meaning and a form-only training scope. It does not settle all current multimodal/tool-mediated systems or all meanings of understanding. | Metadata, abstract and manuscript introduction screened. Read sections 3–5 before using its full argument. |
+| [Buçinca, Malaya and Gajos (2021), To Trust or to Think](https://arxiv.org/html/2102.09692); bucinca-etal-2021-trust-think | Empirical counterweight to assuming explanations ensure scrutiny. In an experiment with 199 participants, cognitive-forcing interventions reduced overreliance relative to simple explanation conditions, with preference trade-offs. | Task-specific decision support, not a test of TAPs, repository practice or conversational GenAI. | Abstract/introduction screened; review methods, intervention conditions and limitations before drawing a practical implication. |
+| [Buneman, Khanna and Tan (2001), Why and Where](https://homepages.inf.ed.ac.uk/opb/papers/ICDT2001.pdf); buneman-etal-2001-provenance | Technical vocabulary for tracing query outputs to source data. Helps separate dataset lineage from human accounts of design choices. | Their why-provenance identifies contributing source data; it does not explain why a person selected a query or interpretation. | Abstract and opening examples screened, metadata checked. Formal results and proofs not reviewed. |
+
+Suggested priority: start with Kirsh for representations and Hollan and colleagues for the activity's unit of analysis; compare the working term with Dellermann's stronger definition; use Suchman for agency and Bender/Koller for understanding. Buçinca supplies an empirical challenge to assumptions about verification, and Buneman bounds the use of provenance. The reading order is an assistant recommendation, not an adopted theory or slide sequence.
 
 ## Open questions
 
-Choose research questions after agreeing on the thesis.
+Which parts of the working definition are descriptive (what is produced and recorded), normative (what should be preserved or checked), and empirical (what improves reasoning or public understanding)? Which can the TAPs evidence actually support?
+
+Clarify whether hybrid refers to a process and artifact history rather than measured superior intelligence; whether externalization records a reviewable account rather than direct access to internal reasoning; and how agency is used without collapsing contribution, control, intention and responsibility. The sources offer different frameworks and should not be blended as though they establish one consensus.
+
+No theoretical definition or literature-based effect has been promoted to slides. Precise passages and any substantive slide claims must be checked and registered before use. The WRIS chronology and image still need their separate evidence checks.

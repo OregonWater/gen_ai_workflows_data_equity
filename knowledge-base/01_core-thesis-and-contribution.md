@@ -6,6 +6,10 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22"]
 
 ## One-sentence message
 
+**Proposed organizing concept after the second feedback meeting:** Hybrid Reasoning Externalization — what it is, why it matters, and who could benefit. The author proposes using TAPs to illuminate these questions throughout and keep the presentation grounded in practice. This reframes the presentation around a concept examined through a case; the concept is not itself a complete thesis, and the final argument remains open.
+
+The author identifies an example within TAPs that could distinguish preserving a consequential transformation from documenting everything, and intends to flesh it out. Its specific content and supporting records are not yet established in this discussion. This episode can connect the definition to the practical sustainability problem. The developing focus is successive representations, their revision, and durable accounts of consequential choices; improved understanding and benefits to others remain purposes to assess.
+
 **Provisional core thesis — October 22 continuation, for author discussion:**
 
 > GenAI-supported data work should keep its assumptions open to challenge and its consequential reasoning available for others to understand, question, and revise.
@@ -14,7 +18,13 @@ Expanded argument: GenAI supported the formulation of an initially coherent WRIS
 
 This is an assistant-prepared provisional thesis building on the author's account and corrections, not a final adopted message or a demonstrated general benefit. It develops the earlier draft about preserving reasoning by foregrounding challenge, learning and revision. The evidence table is temporarily deferred for meeting preparation; WR-01–WR-05 retain their provisional status. No claim of completed publication, improved public comprehension or equitable outcomes is introduced.
 
+**Second feedback meeting — clarification pending:** the author reports that Meenakshi Rao emphasized defining hybrid reasoning externalization, what is hybridized, AI's role and agency, and how the process relates to interacting with the repository. The author proposes understanding the resulting artifacts as mediated representations emerging through human–AI interaction; neither direct access to collective knowledge nor improvement of the user's reasoning should be presumed from a generated reformulation. This conceptual framing remains under discussion, with no adopted theory of AI cognition or agency. See the October 22 session for the reported positions. Clarify the interactive process, the review and preservation practice, and the repository's role before finalizing the thesis or outline.
+
 ### How this draft incorporates earlier feedback
+
+**Emerging conceptual focus after the second meeting:** the author favors examining successive representations and their joint production over defining the practice by subjective claims of understanding. Artifacts, repository structure and durable traces are themselves representations. Understanding can remain an intended purpose while the development of representations and the recorded grounds for consequential changes provide a more inspectable object. This does not make the trace complete, neutral or self-validating, or establish that every artifact was AI-authored. The scope and final wording of hybrid reasoning externalization remain open; the provisional thesis above has not been replaced.
+
+An initial seven-source [literature screening](03_background-and-literature.md) now maps external representations, distributed cognition, hybrid intelligence, situated human–machine agency, form/meaning, human review and data provenance. This provides context and conceptual boundaries, not endorsement of a final definition. In particular, superior hybrid performance, model learning, faithful recovery of internal reasoning and effective public scrutiny require distinct evidence; none follows merely from producing and retaining artifacts.
 
 | Input from prior discussion | Design choice in this draft |
 | --- | --- |
@@ -49,6 +59,8 @@ Author clarification (October 22): the guiding principle has always been **hybri
 ## Case foundation
 
 ### Provisional timed outline — 20 minutes
+
+**Revision pending:** this outline predates the author's proposed concept-centered framing after the second feedback meeting. Review its sequence so that what Hybrid Reasoning Externalization is, why it matters and who it could serve are each illuminated through TAPs. Keep an accessible case or artifact close to each conceptual point; flesh out the consequential-transformation example before settling the revised sequence. No revised time allocation has yet been adopted.
 
 Assistant-prepared for author discussion on October 22. This is a working sequence, not an adopted slide plan or approved speaker notes. Q&A follows the presentation cycle and is outside these 20 minutes. The thesis and contribution above remain provisional. No deck changes are made by this outline.
 
