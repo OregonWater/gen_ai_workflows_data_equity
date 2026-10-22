@@ -10,7 +10,7 @@ A presentation project by **Francisco J. Guerrero** on GenAI supported workflows
 - [Project overview](docs/project-overview.md)
 - [Repository guide](docs/repository-guide.md)
 - [Current project state](project.yml)
-- [Latest session](sessions/2026-10-21.md)
+- [Latest session](sessions/2026-10-22.md)
 - [Decisions](admin/decisions-register.md)
 - [Working protocol](knowledge-base/09_ai-working-instructions.md)
 

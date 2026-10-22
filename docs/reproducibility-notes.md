@@ -1,7 +1,7 @@
 ---
 title: 'Reproducibility notes'
-sources: []
-sessions: ["2026-10-12"]
+sources: [renv-sandbox-docs]
+sessions: ["2026-10-12", "2026-10-22"]
 ---
 
 ## Environment
@@ -34,6 +34,14 @@ The author checked the files, rendered and previewed the project site on 2026-10
 The managed session's Windows locale and renv sandbox activation required terminal-only diagnostic settings: LC_ALL=English_United States.utf8; RENV_CONFIG_SANDBOX_ENABLED=FALSE; RENV_CONFIG_CACHE_ENABLED=FALSE; RENV_CONFIG_SYNCHRONIZED_CHECK=FALSE; QUARTO_R=C:/Program Files/R/R-4.6.1/bin. These are not project defaults. The script explicitly reads UTF-8.
 
 Local render and preview are confirmed by the author. Clean-machine restore and author comprehension review remain open.
+
+## Windows startup lock repair — October 22
+
+Rendering stalled at `Running script 'tools/build-provenance.R'`. A traced startup reached the shared sandbox lock acquisition; its owner was a live R subprocess launched by VS Code's R language server. This explains why renv waited rather than treating the lock as orphaned. Why that subprocess retained the lock was not established.
+
+The project .Rprofile now sets `RENV_PATHS_SANDBOX` to a directory inside each Windows R session's `tempdir()` before activating renv. This replaces any inherited sandbox path on Windows and avoids waiting on the shared cache. Sandboxing remains enabled; package versions and the project library are unchanged. No global R or VS Code settings were changed. The supported path setting is described in the [renv documentation](https://rstudio.github.io/renv/reference/sandbox.html).
+
+Use plain `quarto render` in a fresh terminal. If the earlier diagnostic settings were set in the current PowerShell terminal, remove `RENV_CONFIG_SANDBOX_ENABLED` with `Remove-Item Env:RENV_CONFIG_SANDBOX_ENABLED -ErrorAction SilentlyContinue` so the sandbox is enabled again. The earlier locale setting addresses warnings in the managed assistant environment and is not a new project default. Clean-machine restore and author comprehension review remain open.
 
 ## Limitations
 

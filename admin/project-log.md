@@ -1,8 +1,12 @@
 ---
 title: 'Project log'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22"]
 ---
+
+## 2026-10-22
+
+At the author's request, diagnosed the Quarto pre-render hang as a wait on renv's shared sandbox lock, held by a VS Code R-language-server subprocess. Configured .Rprofile to give Windows R sessions independent temporary sandboxes while retaining package isolation and the lockfile. Documented the mechanism and its limits; the reason the subprocess retained its lock remains unknown. See the dated session for validation. No presentation claims changed; no commit or publication performed.
 
 ## 2026-10-12
 
