@@ -3,7 +3,7 @@ project: gen_ai_workflows_data_equity
 stage: scaffold
 stages: [scaffold, outline, drafting, rehearsal, delivered]
 last_session: "2026-10-22"
-critical_path_blocker: "No infrastructure blocker. Narrative, example, and central takeaway remain open; deadline pressure makes a bounded slide-completion strategy the immediate priority. Candidate evidence still needs verification."
+critical_path_blocker: "No infrastructure blocker. A three-stage WRIS case is developed provisionally; initial and revised specifications and reconstruction evidence still need checking. Final thesis, takeaway and timed slide outline remain open ahead of October 27."
 paths:
   knowledge_base: knowledge-base
   docs: docs
@@ -24,8 +24,9 @@ components:
 external_gates:
   - "Explicit author request before committing; separate confirmation before publication."
 next_actions:
-  - "Agree on a deadline-aware slide-completion strategy and confirm the October 21 draft/feedback status; protect the October 27 final/rehearsal deadline."
-  - "Author to supply a short TAPs-level example of difficulty understanding, revisiting, or explaining the work and what changed in response. Select the example and verify supporting evidence; WRIS remains a candidate."
-  - "Review the provisional question-led TAPs narrative: why GenAI, preserving understanding, and accountability to others. No structure or takeaway is adopted; limit further exploration to what the slides need."
-  - "Check whether Philosophy of Technology clarifies the practical case; verify and register relevant scholarship before using literature claims. The talk is not a philosophy lecture."
+  - "Check the initial specification, selected underlying passages from the existing WRIS reconstruction table, and the revised specification against provisional claims WR-01–WR-05."
+  - "Agree on the final core message and contribution, then build a timed 20-minute outline; no dry-run feedback has occurred as of October 22. Protect the October 27 final/rehearsal deadline."
+  - "Use the memorandum-based framing of known limitations and TAPs' response. Keep the article's calculations and controversy outside the talk's scope."
+  - "Verify the conceptual-model image's technical assertions and document creator, AI assistance and redistribution terms before slide use or inclusion in Git."
+  - "Keep optional conceptual and literature exploration bounded by the chosen case and the material needed for the slides."
   - "Incorporate OWRD styling into deck CSS during slide development."

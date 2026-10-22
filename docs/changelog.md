@@ -1,8 +1,12 @@
 ---
 title: 'Changelog'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-21"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22"]
 ---
+
+## 2026-10-22
+
+Developed the provisional WRIS case and hybrid reasoning externalization argument; registered five candidate claims and two checked sources with verification limits. Recorded the author's scope boundary for public-interpretation examples and reconciled the next-session handoff. Final thesis, source checks for the case chronology, and a timed outline remain open. The earlier Windows render repair was committed separately.
 
 ## 2026-10-12
 

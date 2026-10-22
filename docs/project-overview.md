@@ -1,7 +1,7 @@
 ---
 title: 'Project overview'
 sources: [event-website]
-sessions: ["2026-10-12", "2026-10-13", "2026-10-21"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22"]
 ---
 
 ## Purpose
@@ -21,4 +21,6 @@ This is a presentation project with a public development record. Infrastructure 
 
 ## Next session
 
-Agree on a deadline-aware slide-completion strategy. The author will supply a short TAPs-level example about understanding, revisiting, or explaining the work and the response to that difficulty. Review the provisional question-led TAPs narrative; no structure or takeaway is adopted. WRIS remains a candidate example, with source verification required before public claims. Philosophy of Technology remains a provisional lens; further exploration should serve the practical talk. See the [October 21 session](../sessions/2026-10-21.md).
+The October 22 discussion developed a provisional WRIS case: an initial specification, learning encounters that challenged it, and a revised specification with explanatory artifacts. Hybrid reasoning externalization is the author's continuing guiding principle. The author endorsed using known limitations documented in the Mid-Coast memorandum to explain TAPs' deliberate design effort; the talk will not reopen the newspaper article's calculations. Five candidate claims are registered, with the specification revisions and reconstruction evidence still to be checked. No dry-run feedback has occurred; the final thesis, takeaway and timed slide outline remain open. See the [October 22 session](../sessions/2026-10-22.md).
+
+Next: verify the small set of evidence needed for the case, agree on the core message, and build a timed 20-minute outline protecting the October 27 final/rehearsal deadline. Keep additional exploration bounded by those needs.

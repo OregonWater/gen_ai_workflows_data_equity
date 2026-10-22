@@ -1,10 +1,20 @@
 ---
 title: 'Decisions register'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22"]
 ---
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
+
+## 2026-10-22 — public-interpretation-example-scope
+
+Decision: Do not reopen the newspaper article's calculations or adjudicate the dispute in the talk. Use only material necessary to explain why processing choices and interpretive limits matter for public understanding.
+
+Rationale: Keep the presentation bounded to its purpose and avoid reviving a separate controversy. The article's analysis remains unresolved in this project.
+
+Alternatives considered: Feature the article as the public-stakes example. The assistant now recommends omitting the named article, map and numerical comparisons and using the checked Mid-Coast methodological cautions and conceptual-model comparison. That is an implementation recommendation under the author's constraint, not an independently adopted slide sequence.
+
+Status: active; author-directed scope boundary. The article assessment remains in development provenance.
 
 ## 2026-10-12 — project-scope
 
