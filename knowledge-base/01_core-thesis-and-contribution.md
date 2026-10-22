@@ -6,17 +6,66 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22"]
 
 ## One-sentence message
 
-Not yet agreed.
+**Provisional core thesis — October 22 continuation, for author discussion:**
 
-Revised October 22 assistant proposal for discussion: **GenAI-supported workflows should preserve and communicate the consequential reasoning behind data products, creating opportunities for people to understand, question, and revise the choices shaping them.** This develops the earlier proposal about sustainable records by including public communication and explanatory artifacts. It is a proposed practical principle, not an adopted thesis or an established empirical finding. Sustainability and the conditions for meaningful public scrutiny remain part of the argument.
+> GenAI-supported data work should keep its assumptions open to challenge and its consequential reasoning available for others to understand, question, and revise.
+
+Expanded argument: GenAI supported the formulation of an initially coherent WRIS specification and the tracing of a developing understanding that challenged it. The author's account places learning encounters with the records and knowledgeable people at the center of that revision. Hybrid reasoning externalization is the practice through which the author seeks to preserve this development in human-reviewed records and communicate it through specifications and explanatory artifacts. The public purpose is to give planning collaboratives grounds to assess what the resulting data can support, including its uncertainty and limitations.
+
+This is an assistant-prepared provisional thesis building on the author's account and corrections, not a final adopted message or a demonstrated general benefit. It develops the earlier draft about preserving reasoning by foregrounding challenge, learning and revision. The evidence table is temporarily deferred for meeting preparation; WR-01–WR-05 retain their provisional status. No claim of completed publication, improved public comprehension or equitable outcomes is introduced.
+
+### How this draft incorporates earlier feedback
+
+| Input from prior discussion | Design choice in this draft |
+| --- | --- |
+| Organizer feedback, as reported by the author on October 21, favors reasoning over a technical walkthrough. | Explain the change in understanding through one WRIS case; keep database mechanics in supporting evidence. |
+| The author proposes initial specification → learning challenge → revised specification and artifacts. | Center the argument on assumptions being challenged and the reasoning behind revision remaining available. |
+| GenAI participates in hybrid reasoning and produces externalization artifacts that the human reviews and integrates. | Give it a role in both formulation and tracing revision; retain human verification and expert encounters. |
+| The goal was always reasoning and decision preservation; archiving was a defensive practice. | Use hybrid reasoning externalization as the mechanism, without making transcript retention the thesis. |
+| Planning collaboratives need useful data and explanations of consequential choices and limitations. | Connect the record to public examination and explicit uncertainty; keep public-understanding benefits as intended outcomes. |
+| The author endorses the memorandum-based framing and excludes reopening the newspaper calculations. | Ground the need for careful interpretation in documented technical-assistance limitations; keep the article out of the proposed narrative. |
+| Documentation demands competed with artifact development. | Retain sustainability as a practical tension in the account rather than expanding the core message into a repository-management prescription. |
 
 ## Intended contribution
+
+**Provisional contribution — October 22 continuation, for author discussion:**
+
+> Through the developing TAPs water-rights case, the talk offers a practical account of using hybrid reasoning externalization to trace changes in understanding, inform dataset design, and prepare explanations of consequential choices and uncertainties for public users.
+
+The proposed contribution has three parts:
+
+1. **A concrete case of revision.** Follow the author's initial specification, learning encounters that challenged it, and the developing specification and explanatory artifacts. GenAI participates in both formulation and tracing revision, alongside human judgment and subject-matter knowledge.
+2. **An inspectable practice under development.** Describe how the author reviews externalized reasoning and integrates it into durable records that can support further design and synthesis. Include the difficulty of sustaining those records and this repository as an emerging response, without presenting a finished or universally applicable method.
+3. **A connection to public interpretation.** Explain why planning collaboratives need grounds for assessing what data products represent and can support. Use the documented Mid-Coast cautions and the intended role of explanatory artifacts; improved comprehension and equitable outcomes remain unevaluated.
+
+Intended audience takeaway, proposed by the assistant: identify a consequential choice in one's own data work, examine how its rationale is checked and preserved, and consider what explanation future users would need. This is an invitation grounded in the case, not a validated checklist or a claim of general transferability.
+
+Design rationale: this contribution follows the author's practitioner-first, inductive direction and the reported preference for reasoning over technical depth. It makes the proposed thesis tangible through a case, a developing practice and a public purpose. It retains the author's dual-role account of GenAI, acknowledges documentation burden, and uses the endorsed memorandum-based scope. The case's chronology and specification claims remain subject to the deferred checks; no final contribution or audience takeaway is adopted by this draft.
 
 Author direction (October 13): build inductively from evolving GenAI support for developing Technical Assistance Packages (TAPs) for Place-Based Integrated Water Planning supported by OWRD grants. Help practitioners understand what was done and why, then derive implications for people managing or reviewing the work. The grant context is author-provided, not independently checked here.
 
 Author clarification (October 22): the guiding principle has always been **hybrid (human–AI) reasoning externalization**, preserving reasoning and decisions. Archiving AI sessions was a defensive practice within that approach; it did not define the structure of TAPs documentation. The emerging repository model changes how the principle is implemented, rather than replacing transcript preservation with a newly discovered goal. The final thesis and intended contribution remain to be agreed.
 
 ## Case foundation
+
+### Provisional timed outline — 20 minutes
+
+Assistant-prepared for author discussion on October 22. This is a working sequence, not an adopted slide plan or approved speaker notes. Q&A follows the presentation cycle and is outside these 20 minutes. The thesis and contribution above remain provisional. No deck changes are made by this outline.
+
+| Time | Duration | Proposed segment | Purpose and content | Evidence or readiness gate |
+| --- | --- | --- | --- | --- |
+| 0:00–1:30 | 1:30 | Opening: when a coherent specification meets a resistant world | Introduce the case's central tension: a specification that appeared ready changed through learning. Pose the question of keeping understanding open to challenge. State the provisional thesis as a proposition for discussion. | WR-01/02: case sequence still needs checking; avoid unsupported claims that GenAI caused an error. |
+| 1:30–3:30 | 2:00 | OWRD, planning collaboratives and the TAPs purpose | Briefly orient unfamiliar listeners to the agency, planning context and TAPs. Explain the intended public dataset and GenAI's dual role in hybrid reasoning and producing human-reviewed externalization artifacts. | Verify agency/mission and TAPs factual wording before slides; distinguish planned public dataset from completed publication. |
+| 3:30–6:00 | 2:30 | Initial understanding and specification | Show the initial expectation about what water-right records could provide and how it informed the specification. Explain why it appeared coherent. Use only the technical detail needed to understand the assumption. | WR-01: inspect a dated initial specification passage; initial understanding is the author's, not attributed to all users. |
+| 6:00–10:00 | 4:00 | Learning encounters and changed understanding | Explain one consequential challenge from the learning sessions and how it changed the question or specification. Show how GenAI helped trace the development. The conceptual-model comparison is a candidate visual, with a simple verbal fallback. | WR-02: check selected reconstruction-table passages. PNG remains pending provenance, reuse terms and technical checks; do not assume it is ready for slide use. |
+| 10:00–13:00 | 3:00 | Carrying the learning into the dataset and its explanations | Connect the changed understanding to one concrete specification revision and an explanatory artifact. Make explicit how the intended design carries a known limitation or uncertainty. | WR-03/05: inspect the revised specification and its treatment of uncertainty. No validation, consensus or publication claim without evidence. |
+| 13:00–15:30 | 2:30 | Why this matters to planning collaboratives | Explain the need to assess what the data represent and can support. Use the Mid-Coast memorandum's bounded methodological cautions; connect these to the intended role of public explanations. | WR-04: memorandum methods checked. Keep newspaper example, map, calculations and controversy out. Improved public comprehension remains an intended benefit. |
+| 15:30–18:00 | 2:30 | Making reasoning externalization sustainable | Describe the POC documentation burden and the emerging response in this repository. Emphasize selecting consequential reasoning, human review and integration into a durable record. Keep repository mechanics brief. | Author-reported episode; no efficiency or successful-transfer claims. This repository is a developing response, not a finished method. |
+| 18:00–20:00 | 2:00 | Return to the thesis and invite reflection | Reconnect challenge, revision and public explanation. Offer the provisional audience question: choose a consequential decision and ask how someone could revisit its rationale and understand its limits. Leave space for a measured ending. | Normative takeaway, not evidence of universal effectiveness or equitable outcomes. |
+
+Total: **20:00**. A possible production target is eight content slides plus a title slide; this is a planning estimate rather than a constraint on the final deck. If rehearsal runs long, shorten context and repository mechanics first, preserving the concrete change in understanding and its design consequence.
+
+Design rationale: this sequence uses the author's three-stage WRIS logic as the case spine, follows the reported preference for reasoning over technical depth, and places public interpretation after the audience has seen what changed. It includes GenAI in both initial formulation and tracing revision, carries the author's uncertainty-aware dataset purpose into the consequences, and uses the endorsed memorandum framing. The documentation episode supplies a practical tension late in the story rather than making repository administration the opening subject. Evidence checks remain deferred for the provisional draft; no new empirical claim is approved by a time allocation.
 
 ### Working synthesis — GenAI's role and the proposed contribution
 
