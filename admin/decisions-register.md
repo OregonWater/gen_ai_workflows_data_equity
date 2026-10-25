@@ -1,10 +1,22 @@
 ---
 title: 'Decisions register'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25"]
 ---
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
+
+## 2026-10-25 — technological-mediation-and-equity-challenges {#technological-mediation-and-equity-challenges}
+
+Decision: Use technological mediation as the organizing concept for examining equity challenges encountered when using GenAI to develop products or technological artifacts that mediate relationships between the public and natural resources. TAPs is a case under development, supplying specific examples without claiming the challenges are solved. Preserve Hybrid Reasoning Externalization (HRE) as an explored path in the development record.
+
+Rationale: HRE requires strong foundations for its individual terms and their combination. Undertaking that conceptual work risks making the 20-minute talk a forum about philosophy of technology. An established concept provides a foundation for examining the case. The author rejects framing this choice in terms of wins and losses.
+
+Alternatives considered: Continue organizing the talk around HRE and develop its definition. The earlier formulation and supporting exploration remain intact as history. Preserving consequential reasoning and decisions remains relevant practice; it is not the talk's central contribution by default.
+
+Scope: The talk does not aim to prove that GenAI improved reasoning, that documentation enables scrutiny, or that equitable outcomes followed. The contribution is examining challenges through work in progress. The assistant's suggested two-relationship structure and candidate equity questions are discussion proposals, not adopted examples or established findings. Final takeaway, case selection, theory passages and timed narrative remain open.
+
+Status: active; author-directed pivot, clarified in discussion and authorized for documentation and checkpoint commit. Supersedes the October 22 HRE-centered organizing proposal, without reversing the continuing record-preservation principle or earlier case-scope boundaries. See [session](../sessions/2026-10-25.md).
 
 ## 2026-10-22 — public-interpretation-example-scope
 

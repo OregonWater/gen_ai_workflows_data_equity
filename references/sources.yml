@@ -2,6 +2,13 @@
 # name, kind, location, tracked, bib retain the seed registry schema.
 # Additional verification notes make the status of each input explicit.
 sources:
+  verbeek-mediation-theory:
+    name: "Peter-Paul Verbeek: Mediation Theory (introductory webpage)"
+    kind: author-webpage
+    location: "https://ppverbeek.org/mediation-theory/"
+    tracked: false
+    bib: null
+    verification: "Checked 2026-10-25: assistant read the author's introductory webpage, including its account of technologies in use shaping human-world relations, postphenomenological roots and implications for design. Supports only introductory orientation for the pivot discussion. Linked articles, book chapter and animation have not been assessed; no full framework, TAPs application or outcome claim is validated."
   kirsh-2010-external-representations:
     name: "Kirsh (2010): Thinking with external representations"
     kind: journal-article

@@ -1,10 +1,20 @@
 ---
 title: 'Core thesis and contribution'
-sources: [taps-genai-initial-presentation, draining-oregon-2016, midcoast-water-rights-memo-2021]
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22"]
+sources: [taps-genai-initial-presentation, draining-oregon-2016, midcoast-water-rights-memo-2021, verbeek-mediation-theory]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25"]
 ---
 
 ## One-sentence message
+
+**Current direction — October 25:** examine equity challenges encountered when using GenAI to develop products or technological artifacts that mediate relationships between the public and natural resources. TAPs is work under development and provides specific examples through which to explain those challenges, without claiming they have been solved. The talk does not seek to demonstrate improved reasoning, effective scrutiny through documentation, or equitable outcomes.
+
+**Organizing concept:** technological mediation. The author chooses an established concept as a foundation for examining TAPs within a 20-minute presentation. Verbeek's introductory account describes technologies in use as helping shape relations between people and the world; only that introductory account has been checked here, not a full theoretical framework. The precise definition and examples needed for this talk remain to be selected and assessed.
+
+Hybrid Reasoning Externalization (HRE) remains in the record as an explored conceptual path. Its specificity requires foundations for the individual terms and their combination that this presentation cannot responsibly develop within its scope. The pivot concerns the conceptual work the talk undertakes, not a judgment that HRE is invalid or an abandonment of preserving consequential reasoning and decisions. See the [decision](../admin/decisions-register.md#technological-mediation-and-equity-challenges) and [session](../sessions/2026-10-25.md).
+
+### Earlier framing — preserved development history
+
+The October 22 proposals below are retained for traceability. Their HRE-centered framing is superseded by the October 25 direction; they are not the current thesis or an adopted narrative.
 
 **Proposed organizing concept after the second feedback meeting:** Hybrid Reasoning Externalization — what it is, why it matters, and who could benefit. The author proposes using TAPs to illuminate these questions throughout and keep the presentation grounded in practice. This reframes the presentation around a concept examined through a case; the concept is not itself a complete thesis, and the final argument remains open.
 
@@ -38,6 +48,14 @@ An initial seven-source [literature screening](03_background-and-literature.md) 
 
 ## Intended contribution
 
+**Current contribution — October 25, assistant synthesis of the author's direction:**
+
+> Drawing on TAPs work under development, the talk examines equity challenges encountered when using GenAI to develop technological artifacts that mediate relationships between the public and natural resources. Specific examples make these challenges concrete and open them for discussion, without claiming they have been resolved.
+
+Select examples for the equity challenge or unresolved design question they illuminate. The two relationships suggested by the assistant—GenAI's participation in development, and the resulting artifacts' mediation of public relationships with natural resources—are a possible analytical structure, not an adopted sequence. Questions about whose knowledge informs representations, which uncertainties remain visible, interpretive demands and opportunities to challenge assumptions are candidates to assess against case evidence, not established findings. Final audience takeaway, selected examples and timed narrative remain open. No new slide claim is promoted by this pivot.
+
+### Earlier contribution proposal — preserved development history
+
 **Provisional contribution — October 22 continuation, for author discussion:**
 
 > Through the developing TAPs water-rights case, the talk offers a practical account of using hybrid reasoning externalization to trace changes in understanding, inform dataset design, and prepare explanations of consequential choices and uncertainties for public users.
@@ -60,7 +78,7 @@ Author clarification (October 22): the guiding principle has always been **hybri
 
 ### Provisional timed outline — 20 minutes
 
-**Revision pending:** this outline predates the author's proposed concept-centered framing after the second feedback meeting. Review its sequence so that what Hybrid Reasoning Externalization is, why it matters and who it could serve are each illuminated through TAPs. Keep an accessible case or artifact close to each conceptual point; flesh out the consequential-transformation example before settling the revised sequence. No revised time allocation has yet been adopted.
+**Revision pending — October 25:** this outline is retained as an earlier proposal. Reassemble the narrative around equity challenges in GenAI-supported development of artifacts mediating public relationships with natural resources. Select TAPs examples for the challenges they illuminate; revision or documentation alone does not demonstrate resolution. No revised sequence or time allocation has yet been adopted.
 
 Assistant-prepared for author discussion on October 22. This is a working sequence, not an adopted slide plan or approved speaker notes. Q&A follows the presentation cycle and is outside these 20 minutes. The thesis and contribution above remain provisional. No deck changes are made by this outline.
 

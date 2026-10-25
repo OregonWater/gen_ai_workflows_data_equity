@@ -1,7 +1,7 @@
 ---
 title: 'Project overview'
 sources: [event-website]
-sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22", "2026-10-25"]
 ---
 
 ## Purpose
@@ -20,6 +20,8 @@ Prepare *Frictionless Reasoning About a Resistant World*, a talk on GenAI suppor
 This is a presentation project with a public development record. Infrastructure is established. The author chose a practitioner-first, inductive case about evolving GenAI support for TAP development, followed by implications for managers/reviewers. The talk is 20 minutes, virtual, with Q&A after the presentation cycle. Organizer feedback, as reported by the author, favors reasoning and judgment over a deep technical walkthrough, while actual attendee composition remains unknown. An author-assembled WRIS evidence matrix may support a concrete example; its underlying organizational records still need checking. The central argument, selected episode, and desired takeaway remain open. See [the case foundation](../knowledge-base/01_core-thesis-and-contribution.md) and [audience baseline](../knowledge-base/08_audience-and-venue.md).
 
 ## Next session
+
+**October 25 checkpoint — current direction:** technological mediation now organizes the talk's examination of equity challenges encountered when using GenAI to develop artifacts mediating relationships between the public and natural resources. TAPs provides examples from work under development, without claiming the challenges are solved or that reasoning, scrutiny or equitable outcomes have improved. HRE remains an explored path in the record; its definitional foundations exceed this talk's scope. See the [decision](../admin/decisions-register.md#technological-mediation-and-equity-challenges) and [current contribution](../knowledge-base/01_core-thesis-and-contribution.md#intended-contribution). Next: select and check specific equity-challenge examples, establish the bounded mediation explanation and reassemble the 20-minute narrative. The following October 22 handoff is retained as development history; defining HRE and completing the Kirsh assessment are no longer prerequisites for the talk.
 
 The October 22 discussion developed a provisional WRIS case: an initial specification, learning encounters that challenged it, and a revised specification with explanatory artifacts. Hybrid reasoning externalization is the author's continuing guiding principle. The author endorsed using known limitations documented in the Mid-Coast memorandum to explain TAPs' deliberate design effort; the talk will not reopen the newspaper article's calculations. Five candidate claims are registered, with the specification revisions and reconstruction evidence still to be checked. No dry-run feedback has occurred; the final thesis, takeaway and timed slide outline remain open. See the [October 22 session](../sessions/2026-10-22.md).
 

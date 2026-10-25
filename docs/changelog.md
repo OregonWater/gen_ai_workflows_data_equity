@@ -1,8 +1,12 @@
 ---
 title: 'Changelog'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22", "2026-10-25"]
 ---
+
+## 2026-10-25
+
+Recorded the pivot to technological mediation and a contribution centered on equity challenges in TAPs work under development. Preserved HRE as an explored conceptual path, marked earlier thesis/contribution/outline proposals as historical, registered the introductory Verbeek source with reading limits, and updated decisions and current-state priorities. Specific examples, audience takeaway and narrative remain open; no slide claims or deck changes made.
 
 ## 2026-10-22
 
