@@ -2,6 +2,41 @@
 # name, kind, location, tracked, bib retain the seed registry schema.
 # Additional verification notes make the status of each input explicit.
 sources:
+  rosenberger-verbeek-2024-ihde:
+    name: "Rosenberger and Verbeek (2024): Don Ihde: 1934–2024"
+    kind: journal-article
+    location: "references/source-pdfs/DON_IHDE_1934_-_2024.pdf"
+    tracked: false
+    bib: rosenbergerverbeek2024ihde
+    verification: "Metadata checked 2026-10-25: visually inspected PDF page 1, including the recommended citation, authors, year, journal, volume/issue, pages and DOI. Embedded PDF author metadata names a different person and was not used for attribution. Memorial/current-affairs article; body text extracted but not substantively assessed. No theoretical or historical claim promoted."
+  ihde-1991-instrumental-realism:
+    name: "Ihde (1991): Instrumental Realism: The Interface between Philosophy of Science and Philosophy of Technology"
+    kind: book-excerpt
+    location: "references/source-pdfs/idhe_1991_instrumental-realism.pdf"
+    tracked: false
+    bib: ihde1991instrumental
+    verification: "Metadata checked 2026-10-25: visually inspected title and copyright spreads (PDF pages 1–2); author, title, publisher, series and 1991 copyright confirmed. The local 12-page PDF is an excerpt, not the complete book. Both hardback and paperback ISBNs appear in its cataloging block; neither binding is inferred. No substantive assessment or whole-book reading claimed. Filename spelling retained."
+  ihde-1990-phenomenology-technics:
+    name: "Ihde (1990): Program One: A Phenomenology of Technics, chapter 5 of Technology and the Lifeworld"
+    kind: book-chapter
+    location: "references/source-pdfs/technology-and-lifeworld.pdf"
+    tracked: false
+    bib: ihde1990technics
+    verification: "Metadata checked 2026-10-25: local delivery cover identifies author, book, chapter 5, publisher, 1990, ISBN 9780253205605 and pages 72–123; visually checked the chapter opening on PDF page 2. Local PDF contains the supplied chapter, not the whole book. Delivery identifiers and institutional routing are not reproduced in public notes. Substantive arguments not assessed."
+  verbeek-2001-ihde-lifeworld:
+    name: "Verbeek (2001): Don Ihde: The Technological Lifeworld"
+    kind: book-chapter
+    location: "references/source-pdfs/verbeek_YYYY_don-ihde-technological-lifeworld.pdf"
+    tracked: false
+    bib: verbeek2001ihde
+    verification: "Metadata checked 2026-10-25: visually inspected scanned PDF spreads 1, 2 and 15; chapter title and author confirmed. Author publication list https://ppverbeek.org/publications/ confirms 2001, Hans Achterhuis as editor, host book and pages 119–146. Publisher page https://iupress.org/9780253214492/american-philosophy-of-technology/ confirms host title, publisher, year, chapter attribution and translator Robert P. Crease. Scanned file has no extractable text and includes neighboring chapter fragments. Filename placeholder retained; no substantive assessment claimed."
+  verbeek-beyond-human-eye:
+    name: "Verbeek (2007): Beyond the Human Eye: Technological Mediation and Posthuman Visions"
+    kind: book-chapter
+    location: "references/source-pdfs/peter-paul_verbeek_YYYY_beyond-human-eye-tech-mediation-posthuman-visions.pdf"
+    tracked: false
+    bib: verbeekBeyondHumanEye
+    verification: "Metadata checked 2026-10-25: visually inspected opening and extracted opening/closing text of seven-page local PDF; author/title confirmed. Author supplied https://research.utwente.nl/en/publications/beyond-the-human-eye-technological-meditation-and-posthuman-visio/ ; assistant checked this institutional record, which identifies the 2007 chapter in Mediated Vision (English edition), editor P.J.H. Kockelkoren, Veenman Publishers, Arnhem/Rotterdam, pages 43?53, ISBN 978-90-8690-105-0. Bibliography uses those publication details and the title printed on the PDF; institutional title misspells mediation as meditation. Local PDF is separately paginated 1?7; exact textual identity with the published chapter remains unchecked. The separate 2005 conference record is not merged. No substantive assessment claimed."
   verbeek-mediation-theory:
     name: "Peter-Paul Verbeek: Mediation Theory (introductory webpage)"
     kind: author-webpage
@@ -63,14 +98,14 @@ sources:
     kind: technical-memorandum
     location: "references/source-pdfs/TechMemo_MidCoastWaterRightsSummary_2021-10-29_Final (1).pdf"
     tracked: false
-    bib: null
+    bib: burrightlovellford2021midcoast
     verification: "Checked 2026-10-22: read PDF pages 1–4 of 44 and visually inspected page 3. October 29, 2021 OWRD memorandum to the Mid-Coast Water Planning Partnership; methods use WRIS data accessed October 11, 2019. Methods document regional/basin-scale design limitations, counting/apportionment risks, omitted permit conditions and authorization/use distinctions. The methods discussion continues onto page 4. No independent replication of calculations or review of the full report is claimed. This later memorandum does not verify the 2016 article's methods or prove an error in its map."
   draining-oregon-2016:
     name: "House and Graves: Draining Oregon — Water Giveaway Threatens Economic Chaos and Hurts Wildlife"
     kind: news-article
     location: "references/source-pdfs/Draining_Oregon_The_Oregonian.pdf"
     tracked: false
-    bib: null
+    bib: housegraves2016draining
     verification: "Checked 2026-10-22: extracted text from all 18 PDF pages; visually inspected pages 2, 5, 11 and 13, including the spatial comparison map. Supplied PDF is a WaterWatch republication identifying a July 26, 2016 Oregonian article by Kelly House and Mark Graves. Checked as evidence of published analysis and reported disagreement, not validation of its calculations. Data extracts, methods, code, record translation and underlying responses have not been checked. The PDF does not establish that reporters lacked SME input or misunderstood WRIS structure."
   renv-sandbox-docs:
     name: "renv documentation: the default library sandbox"
@@ -84,7 +119,8 @@ sources:
     kind: presentation
     location: "references/source-pdfs/taps-genai-final-speaker-notes.pdf"
     tracked: false
-    bib: null
+    bib: guerrero2026tapsgenai
+    bibliographic-status: "Completed 2026-10-25 from author-supplied metadata: Use of AI in Project Management and Workflows to Share Water Data with the Public - Using GenAI to support proactive, open, and reproducible Technical Assistance Packages; Association of Western State Engineers Spring Workshop; May 2026. No exact delivery day supplied or needed. Local speaker notes last updated July 24, 2026; this is not the delivery date."
     verification: "Reviewed 2026-10-13: 23 pages of speaker notes, visual contact sheet and detailed diagrams on pages 8 and 13. Last-updated text July 24, 2026. Author clarifies initial account, not final specification; design-to-build transition with incomplete staircase steps. Underlying implementation and benefits not independently verified."
   structural-handoff:
     name: "Author-supplied structural handoff briefs"
