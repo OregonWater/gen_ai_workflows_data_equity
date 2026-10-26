@@ -6,6 +6,14 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25"]
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
 
+## 2026-10-25 — commit-message-convention {#commit-message-convention}
+
+Decision: Adopt docs, fix and chore as the minimum commit types, with an optional scope. Keep the full convention in docs/repository-guide.md and a pointer in AGENTS.md.
+
+Rationale: A small vocabulary distinguishes written development, corrections and maintenance while scopes identify the affected area. Supporting provenance updates may accompany the main change.
+
+Status: active; explicitly adopted by the author, who requested implementing and committing the convention before the remaining presentation changes. This authorization covers the convention and its supporting records only; no push or publication authorized.
+
 ## 2026-10-25 — technological-mediation-and-equity-challenges {#technological-mediation-and-equity-challenges}
 
 Decision: Use technological mediation as the organizing concept for examining equity challenges encountered when using GenAI to develop products or technological artifacts that mediate relationships between the public and natural resources. TAPs is a case under development, supplying specific examples without claiming the challenges are solved. Preserve Hybrid Reasoning Externalization (HRE) as an explored path in the development record.

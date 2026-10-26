@@ -6,6 +6,8 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22",
 
 ## 2026-10-25
 
+Commit convention: adopted docs, fix and chore with optional scopes; documented the authoritative rules in docs/repository-guide.md and linked them from AGENTS.md. The author requested a separate convention commit before the pending presentation work. Supporting decision and session records belong to that commit; other working changes remain separate.
+
 Recorded the author-directed pivot from HRE to technological mediation and clarified the contribution: examining equity challenges in GenAI-supported development of artifacts mediating relationships between the public and natural resources. TAPs supplies work-in-progress examples; the talk does not claim improved reasoning, effective scrutiny or equitable outcomes. Preserved earlier HRE proposals and the author's Kirsh notes, distinguished assistant suggestions from decisions, and registered the limited Verbeek introductory-page check. Updated knowledge-base/01 and the current-state handoff. The author requested a checkpoint commit before continuing; the session remains open. Validation and commit status are recorded in the session.
 
 ## 2026-10-22

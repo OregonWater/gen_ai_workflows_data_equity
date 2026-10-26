@@ -1,7 +1,7 @@
 ---
 title: 'Repository guide'
 sources: []
-sessions: ["2026-10-12", "2026-10-22"]
+sessions: ["2026-10-12", "2026-10-22", "2026-10-25"]
 ---
 
 ## Folder roles
@@ -42,6 +42,22 @@ sources lists registry keys; sessions lists dated containers. Session raw-inputs
 ## One local build
 
 Run quarto render from the repository root. The pre-render check validates provenance; Quarto renders the website and deck together. Deck formatting lives in deck.qmd so it participates in the same website project without a nested project.
+
+## Commit messages
+
+Use `type(scope): description`, or `type: description` when a scope adds no useful detail. Choose the type by the purpose of the change.
+
+| Type | Purpose | Example |
+| --- | --- | --- |
+| `docs` | Develop written content, including knowledge, references, administration, slides and notes | `docs(knowledge): clarify mediation model and story scope` |
+| `fix` | Correct something broken or demonstrably incorrect | `fix(build): prevent shared renv sandbox lock` |
+| `chore` | Maintain configuration, dependencies or tooling | `chore(deps): update renv lockfile` |
+
+Use singular `fix` and `chore`; do not add overlapping `bugs`, `fixes` or `chores` types. Developing an interpretation is `docs`; correcting a wrong citation date is `fix(references)`.
+
+Recurring optional scopes are `admin` (sessions, decisions, governance and project state), `knowledge` (conceptual development and synthesis), `references` (bibliography, source registry and assessments), and `talk` (deck, speaker notes and presentation assets). Use `build` or `deps` when needed. Omit the scope for changes spanning several areas. Supporting session and governance updates can accompany the main change in the same commit.
+
+This section is the authoritative convention; AGENTS.md points here. Commit and publication authorization rules still apply.
 
 ## Public boundaries
 
