@@ -1,10 +1,20 @@
 ---
 title: 'Decisions register'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25", "2026-10-26"]
 ---
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
+
+## 2026-10-26 — build-profiles {#build-profiles}
+
+Decision: Retain a complete review build as the default and add a focused ten-page build for routine work. Use separate ignored outputs and preserve full provenance validation for both.
+
+Rationale: Reduce routine rendering work while retaining access to all source records and a complete review site. Omitted-document links in focused output point to repository sources.
+
+Alternatives considered: Replace the existing build with a smaller site; use heavy/light or complete/critical names. The author selected complete/focused.
+
+Status: active; author approved implementation. Browser preview rendering boxes remain a separate diagnostic question; no measured navigation-speed gain is claimed. See [session](../sessions/2026-10-26.md).
 
 ## 2026-10-25 — commit-message-convention {#commit-message-convention}
 

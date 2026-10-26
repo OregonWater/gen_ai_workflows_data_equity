@@ -1,8 +1,12 @@
 ---
 title: 'Project log'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25", "2026-10-26"]
 ---
+
+## 2026-10-26
+
+Implemented author-approved complete/focused build profiles after diagnosing 23 temporary duplicate render targets. Complete retains the full review site; focused selects ten pages with repository links to omitted documents. Both run full provenance validation and use separate ignored outputs. Today's session records the mechanism, checks and open comprehension review. No presentation claims changed.
 
 ## 2026-10-25
 

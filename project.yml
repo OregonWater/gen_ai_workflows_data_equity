@@ -2,7 +2,7 @@
 project: gen_ai_workflows_data_equity
 stage: scaffold
 stages: [scaffold, outline, drafting, rehearsal, delivered]
-last_session: "2026-10-25"
+last_session: "2026-10-26"
 critical_path_blocker: "No infrastructure blocker. Tell a literature-grounded story of developing TAPs with GenAI assistance. The onion-proliferation opening and w'/w distinction are proposed; selected episode, final takeaway and timed narrative remain open ahead of October 27."
 paths:
   knowledge_base: knowledge-base
