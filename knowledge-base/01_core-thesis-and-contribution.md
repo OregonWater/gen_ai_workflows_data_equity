@@ -1,10 +1,34 @@
 ---
 title: 'Core thesis and contribution'
 sources: [taps-genai-initial-presentation, draining-oregon-2016, midcoast-water-rights-memo-2021, verbeek-mediation-theory, ihde-1990-phenomenology-technics, verbeek-2001-ihde-lifeworld, bommasani-etal-2021-foundation-models, lewis-etal-2020-rag, expert-systems-panel-2017]
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25", "2026-10-26"]
 ---
 
 ## One-sentence message
+
+### October 26 discussion checkpoint — review continues today
+
+**Author-confirmed narrative direction:** walk through challenges encountered while developing products intended to support public interactions with natural resources, using a mediation model to help situate where equity questions arise. Follow TAPs project design, creation of an open-data version of WRIS, and the smart folder represented by this repository. Attempts to address a difficulty introduce further choices and questions. This is an account of approaches taken, not a defense of documentation or a conclusion that those approaches deliver benefits or resolve equity concerns. Final wording, timing and slide claims remain open.
+
+**Accepted working definition:** “w′ names the world as represented and presupposed through the bot's context-dependent responses, shaped by its learned configuration.” The author explicitly accepted distinguishing what shapes generation from what an answer presupposes. This is the project's interpretive construct, not an established architectural component or a definition attributed to Ihde or Verbeek. It is broader than the organizational example. The author remains open to replacing the metaphor if review finds it misleading.
+
+**Interpretive concern:** an answer may presuppose conditions under which it would make sense without making those conditions apparent. Simply rejecting it as wrong may leave those conditions unexplored; carrying unnoticed assumptions into product decisions is the concern. Generated answers provide partial grounds for examining presuppositions, not reliable recovery of model internals or training-source causation. The author describes documenting interactions as an approach taken to preserve glimpses of those presuppositions and their possible influence on decisions. Its effects and limitations remain questions, including selection, omission and administrative burden.
+
+**Diagram under exploration:** `h → b → t → w`, with a branch `b → t′ → w′`. The provisional description of t′ concerns generative operations through the learned configuration. Arrow meanings, the status of the branch as a mediation relationship, and friction/resistance feedback remain under review. Onions are still intended along the relationships; their interpretation requires review. Training history, present context and output presuppositions must not be collapsed. The October 25 proposals below are retained as development history; the accepted definition above refines the earlier w′ formulations.
+
+| Example | Challenge encountered | Tried approaches | Further challenge |
+| --- | --- | --- | --- |
+| TAPs project design | Author reports bot plans presupposing data architects, dedicated IT and mature governance, unlike the setting of one senior technical analyst with some cross-division support. | Repeated contextual corrections, planning through conversation and preservation of developing institutional knowledge. | Unnoticed assumptions; judgments about what to preserve. Author reports over-documentation creating administrative burden that interfered with product development. |
+| Open-data version of WRIS | Developing a public representation while understanding the source records and what transformations can support. | More targeted documentation, with the specific change in understanding/specification still to be reviewed against case records. | Who identifies consequential changes, and what uncertainty or alternatives remain outside the selected record? These are discussion questions, not demonstrated impacts. |
+| Smart folder — this repository | Organizing evolving knowledge, reasoning and decisions for continued work. | Sessions, synthesis, sources, decisions and linked provenance records. | Further questions about selection, organization, interpretation, access and maintenance; no demonstrated accountability or equity benefit claimed. |
+
+**TAPs scope, author-reported:** TAPs denotes both OWRD's approved proactive technical-assistance strategy and area-specific packages associated with active grant-funded planning collaboratives. The author describes packages as public repositories containing code/instructions for source-data analysis and versioned draft interpretations. Recomputability through containerization and possible future local-LLM grounding motivated design choices; they are ambitions, not established completed capabilities. Approval wording, product status and selected artifacts remain to be checked before public use.
+
+**Checkpoint as a possible example:** the author observes that choosing to preserve this discussion before review is itself a judgment about what counts as consequential. This may illustrate the selection process in the session record; it does not establish a general selection criterion or beneficial effect of committing.
+
+**Next, in this same session:** review the relevant mediation passages, bounded technical distinctions, project-design account, one WRIS before/learning/after episode and a repository provenance connection. Then reconcile knowledge-base/00–04, including the claims register before slide use. The assistant's proposed 20-minute allocation is preparation advice, not an adopted outline. Protect the October 27 final/rehearsal deadline. See the [session checkpoint](../sessions/2026-10-26.md#conceptual-checkpoint-before-review).
+
+### October 25 direction — retained background
 
 **End-of-day scope clarification — October 25:** tell a grounded story about developing TAPs with GenAI assistance, giving the audience a window into questions, choices and challenges they may otherwise not encounter. The author's process and experience provide the narrative. Ihde and Verbeek help interpret it responsibly; the talk is neither a philosophical analysis of their work nor a scientific publication or an attempt to prove generalizable propositions through TAPs. The passage mapping below is supporting preparation, not the required sequence of the talk. Its formal terminology and open questions should remain proportional to what the story needs.
 

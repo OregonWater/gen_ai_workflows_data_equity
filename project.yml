@@ -3,7 +3,7 @@ project: gen_ai_workflows_data_equity
 stage: scaffold
 stages: [scaffold, outline, drafting, rehearsal, delivered]
 last_session: "2026-10-26"
-critical_path_blocker: "No infrastructure blocker. Tell a literature-grounded story of developing TAPs with GenAI assistance. The onion-proliferation opening and w'/w distinction are proposed; selected episode, final takeaway and timed narrative remain open ahead of October 27."
+critical_path_blocker: "No infrastructure blocker. Working w-prime definition accepted; project-design, WRIS and smart-folder narrative direction established. Targeted foundation and case review, diagram semantics, slide wording and timed sequence remain open before October 27 rehearsal."
 paths:
   knowledge_base: knowledge-base
   docs: docs
@@ -13,7 +13,7 @@ open_decisions:
     gated_on: "Use organizer feedback and the selected, evidence-checked example to refine the provisional audience baseline; duration and format settled"
   - id: core-message
     question: "Which TAPs equity challenges and audience takeaway will make the technological-mediation direction concrete?"
-    gated_on: "Select and check specific examples; assemble the timed narrative under the October 25 direction"
+    gated_on: "Review the selected project-design, WRIS and smart-folder examples; settle diagram meanings and the timed narrative under the October 26 direction"
   - id: tool-literacy
     question: "Can the author explain provenance, renv, and the local build unaided?"
     gated_on: "Author review of docs/workflow-literacy.md"
@@ -24,11 +24,12 @@ components:
 external_gates:
   - "Explicit author request before committing; separate confirmation before publication."
 next_actions:
-  - "Select TAPs examples that illuminate specific equity challenges in GenAI-supported development of artifacts mediating public relationships with natural resources; distinguish encountered challenges from candidate questions."
-  - "Sketch a brief onion-proliferation opening and define B, A, w' and w in ordinary language, then select the TAPs episode that makes the tension concrete. Keep the passage mapping as supporting preparation, proportionate to the story; no full philosophical analysis or generalizable TAPs proof is intended."
+  - "Continue review in the October 26 session after the conceptual checkpoint: mediation passages and onion semantics, bounded technical distinctions, project-design account, one WRIS before/learning/after episode and one repository provenance connection. Then reconcile knowledge-base/00–04 and register selected claims before slide use."
+  - "Refine the selected project-design, WRIS and smart-folder examples; distinguish author-reported encounters, artifact-checked evidence and candidate equity questions."
+  - "Refine the onion-proliferation opening and diagram arrows using the accepted working w-prime definition. Resolve t-prime and feedback meanings without depicting an internal world or direct access to training data. Keep source review proportionate to the story."
   - "Check the initial specification, selected underlying passages from the existing WRIS reconstruction table, and the revised specification against provisional claims WR-01–WR-05."
   - "Preserve HRE and its literature exploration as development history. Revisit Kirsh's open assessment only as needed for the selected examples; defining HRE is no longer a prerequisite for this talk."
-  - "Reassemble the 20-minute narrative around the October 25 contribution: examining equity challenges through TAPs work under development, without claiming resolution or demonstrated benefits. Final takeaway and sequence remain open. Protect the October 27 final/rehearsal deadline."
+  - "Assemble the 20-minute challenge narrative across project design, WRIS and the smart folder. Documentation is an approach taken that introduces further questions; do not claim beneficial value or resolution. Final timing, wording and takeaway remain open. Protect the October 27 final/rehearsal deadline."
   - "Use the memorandum-based framing of known limitations and TAPs' response. Keep the article's calculations and controversy outside the talk's scope."
   - "Verify the conceptual-model image's technical assertions and document creator, AI assistance and redistribution terms before slide use or inclusion in Git."
   - "Keep optional conceptual and literature exploration bounded by the chosen case and the material needed for the slides."

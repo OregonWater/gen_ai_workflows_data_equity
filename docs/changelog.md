@@ -6,6 +6,8 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22", "2026-10-25",
 
 ## 2026-10-26
 
+Captured the accepted working w′ definition, corrected narrative scope and provisional project-design/WRIS/smart-folder examples before targeted review. Recorded source-reading limits and the author's observation about checkpoint selection; no deck changes or demonstrated benefit claims.
+
 Added complete and focused Quarto profiles, separate output folders, matching navigation and focused repository-link routing. Complete remains the default. Preserved all source documents and the full provenance check.
 
 ## 2026-10-25

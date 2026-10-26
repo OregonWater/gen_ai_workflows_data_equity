@@ -6,6 +6,16 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25",
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
 
+## 2026-10-26 — working-w-prime-and-challenge-narrative {#working-w-prime-and-challenge-narrative}
+
+Decision: Accept w′ as “the world as represented and presupposed through the bot's context-dependent responses, shaped by its learned configuration,” distinguishing generation influences from answer presuppositions. Walk through challenges across project design, open-data WRIS development and the smart folder; describe documentation as an approach taken, without defending it or concluding beneficial value.
+
+Rationale: The author rejects narrowing w′ to one example and emphasizes that attempts to address challenges introduce further selection judgments and equity questions. Over-documentation and its burden belong to the account.
+
+Alternatives considered: Identify w′ with learned parameters, define it solely as an organizational setting, or frame documentation as a beneficial solution. The first remains part of the recorded exploration; the latter two were corrected by the author.
+
+Status: accepted working definition and author-confirmed narrative direction; metaphor remains revisable. Refines October 25 proposals without claiming scholarly validation or adopting final arrows, slide wording or timing. Review continues in the same session. See [checkpoint](../sessions/2026-10-26.md#conceptual-checkpoint-before-review).
+
 ## 2026-10-26 — build-profiles {#build-profiles}
 
 Decision: Retain a complete review build as the default and add a focused ten-page build for routine work. Use separate ignored outputs and preserve full provenance validation for both.
