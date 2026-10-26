@@ -1,18 +1,10 @@
 project:
   type: website
-  output-dir: _site
   pre-render:
     - tools/build-provenance.R
-  render:
-    - index.qmd
-    - knowledge-base/*.md
-    - sessions/*.md
-    - admin/governance.md
-    - admin/decisions-register.md
-    - admin/project-log.md
-    - docs/*.md
-    - LICENSING.md
-    - artifacts/talk/deck.qmd
+profile:
+  group:
+    - [complete, focused]
 website:
   title: "Frictionless Reasoning"
   page-navigation: true
@@ -22,31 +14,6 @@ website:
         href: index.qmd
       - text: Presentation
         href: artifacts/talk/deck.qmd
-  sidebar:
-    style: docked
-    contents:
-      - section: Start here
-        contents:
-          - index.qmd
-          - docs/project-overview.md
-          - knowledge-base/01_core-thesis-and-contribution.md
-      - section: Knowledge base
-        contents: knowledge-base/*.md
-      - section: Sessions
-        contents: sessions/*.md
-      - section: Project log and decisions
-        contents:
-          - admin/project-log.md
-          - admin/decisions-register.md
-          - docs/changelog.md
-      - section: Repository and workflow
-        contents:
-          - admin/governance.md
-          - docs/repository-guide.md
-          - docs/workflow-literacy.md
-          - docs/reproducibility-notes.md
-          - docs/how-this-was-made.md
-          - LICENSING.md
 format:
   html:
     theme: cosmo

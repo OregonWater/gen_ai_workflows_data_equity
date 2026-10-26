@@ -4,6 +4,8 @@
 /local/
 /tmp/
 /_site/
+/_site-complete/
+/_site-focused/
 /.quarto/
 /artifacts/talk/deck.html
 /artifacts/talk/deck_files/

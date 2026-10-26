@@ -1,0 +1,35 @@
+project:
+  output-dir: _site-focused
+  # Keep these as explicit paths: the link filter reads this same selection.
+  render:
+    - index.qmd
+    - artifacts/talk/deck.qmd
+    - knowledge-base/01_core-thesis-and-contribution.md
+    - knowledge-base/04_claims-evidence-risk-register.md
+    - knowledge-base/08_audience-and-venue.md
+    - admin/governance.md
+    - admin/decisions-register.md
+    - admin/project-log.md
+    - sessions/2026-10-26.md
+    - docs/reproducibility-notes.md
+    - "!/tmp/"
+website:
+  sidebar:
+    style: docked
+    contents:
+      - index.qmd
+      - artifacts/talk/deck.qmd
+      - section: Preparation
+        contents:
+          - knowledge-base/01_core-thesis-and-contribution.md
+          - knowledge-base/04_claims-evidence-risk-register.md
+          - knowledge-base/08_audience-and-venue.md
+      - section: Project record
+        contents:
+          - admin/governance.md
+          - admin/decisions-register.md
+          - admin/project-log.md
+          - sessions/2026-10-26.md
+      - docs/reproducibility-notes.md
+filters:
+  - tools/focused-links.lua

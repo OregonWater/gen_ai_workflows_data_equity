@@ -1,0 +1,39 @@
+project:
+  output-dir: _site-complete
+  render:
+    - index.qmd
+    - /knowledge-base/*.md
+    - /sessions/*.md
+    - admin/governance.md
+    - admin/decisions-register.md
+    - admin/project-log.md
+    - /docs/*.md
+    - LICENSING.md
+    - artifacts/talk/deck.qmd
+    - "!/tmp/"
+website:
+  sidebar:
+    style: docked
+    contents:
+      - section: Start here
+        contents:
+          - index.qmd
+          - docs/project-overview.md
+          - knowledge-base/01_core-thesis-and-contribution.md
+      - section: Knowledge base
+        contents: knowledge-base/*.md
+      - section: Sessions
+        contents: sessions/*.md
+      - section: Project log and decisions
+        contents:
+          - admin/project-log.md
+          - admin/decisions-register.md
+          - docs/changelog.md
+      - section: Repository and workflow
+        contents:
+          - admin/governance.md
+          - docs/repository-guide.md
+          - docs/workflow-literacy.md
+          - docs/reproducibility-notes.md
+          - docs/how-this-was-made.md
+          - LICENSING.md
