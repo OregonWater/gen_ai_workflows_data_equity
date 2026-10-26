@@ -1,7 +1,7 @@
 ---
 title: 'Claims, evidence, and risk'
-sources: [midcoast-water-rights-memo-2021]
-sessions: ["2026-10-12", "2026-10-22"]
+sources: [midcoast-water-rights-memo-2021, ihde-1990-phenomenology-technics, verbeek-2001-ihde-lifeworld]
+sessions: ["2026-10-12", "2026-10-22", "2026-10-25"]
 ---
 
 ## Admission rule
@@ -16,4 +16,20 @@ Register substantive claims before using them in slides or speaker notes. Identi
 | WR-04 | Documented WRIS aggregation cautions support explaining processing choices and interpretive limits to public users of resulting data products. | Supported interpretation; candidate for author review | midcoast-water-rights-memo-2021 | Use only the methodological cautions needed to explain the point. No measured improvement in public comprehension is established. The author excludes reassessing the article's calculations; the assistant recommends omitting that example from the talk. | "For people to assess these data products, they need to be able to examine how the records became analytical quantities, and what those quantities can support." | Candidate public-relevance bridge; no newspaper map, figures or dispute analysis proposed |
 | WR-05 | TAPs deliberately seeks a useful public water-rights dataset while incorporating uncertainties associated with documented WRIS limitations into its design. | Author-reported design intent; provisional | midcoast-water-rights-memo-2021 supports known cautions; author account in session 2026-10-22 supports TAPs intent | Inspect the revised specification for specific treatments. The memorandum does not verify TAPs implementation. No final dataset, publication, resolution of all limitations, or improved user outcomes established. | "In TAPs, we are working to make a useful public dataset while carrying known limitations into its design and explanation." | Candidate purpose of revision; not assigned |
 
-No substantive claims are approved yet.
+## Conceptual model — mediation claims under review
+
+These are philosophical propositions and interpretive extensions, not hypotheses to prove through TAPs. IDs follow the first mapping, not the order of the author's original six claims. The first three are assistant-prepared formulations for author review. “Supported” below means textual grounds in the selected argument, not empirical proof or slide approval.
+
+| ID | Proposed claim | Type/status | Passage support | Limits / safe wording | Slide/notes |
+| --- | --- | --- | --- | --- | --- |
+| ME-01 | Technologies mediate human relationships with the world. | Textually supported philosophical account; author review pending | ihde-1990-phenomenology-technics, pp. 72–73, 85–86; verbeek-2001-ihde-lifeworld, pp. 126–127 | Narrower than original claim 1 about all access. Verbeek p. 126 discusses interpretation without artifacts; this first pass does not settle a universal claim about all perception. Safe candidate: “Technologies help shape our relationships with the world.” | Candidate only |
+| ME-02 | Technology is not a neutral window: it transforms experience, strengthening some aspects and diminishing others. | Textually supported philosophical account; author review pending; maps original claim 6 | ihde-1990-phenomenology-technics, pp. 75–76; verbeek-2001-ihde-lifeworld, pp. 128–130 | Transformative non-neutrality does not establish error, injustice or the distribution of social privilege. Safe candidate: “Technologies shape what becomes perceptible and how we experience it.” | Candidate only |
+| ME-03 | Design choices help shape mediated experience. | Textually supported design connection; assistant synthesis pending author review | ihde-1990-phenomenology-technics, pp. 73–74; verbeek-2001-ihde-lifeworld, pp. 128–129 | Design is not the sole cause or determinant of use and interpretation; do not assign it exclusively to one arrow. Safe candidate: “What a technology presents, and how, depends in part on its design.” | Candidate only |
+| ME-04 | Mediation varies across people, practices and contexts, including with the same technology. | Original claim 2 / working reformulation; partial support, further assessment needed | Ihde p. 73 on learned embodiment and p. 85 on familiarity with temperature scales; no full variability or multistability assessment yet | These examples support differences in learned use, not every proposed kind of variation or a probability distribution. Do not treat onion bands as measured ranges. | Unapproved; no slide wording settled |
+| ME-05 | Selection criteria can prioritize some observations, interpretations or forms of knowledge. | Original claim 3 / proposed extension; open | No sufficient passage mapping yet | Distinguish perceptual amplification from epistemic and institutional selection. The science/personal-experience comparison remains unassessed. | Unapproved |
+| ME-06 | Privileging some forms of mediation can contribute to injustice in access to the world. | Original claim 4; normative bridge open | No sufficient passage mapping yet | Define privilege, affected access and conditions of injustice; difference or non-neutrality alone is insufficient. | Unapproved |
+| ME-07 | Equity is an approach to identifying and addressing such injustices. | Original claim 5 / proposed formulation; open | Equity framework not selected or checked | The assistant's wording is not an adopted definition. No claim that injustice is always recognized or successfully addressed. | Unapproved |
+
+The author's onion graphic is an illustrative synthesis, not Ihde's or Verbeek's formalism. Dark shading means more strongly privileged areas as specified by the author; probability or density is not encoded. Supporting the visual's social interpretation remains part of ME-05–ME-07. See knowledge-base/01 and the dated session.
+
+No substantive claims are approved for slides or speaker notes yet.

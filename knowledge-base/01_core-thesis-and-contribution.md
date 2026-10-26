@@ -1,6 +1,6 @@
 ---
 title: 'Core thesis and contribution'
-sources: [taps-genai-initial-presentation, draining-oregon-2016, midcoast-water-rights-memo-2021, verbeek-mediation-theory]
+sources: [taps-genai-initial-presentation, draining-oregon-2016, midcoast-water-rights-memo-2021, verbeek-mediation-theory, ihde-1990-phenomenology-technics, verbeek-2001-ihde-lifeworld]
 sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25"]
 ---
 
@@ -8,7 +8,26 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22",
 
 **Current direction — October 25:** examine equity challenges encountered when using GenAI to develop products or technological artifacts that mediate relationships between the public and natural resources. TAPs is work under development and provides specific examples through which to explain those challenges, without claiming they have been solved. The talk does not seek to demonstrate improved reasoning, effective scrutiny through documentation, or equitable outcomes.
 
-**Organizing concept:** technological mediation. The author chooses an established concept as a foundation for examining TAPs within a 20-minute presentation. Verbeek's introductory account describes technologies in use as helping shape relations between people and the world; only that introductory account has been checked here, not a full theoretical framework. The precise definition and examples needed for this talk remain to be selected and assessed.
+**Organizing concept:** technological mediation. The author chooses an established concept as a foundation for examining TAPs within a 20-minute presentation. Verbeek's introductory account describes technologies in use as helping shape relations between people and the world. A first targeted passage assessment of Ihde (1990) and Verbeek (2001) now supports discussion of mediation, transformation and design; see the mapping below. This remains assistant-prepared for author review, not a complete framework assessment or an approved definition and slide sequence.
+
+### Conceptual model — first claim-to-passage mapping
+
+**Author's proposed model:** Human → Technology → World. The conceptual foundation is to be assessed through scholarship; TAPs documentation and experience supply a case for discussion, not a test intended to prove these philosophical claims. The author proposes distribution-like, top-view “onions” around the arrows. Darker shading means more strongly privileged areas, not higher probability. Access and design are examples of influences, not exclusive assignments to separate arrows. The meaning of “privileged,” the relationship between the two envelopes and the visual transition remain under assessment. No measured distribution, statistical independence or final graphic is claimed.
+
+**Literacy note:** in the selected passages, *embodiment* means experiencing through an artifact that can recede from attention, such as glasses. A *hermeneutic relation* means reading an artifact to understand something it refers to, such as reading a thermometer to know the temperature. *Amplification/reduction* means some aspects of experience are strengthened while others are diminished. These descriptions introduce the terms; they do not equate perceptual emphasis with institutional or social privilege.
+
+All locators below are printed pages. Ihde's local PDF page is printed page minus 70; Verbeek's relevant PDF spreads are 4–7 (printed pp. 124–131). Passage descriptions are assistant paraphrases.
+
+| Claim / register ID | Checked passages | Relationship to the claim | Limit / implication for diagram |
+| --- | --- | --- | --- |
+| Technologies mediate human relationships with the world (ME-01). | Ihde pp. 72–73, 85–86: optical embodiment and interpretive instrumentation. Verbeek pp. 126–127: generic chain and distinct relations. | Direct textual support for technological mediation. The broader assertion that all access is mediated is only partially addressed by this first pass. | Chain is a useful introductory simplification; reading representations and looking through artifacts differ. Do not imply all experience requires technology. |
+| Technologies transform experience rather than serving as neutral windows (ME-02). | Ihde pp. 75–76: extension transforms capacities, with amplification/reduction. Verbeek pp. 128–130: some aspects strengthened, others weakened; new possibilities can also open. | Direct textual support within the selected philosophical arguments. | Supports selective shaping, not an automatic inference to bias, social privilege or injustice. Non-neutrality does not itself mean inaccuracy. |
+| Design choices help shape mediated experience (ME-03). | Ihde pp. 73–74: material conditions, learned use and design of bodily engagement. Verbeek pp. 128–129: representational design shapes the aspect presented and how it appears. | Direct support for a role for design; proposed plain-language formulation is an assistant synthesis. | Design is consequential without determining every interpretation. It can affect the whole relation, including access and use. |
+| Mediation is not merely transmission between unchanged endpoints. | Verbeek pp. 130–131: human subject and experienced world are constituted in their relationship. | Verbeek's interpretive qualification, not a separately demonstrated outcome. | Explain arrows as relations; they do not depict only a one-way information pipeline between fixed entities. |
+
+Detailed reading records: [Ihde](../references/source-assessments/ihde-1990-phenomenology-technics.md) and [Verbeek](../references/source-assessments/verbeek-2001-ihde-lifeworld.md). They distinguish exact reading coverage, philosophical support and author response pending. The latter is an exposition and elaboration of Ihde, not independent empirical corroboration.
+
+**First boundary to discuss:** amplification/reduction gives textual support for selective transformation. Calling darker areas *privileged* may introduce social, institutional or epistemic selection beyond that account. Establish which meaning is intended before using the shading as evidence of injustice. The original variation, selection, injustice and equity propositions remain open (ME-04–ME-07); they are not rejected or silently replaced. No candidate wording has been promoted to slides or notes.
 
 Hybrid Reasoning Externalization (HRE) remains in the record as an explored conceptual path. Its specificity requires foundations for the individual terms and their combination that this presentation cannot responsibly develop within its scope. The pivot concerns the conceptual work the talk undertakes, not a judgment that HRE is invalid or an abandonment of preserving consequential reasoning and decisions. See the [decision](../admin/decisions-register.md#technological-mediation-and-equity-challenges) and [session](../sessions/2026-10-25.md).
 

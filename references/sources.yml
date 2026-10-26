@@ -22,14 +22,14 @@ sources:
     location: "references/source-pdfs/technology-and-lifeworld.pdf"
     tracked: false
     bib: ihde1990technics
-    verification: "Metadata checked 2026-10-25: local delivery cover identifies author, book, chapter 5, publisher, 1990, ISBN 9780253205605 and pages 72–123; visually checked the chapter opening on PDF page 2. Local PDF contains the supplied chapter, not the whole book. Delivery identifiers and institutional routing are not reproduced in public notes. Substantive arguments not assessed."
+    verification: "Advanced 2026-10-25: metadata checked from delivery cover and chapter opening; targeted assistant text reading of printed pp. 72–78 and 84–86, with visual checks of pp. 75–76 and 85–86. PDF page equals printed page minus 70. Checked embodiment, transformative non-neutrality, amplification/reduction, design conditions and interpretive instrumentation for the first claim mapping. Detailed open assessment: references/source-assessments/ihde-1990-phenomenology-technics.md. No whole-chapter/book review, independent historical verification, author endorsement, social-privilege inference or TAPs outcome established. Local PDF contains chapter 5, not the whole book; delivery identifiers are not reproduced."
   verbeek-2001-ihde-lifeworld:
     name: "Verbeek (2001): Don Ihde: The Technological Lifeworld"
     kind: book-chapter
     location: "references/source-pdfs/verbeek_YYYY_don-ihde-technological-lifeworld.pdf"
     tracked: false
     bib: verbeek2001ihde
-    verification: "Metadata checked 2026-10-25: visually inspected scanned PDF spreads 1, 2 and 15; chapter title and author confirmed. Author publication list https://ppverbeek.org/publications/ confirms 2001, Hans Achterhuis as editor, host book and pages 119–146. Publisher page https://iupress.org/9780253214492/american-philosophy-of-technology/ confirms host title, publisher, year, chapter attribution and translator Robert P. Crease. Scanned file has no extractable text and includes neighboring chapter fragments. Filename placeholder retained; no substantive assessment claimed."
+    verification: "Advanced 2026-10-25: earlier metadata check used chapter spreads, author list https://ppverbeek.org/publications/ and publisher https://iupress.org/9780253214492/american-philosophy-of-technology/ for the 2001 host book and pp. 119–146. First targeted assistant visual reading now covers printed pp. 124–131 (PDF spreads 4–7): bodily/interpretive perception, embodiment/hermeneutic relations, amplification/reduction, representational design and relational constitution. Detailed open assessment: references/source-assessments/verbeek-2001-ihde-lifeworld.md. Exposition and elaboration of Ihde, not independent empirical corroboration. No full-chapter review, author endorsement, social-privilege/equity conclusion or TAPs outcome established. Scan has no extractable text and includes neighboring chapter fragments; filename retained."
   verbeek-beyond-human-eye:
     name: "Verbeek (2007): Beyond the Human Eye: Technological Mediation and Posthuman Visions"
     kind: book-chapter
