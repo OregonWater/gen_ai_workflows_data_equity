@@ -1,8 +1,12 @@
 ---
 title: 'Changelog'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22", "2026-10-25"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22", "2026-10-25", "2026-10-26"]
 ---
+
+## 2026-10-26
+
+Added complete and focused Quarto profiles, separate output folders, matching navigation and focused repository-link routing. Complete remains the default. Preserved all source documents and the full provenance check.
 
 ## 2026-10-25
 

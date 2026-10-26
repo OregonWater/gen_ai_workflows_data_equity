@@ -43,6 +43,8 @@ sources lists registry keys; sessions lists dated containers. Session raw-inputs
 
 Run `quarto render` (or `quarto render --profile complete`) for the complete review site in `_site-complete/`. Run `quarto render --profile focused` for the ten selected pages in `_site-focused/`. Preview either with `quarto preview --profile complete` or `quarto preview --profile focused`. Use one profile at a time.
 
+For simultaneous review, use separate preview processes with distinct ports; see the commands in docs/reproducibility-notes.md. Preview may render pages during navigation, displaying its Render dialog.
+
 Shared settings and the default profile group live in `_quarto.yml`. Each `_quarto-{name}.yml` holds its render selection and sidebar. Complete uses anchored directory globs; focused uses explicit paths, including the current selected session. To replace that session, edit both its render entry and sidebar entry. Both profiles exclude `tmp/` and run the full provenance check. Deck formatting stays in deck.qmd.
 
 `tools/focused-links.lua` reads the focused profile's target list and redirects links to omitted Markdown pages to their sources on the repository's main branch. Included pages retain local links. Repository links show published content, so use the complete build to review unpushed changes to omitted pages. The filter changes output only. No documents are deleted or copied into a separate source tree.

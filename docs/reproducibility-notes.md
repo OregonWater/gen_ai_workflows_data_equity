@@ -24,6 +24,17 @@ Run `quarto inspect . --profile complete` or `quarto inspect . --profile focused
 
 ## Validation
 
+On 2026-10-26, both profile renders completed: complete selected 30 targets and focused selected ten. Full provenance validation passed with 17 content pages, seven sessions and 28 sources; automated checks found no broken local HTML links in either output. The author subsequently previewed both sites and reported that both work. This is author-reported browser validation; no assistant visual inspection is claimed.
+
+For side-by-side review, run these commands in separate terminals:
+
+```powershell
+quarto preview --profile complete --port 7186 --render none --no-watch-inputs
+quarto preview --profile focused --port 7187 --render none --no-watch-inputs
+```
+
+Open `http://localhost:7186` and `http://localhost:7187`. Stop each server with Ctrl+C. `--render none` skips the initial render and `--no-watch-inputs` disables rendering triggered by file changes; the preview server can still render pages during navigation. The author's screenshot shows Quarto's Render dialog, which belongs to preview rather than site content. Static serving of generated HTML remains a separate follow-up; it has not been tested here.
+
 Passed on 2026-10-12:
 
 - Provenance: 17 pages, one session, three sources; zero errors/warnings.
