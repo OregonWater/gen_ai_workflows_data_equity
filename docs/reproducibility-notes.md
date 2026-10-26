@@ -1,7 +1,7 @@
 ---
 title: 'Reproducibility notes'
 sources: [renv-sandbox-docs]
-sessions: ["2026-10-12", "2026-10-22"]
+sessions: ["2026-10-12", "2026-10-22", "2026-10-26"]
 ---
 
 ## Environment
@@ -16,7 +16,11 @@ Install R and Quarto, open the .Rproj, and run renv::restore(). Then run quarto 
 
 ## Build outputs
 
-_site/index.html is the site;_site/artifacts/talk/deck.html is the deck. Outputs are local and ignored. No publication is part of the build.
+`quarto render` defaults to the complete profile. Its site is `_site-complete/index.html`; its deck is `_site-complete/artifacts/talk/deck.html`. The explicit command is `quarto render --profile complete`.
+
+`quarto render --profile focused` builds ten selected pages in `_site-focused/`, including its own copy of the deck. Both outputs are local and ignored. The earlier `_site/` folder is legacy output, not updated by these profiles. No publication is part of the build.
+
+Run `quarto inspect . --profile complete` or `quarto inspect . --profile focused` to inspect selections. The complete count grows with sessions and documentation; focused stays at ten until its explicit list changes. Both run the same full provenance check during rendering. See the repository guide for maintaining selections and repository-link routing.
 
 ## Validation
 

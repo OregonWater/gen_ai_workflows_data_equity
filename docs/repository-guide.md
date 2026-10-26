@@ -1,7 +1,7 @@
 ---
 title: 'Repository guide'
 sources: []
-sessions: ["2026-10-12", "2026-10-22", "2026-10-25"]
+sessions: ["2026-10-12", "2026-10-22", "2026-10-25", "2026-10-26"]
 ---
 
 ## Folder roles
@@ -22,7 +22,7 @@ sessions: ["2026-10-12", "2026-10-22", "2026-10-25"]
 | outputs/ | Ignored generated figures/tables |
 | nonpublic_notes/ | Entirely ignored local notes |
 | renv/ | Environment bootstrap/settings; installed libraries ignored |
-| _site/ | Ignored local rendered site and deck |
+| _site-complete/ and _site-focused/ | Ignored local rendered sites and decks |
 
 ## Root files
 
@@ -39,9 +39,13 @@ A feeds token such as knowledge-base/02 resolves to the uniquely numbered page b
 
 sources lists registry keys; sessions lists dated containers. Session raw-inputs references registry keys or the literals “conversation only” and “prior sources revisited”. Mark unrouted observations open, then reconcile intentionally.
 
-## One local build
+## Local builds
 
-Run quarto render from the repository root. The pre-render check validates provenance; Quarto renders the website and deck together. Deck formatting lives in deck.qmd so it participates in the same website project without a nested project.
+Run `quarto render` (or `quarto render --profile complete`) for the complete review site in `_site-complete/`. Run `quarto render --profile focused` for the ten selected pages in `_site-focused/`. Preview either with `quarto preview --profile complete` or `quarto preview --profile focused`. Use one profile at a time.
+
+Shared settings and the default profile group live in `_quarto.yml`. Each `_quarto-{name}.yml` holds its render selection and sidebar. Complete uses anchored directory globs; focused uses explicit paths, including the current selected session. To replace that session, edit both its render entry and sidebar entry. Both profiles exclude `tmp/` and run the full provenance check. Deck formatting stays in deck.qmd.
+
+`tools/focused-links.lua` reads the focused profile's target list and redirects links to omitted Markdown pages to their sources on the repository's main branch. Included pages retain local links. Repository links show published content, so use the complete build to review unpushed changes to omitted pages. The filter changes output only. No documents are deleted or copied into a separate source tree.
 
 ## Commit messages
 

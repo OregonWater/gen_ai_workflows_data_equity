@@ -1,7 +1,7 @@
 ---
 title: 'How the workflow works'
 sources: [renv-sandbox-docs]
-sessions: ["2026-10-12", "2026-10-22"]
+sessions: ["2026-10-12", "2026-10-22", "2026-10-26"]
 ---
 
 ## Provenance checker
@@ -20,10 +20,14 @@ On Windows, this project's .Rprofile gives each R session its own sandbox inside
 
 ## Quarto and reveal.js
 
-Quarto converts editable Markdown into a browsable website. The deck uses reveal.js, an HTML slide format. The root configuration lists public pages explicitly; nonpublic_notes is neither a page nor a resource.
+Quarto converts editable Markdown into a browsable website. The deck uses reveal.js, an HTML slide format. The build profiles select public pages; nonpublic_notes is neither a page nor a resource.
 
 The local build first validates provenance, then renders the site including the deck. An error stops the build. Rendering does not publish anything.
 
 ## Author review
+
+A build profile selects settings for a particular view of the same source documents. Complete renders the whole configured site; focused renders ten selected documents. Separate output folders keep one build from overwriting the other. Neither profile publishes files. Both validate the entire provenance record first.
+
+In focused output, a Lua filter (a small program run during document conversion) sends links to omitted Markdown documents to the repository. It reads the profile's render list, so that list is the authority for which pages stay local. Local source edits are unchanged; repository destinations reflect only published versions. Review unpushed omitted documents in the complete build. Profile and filter comprehension review remains open.
 
 Explain these three mechanisms back in your own words before treating the comprehension criterion as complete. That review remains open; implementation approval alone is not evidence of understanding.

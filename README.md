@@ -10,7 +10,7 @@ A presentation project by **Francisco J. Guerrero** on GenAI supported workflows
 - [Project overview](docs/project-overview.md)
 - [Repository guide](docs/repository-guide.md)
 - [Current project state](project.yml)
-- [Latest session](sessions/2026-10-22.md)
+- [Latest session](sessions/2026-10-26.md)
 - [Decisions](admin/decisions-register.md)
 - [Working protocol](knowledge-base/09_ai-working-instructions.md)
 
@@ -28,8 +28,9 @@ quarto render
 ```
 
 The build validates provenance and renders both the notebook site and the reveal.js deck.
-Open `_site/index.html` for the site and `_site/artifacts/talk/deck.html` for the deck.
-Use `quarto preview` for local browsing. See [reproducibility notes](docs/reproducibility-notes.md) for versions and Windows setup.
+The default complete build writes `_site-complete/index.html` and `_site-complete/artifacts/talk/deck.html`.
+Use `quarto render --profile focused` for the ten-page working site in `_site-focused/`.
+Use `quarto preview --profile complete` or `quarto preview --profile focused` for local browsing. Both validate the full provenance record. See [reproducibility notes](docs/reproducibility-notes.md) for versions and Windows setup.
 
 ## Scope and status
 
