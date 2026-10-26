@@ -2,6 +2,20 @@
 # name, kind, location, tracked, bib retain the seed registry schema.
 # Additional verification notes make the status of each input explicit.
 sources:
+  vaswani-etal-2017-attention:
+    name: "Vaswani et al. (2017): Attention Is All You Need"
+    kind: conference-paper
+    location: "https://arxiv.org/html/1706.03762v7"
+    tracked: false
+    bib: null
+    verification: "Targeted assistant reading 2026-10-26: abstract and sections 3.1–3.2.3, including learned projections, computed attention weights and representations of sequence positions. Supports bounded architecture distinctions in conceptual discussion; not a full-paper review or evidence for w-prime as an architectural world. Modern chatbot implementations and performance not assessed."
+  radford-etal-2019-language-models:
+    name: "Radford et al. (2019): Language Models are Unsupervised Multitask Learners"
+    kind: research-report
+    location: "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf"
+    tracked: false
+    bib: null
+    verification: "Targeted assistant reading 2026-10-26: abstract and section 2, particularly conditional probabilities of successive symbols and input/task conditioning. Not a full-paper, results or current-system review. Used for a technical literacy distinction, not a philosophical definition or a claim about particular TAPs responses."
   bommasani-etal-2021-foundation-models:
     name: "Bommasani et al.: On the Opportunities and Risks of Foundation Models"
     kind: research-report
@@ -15,7 +29,7 @@ sources:
     location: "https://arxiv.org/abs/2005.11401"
     tracked: false
     bib: null
-    verification: "Screened 2026-10-25: arXiv abstract/metadata only. Checked distinction between pretrained parametric memory and external document retrieval, illustrated by the paper's Wikipedia index. Methods and reported performance not assessed. Used to qualify training-data-access and chatbot schematics, not to characterize every present system."
+    verification: "Screened 2026-10-25: arXiv abstract/metadata. Extended 2026-10-26 with targeted assistant reading of introduction and sections 2–2.3 at https://arxiv.org/html/2005.11401v4: retrieved documents as generation context, generator parameters versus the document index, and the introduction's statement about replacing external memory. Full methods, performance and index-swapping results not assessed. Used to qualify training-data-access and chatbot schematics, not to characterize every present system or establish a coherent internal world."
   brown-etal-2020-few-shot:
     name: "Brown et al. (2020): Language Models are Few-Shot Learners"
     kind: research-paper
