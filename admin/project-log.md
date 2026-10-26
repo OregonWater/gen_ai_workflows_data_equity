@@ -26,11 +26,15 @@ Conceptual continuation: developed the author's proposed WRIS sequence of initia
 
 At the author's request, diagnosed the Quarto pre-render hang as a wait on renv's shared sandbox lock, held by a VS Code R-language-server subprocess. Configured .Rprofile to give Windows R sessions independent temporary sandboxes while retaining package isolation and the lockfile. Documented the mechanism and its limits; the reason the subprocess retained its lock remains unknown. See the dated session for validation. No presentation claims changed; no commit or publication performed.
 
-## 2026-10-12
+## 2026-10-21
 
-Conversation zero established the presentation identity, public scope, authoring approach, licensing, and working protocol. The author redirected an initial generic scaffold toward the supplied structural seeds and approved a migration map. Implementation creates governance, source/session tracking, knowledge-base shells, and a local site/deck build. Borrowed examples supply structure only. No commit or publication is authorized. Validation and remaining limitations are recorded in the session container.
+In a later Codex-assisted continuation, explored a higher-level TAPs narrative and compared thematic, story-led, and question-led structures. The question-led option remains an assistant proposal; no structure or message was adopted. The author deferred a concrete example to next session and requested a slide-completion strategy in light of deadline pressure. Recorded the handoff without copying private notes into the public record. No claims, sources, or slides were promoted; no commit or publication performed.
 
-The author subsequently checked the files, rendered and previewed the site, and confirmed it works as expected, closing the rendering blocker. The author chose no AI co-author trailers; AI assistance remains documented in sessions. The assistant updated the records and project state; staging, review, and committing are reserved for the author.
+Recorded the author's completed WRIS evidence matrix as a potential bounded case, while distinguishing the matrix from independently checked source records. Incorporated the organizer's reported preference for reasoning over implementation depth into the provisional audience guidance. Noted Philosophy of Technology as a possible conceptual home for the author's questions, without treating it as a verified literature finding or the talk's genre. The next work is to select and verify a plain-language example, then develop the narrative and revisit the message. No claim was added to the claims register; no commit or publication was performed.
+
+## 2026-10-14
+
+Discussed the provisional backbone and narrative-first development. Created two development artifacts at the author's direction; the author committed the initial backbone and wrote a first exploratory narrative. Assistant reviewed the narrative and proposed focused Q&A; no answers were collected before the author requested close-out. Preserve the author's deadline caution: clarify only what is needed for a defensible talk, defer peripheral exploration, and protect the October 21 draft and October 27 final milestones. See the dated session for reasoning, open questions, evidence boundaries, and validation. No assistant commit or publication performed.
 
 ## 2026-10-13
 
@@ -44,12 +48,8 @@ Corrected the assignment status after the author supplied a screenshot of the ex
 
 At close-out, reconciled stale status/timing statements and decision headings. Recorded the existence and intended future use of private brainstorming/webinar-question notes without reading or publishing their contents; confirmed Git exclusion. The author committed the audience baseline; remaining public documentation awaits review. The assistant made no commit. Audience content remains stable while narrative, thesis and evidence work are next.
 
-## 2026-10-21
+## 2026-10-12
 
-In a later Codex-assisted continuation, explored a higher-level TAPs narrative and compared thematic, story-led, and question-led structures. The question-led option remains an assistant proposal; no structure or message was adopted. The author deferred a concrete example to next session and requested a slide-completion strategy in light of deadline pressure. Recorded the handoff without copying private notes into the public record. No claims, sources, or slides were promoted; no commit or publication performed.
+Conversation zero established the presentation identity, public scope, authoring approach, licensing, and working protocol. The author redirected an initial generic scaffold toward the supplied structural seeds and approved a migration map. Implementation creates governance, source/session tracking, knowledge-base shells, and a local site/deck build. Borrowed examples supply structure only. No commit or publication is authorized. Validation and remaining limitations are recorded in the session container.
 
-Recorded the author's completed WRIS evidence matrix as a potential bounded case, while distinguishing the matrix from independently checked source records. Incorporated the organizer's reported preference for reasoning over implementation depth into the provisional audience guidance. Noted Philosophy of Technology as a possible conceptual home for the author's questions, without treating it as a verified literature finding or the talk's genre. The next work is to select and verify a plain-language example, then develop the narrative and revisit the message. No claim was added to the claims register; no commit or publication was performed.
-
-## 2026-10-14
-
-Discussed the provisional backbone and narrative-first development. Created two development artifacts at the author's direction; the author committed the initial backbone and wrote a first exploratory narrative. Assistant reviewed the narrative and proposed focused Q&A; no answers were collected before the author requested close-out. Preserve the author's deadline caution: clarify only what is needed for a defensible talk, defer peripheral exploration, and protect the October 21 draft and October 27 final milestones. See the dated session for reasoning, open questions, evidence boundaries, and validation. No assistant commit or publication performed.
+The author subsequently checked the files, rendered and previewed the site, and confirmed it works as expected, closing the rendering blocker. The author chose no AI co-author trailers; AI assistance remains documented in sessions. The assistant updated the records and project state; staging, review, and committing are reserved for the author.
