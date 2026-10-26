@@ -1,10 +1,26 @@
 ---
 title: 'Core thesis and contribution'
-sources: [taps-genai-initial-presentation, draining-oregon-2016, midcoast-water-rights-memo-2021, verbeek-mediation-theory, ihde-1990-phenomenology-technics, verbeek-2001-ihde-lifeworld]
+sources: [taps-genai-initial-presentation, draining-oregon-2016, midcoast-water-rights-memo-2021, verbeek-mediation-theory, ihde-1990-phenomenology-technics, verbeek-2001-ihde-lifeworld, bommasani-etal-2021-foundation-models, lewis-etal-2020-rag, expert-systems-panel-2017]
 sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25"]
 ---
 
 ## One-sentence message
+
+**End-of-day scope clarification — October 25:** tell a grounded story about developing TAPs with GenAI assistance, giving the audience a window into questions, choices and challenges they may otherwise not encounter. The author's process and experience provide the narrative. Ihde and Verbeek help interpret it responsibly; the talk is neither a philosophical analysis of their work nor a scientific publication or an attempt to prove generalizable propositions through TAPs. The passage mapping below is supporting preparation, not the required sequence of the talk. Its formal terminology and open questions should remain proportional to what the story needs.
+
+### Proposed opening — proliferation of mediation
+
+The author wants the first minutes to unfold Human → Technology → World into more relationships, with more onions appearing as the technological system is unpacked. A water-level logger and an AI component are an illustrative example, not a verified TAPs implementation. Treating them as a single technological system is compatible with unpacking them for explanation. The author proposes B for chatbot and A for algorithm, with an additional direction showing a relation to w′. The arrows' meanings and the final layout remain to be settled; no new image or slide has been produced.
+
+**Author's interpretive proposal:** w′ names a represented world in which producing answers can feel smooth or frictionless compared with w, the world in which those answers are used. Natural-language interaction may make it tempting to carry an answer or its apparent rules from w′ into w without recognizing the mediation involved. The shading continues to mean stronger privilege. Neither an empirical probability distribution nor a coherent internal simulation is established by this metaphor.
+
+**Assistant technical qualification, still for author review:** distinguish training materials, learned model representations, and the answer generated in the present interaction. w′ should not be depicted as a training dataset the model searches at answer time. A training-history arrow can show how materials and choices shaped the model; retrieval, supplied documents and measurements add further present connections. The screened foundation-model abstract supports broad training and downstream adaptation; the screened RAG abstract distinguishes parametric memory from external retrieval. Neither validates w′ as a technical architecture or proves the audience-risk hypothesis (ME-08–ME-09).
+
+The author initially suggested historical uniqueness. A targeted participant retrospective describes DENDRAL using elicited chemical expertise to interpret instrument readings in the 1960s. This counterexample was offered by the assistant to narrow the proposed framing; it is not an adopted talk example. Do not promote a first-ever knowledge-bearing mediator claim. The story can instead examine the encounter between situated information and patterns learned elsewhere.
+
+**Author-reported observation (ME-10):** in four years of reviewing forums, workshops, talks, books and other materials, the author has not encountered treatment of these kinds of questions. The turn toward philosophy of technology is itself part of the author's experience of navigating the work. Preserve this as a situated observation and possible story element, not a systematic literature review or a finding that no relevant work exists.
+
+**Next session:** sketch the brief onion-proliferation opening and define w′ in ordinary language, then choose the TAPs episode that gives this tension concrete stakes. Use literature and case-record checks to support the parts actually needed for the story. Final wording, model semantics, audience takeaway and timed sequence remain open; protect the October 27 final/rehearsal deadline.
 
 **Current direction — October 25:** examine equity challenges encountered when using GenAI to develop products or technological artifacts that mediate relationships between the public and natural resources. TAPs is work under development and provides specific examples through which to explain those challenges, without claiming they have been solved. The talk does not seek to demonstrate improved reasoning, effective scrutiny through documentation, or equitable outcomes.
 

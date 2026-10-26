@@ -26,6 +26,16 @@ Scope: The talk does not aim to prove that GenAI improved reasoning, that docume
 
 Status: active; author-directed pivot, clarified in discussion and authorized for documentation and checkpoint commit. Supersedes the October 22 HRE-centered organizing proposal, without reversing the continuing record-preservation principle or earlier case-scope boundaries. See [session](../sessions/2026-10-25.md).
 
+## 2026-10-25 — story-and-literature-scope {#story-and-literature-scope}
+
+Decision: Tell the story of developing TAPs with GenAI assistance as a window into this work. Use philosophy-of-technology literature to ground interpretation, proportionate to the story. The presentation is not a philosophical analysis of Ihde or Verbeek, a scientific publication, or a demonstration of generalizable propositions through TAPs.
+
+Rationale: The author's experience, choices and unresolved challenges are the contribution. The search for conceptual resources, including the turn toward philosophy of technology, is itself part of that experience. The author's four-year observation concerns materials personally encountered, not the absence of relevant work across an entire field.
+
+Implementation direction: explore an opening in which unpacking technological relationships produces more onions, then connect it to a selected TAPs episode. The B/A/w′ extension, exact visual semantics, wording and timed sequence remain provisional. The passage matrix is supporting preparation; no complete framework assessment is a prerequisite.
+
+Status: active; author-directed scope clarification at session close. Refines the October 25 mediation direction without adopting the assistant's proposed sentences or reversing the earlier case-scope boundaries. No new slide claims, commit or publication authorized.
+
 ## 2026-10-22 — public-interpretation-example-scope
 
 Decision: Do not reopen the newspaper article's calculations or adjudicate the dispute in the talk. Use only material necessary to explain why processing choices and interpretive limits matter for public understanding.

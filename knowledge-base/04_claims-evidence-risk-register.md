@@ -1,6 +1,6 @@
 ---
 title: 'Claims, evidence, and risk'
-sources: [midcoast-water-rights-memo-2021, ihde-1990-phenomenology-technics, verbeek-2001-ihde-lifeworld]
+sources: [midcoast-water-rights-memo-2021, ihde-1990-phenomenology-technics, verbeek-2001-ihde-lifeworld, bommasani-etal-2021-foundation-models, lewis-etal-2020-rag]
 sessions: ["2026-10-12", "2026-10-22", "2026-10-25"]
 ---
 
@@ -33,3 +33,13 @@ These are philosophical propositions and interpretive extensions, not hypotheses
 The author's onion graphic is an illustrative synthesis, not Ihde's or Verbeek's formalism. Dark shading means more strongly privileged areas as specified by the author; probability or density is not encoded. Supporting the visual's social interpretation remains part of ME-05–ME-07. See knowledge-base/01 and the dated session.
 
 No substantive claims are approved for slides or speaker notes yet.
+
+## Story scope and chatbot extension — end-of-day candidates
+
+This register supports responsible storytelling; it does not convert the presentation into a scientific study or a philosophical proof. The author clarifies that literature grounds interpretation while TAPs experience supplies the narrative.
+
+| ID | Proposed claim | Type/status | Support | Boundary / candidate wording |
+| --- | --- | --- | --- | --- |
+| ME-08 | A pretrained model brings learned patterns into its handling of present inputs; learned parameters differ from a separately retrieved document collection. | Technical distinction; abstract-level screening only | bommasani-etal-2021-foundation-models; lewis-etal-2020-rag | Supports distinguishing training from present retrieval, not a universal chatbot architecture or a literal internal world. Candidate: “The readings come from this place; the model brings patterns learned elsewhere.” Assistant wording, author review pending. |
+| ME-09 | Fluent natural-language interaction may encourage carrying an answer from represented w′ into practical w without examining what the transfer requires. | Author's interpretive concern / hypothesis; not tested | Author discussion in session 2026-10-25; no direct empirical support assessed | w′ is a proposed explanatory metaphor. No claim that all users behave this way, that a model has coherent internal rules, or that fluency establishes factual adequacy. No exact wording adopted. |
+| ME-10 | The author has not encountered treatment of these questions in materials reviewed over the past four years. | Author-reported experience; possible narrative observation | Author account, session 2026-10-25 | A situated observation about the author's encounters, not a novelty claim or comprehensive literature result. Exact wording and examples for the talk remain open. |

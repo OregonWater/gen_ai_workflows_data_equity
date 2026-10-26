@@ -2,6 +2,34 @@
 # name, kind, location, tracked, bib retain the seed registry schema.
 # Additional verification notes make the status of each input explicit.
 sources:
+  bommasani-etal-2021-foundation-models:
+    name: "Bommasani et al.: On the Opportunities and Risks of Foundation Models"
+    kind: research-report
+    location: "https://arxiv.org/abs/2108.07258"
+    tracked: false
+    bib: null
+    verification: "Screened 2026-10-25: arXiv abstract/metadata only (2021 submission, revised 2022). Checked characterization of foundation models as trained on broad data and adaptable across downstream tasks. Full report not read; does not establish a coherent internal world, historical uniqueness, or TAPs outcomes."
+  lewis-etal-2020-rag:
+    name: "Lewis et al. (2020): Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+    kind: conference-paper
+    location: "https://arxiv.org/abs/2005.11401"
+    tracked: false
+    bib: null
+    verification: "Screened 2026-10-25: arXiv abstract/metadata only. Checked distinction between pretrained parametric memory and external document retrieval, illustrated by the paper's Wikipedia index. Methods and reported performance not assessed. Used to qualify training-data-access and chatbot schematics, not to characterize every present system."
+  brown-etal-2020-few-shot:
+    name: "Brown et al. (2020): Language Models are Few-Shot Learners"
+    kind: research-paper
+    location: "https://arxiv.org/abs/2005.14165"
+    tracked: false
+    bib: null
+    verification: "Screened 2026-10-25: arXiv abstract/metadata only. Abstract describes GPT-3's pretraining and text-specified tasks without gradient updates in that evaluation. No full-paper or contemporary-system assessment. Consulted during clarification of training versus present interaction; not authority for a universal chatbot architecture."
+  expert-systems-panel-2017:
+    name: "AAAI-17 panel on expert-systems history: Feigenbaum, Buchanan, Davis and Horvitz"
+    kind: oral-history
+    location: "https://archive.computerhistory.org/resources/access/text/2018/03/102738236-05-01-acc.pdf"
+    tracked: false
+    bib: null
+    verification: "Targeted check 2026-10-25: participant retrospective transcript, printed pp. 2–5, especially Feigenbaum's account on p. 3 of DENDRAL combining mass-spectrometry data with elicited chemical expertise in the 1960s. Historical counterexample to first-ever knowledge-bearing mediation; not independent archival verification or an adopted talk example. Initial publisher-paper retrieval failed; no claim to have read that paper."
   rosenberger-verbeek-2024-ihde:
     name: "Rosenberger and Verbeek (2024): Don Ihde: 1934–2024"
     kind: journal-article

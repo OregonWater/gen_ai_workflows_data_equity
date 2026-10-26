@@ -3,7 +3,7 @@ project: gen_ai_workflows_data_equity
 stage: scaffold
 stages: [scaffold, outline, drafting, rehearsal, delivered]
 last_session: "2026-10-25"
-critical_path_blocker: "No infrastructure blocker. Technological mediation now organizes an examination of equity challenges in GenAI-supported artifact development through TAPs work in progress. Specific examples, supporting evidence, audience takeaway and timed narrative remain open ahead of October 27."
+critical_path_blocker: "No infrastructure blocker. Tell a literature-grounded story of developing TAPs with GenAI assistance. The onion-proliferation opening and w'/w distinction are proposed; selected episode, final takeaway and timed narrative remain open ahead of October 27."
 paths:
   knowledge_base: knowledge-base
   docs: docs
@@ -25,7 +25,7 @@ external_gates:
   - "Explicit author request before committing; separate confirmation before publication."
 next_actions:
   - "Select TAPs examples that illuminate specific equity challenges in GenAI-supported development of artifacts mediating public relationships with natural resources; distinguish encountered challenges from candidate questions."
-  - "Review the first mediation passage mapping in knowledge-base/01 and the open Ihde/Verbeek assessments. Discuss ME-01–ME-03, then assess variability and the bridge from amplification/reduction to privileged possibilities, injustice and equity (ME-04–ME-07). No full framework or final slide wording adopted."
+  - "Sketch a brief onion-proliferation opening and define B, A, w' and w in ordinary language, then select the TAPs episode that makes the tension concrete. Keep the passage mapping as supporting preparation, proportionate to the story; no full philosophical analysis or generalizable TAPs proof is intended."
   - "Check the initial specification, selected underlying passages from the existing WRIS reconstruction table, and the revised specification against provisional claims WR-01–WR-05."
   - "Preserve HRE and its literature exploration as development history. Revisit Kirsh's open assessment only as needed for the selected examples; defining HRE is no longer a prerequisite for this talk."
   - "Reassemble the 20-minute narrative around the October 25 contribution: examining equity challenges through TAPs work under development, without claiming resolution or demonstrated benefits. Final takeaway and sequence remain open. Protect the October 27 final/rehearsal deadline."
