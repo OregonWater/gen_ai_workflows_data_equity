@@ -39,6 +39,8 @@ Support and boundaries: Project authorship rules; session 2026-10-28.
 
 A readable draft still leaves questions about the circumstances its advice assumes.
 
+![](assets/visuals/slide-03-two-page-guide.png){.slide-image alt="A person holds a two-page water-conservation guide beside a drought-affected community. Icons above the guide suggest cost, household control of water and readable information. This is a hypothetical example, not a real community."}
+
 ::: {.notes}
 Narrative:
 
@@ -46,7 +48,7 @@ Imagine we’re putting together a two-page water-conservation guide for communi
 
 Transition: The guide helps shape a relationship between people and the world. That brings us to mediation.
 
-Optional image alt-text: A person and a two-page guide situated between the person and a community setting; question marks indicate assumptions about affordability, control and access. Hypothetical example, not a real community.
+Image alt-text: A person holds a two-page water-conservation guide beside a drought-affected community. Icons above the guide suggest cost, household control of water and readable information. This is a hypothetical example, not a real community.
 
 Support and boundaries: OP-01; author-approved hypothetical illustration.
 :::
@@ -55,6 +57,8 @@ Support and boundaries: OP-01; author-approved hypothetical illustration.
 
 Technologies help shape how we encounter and interpret the world.
 
+![](assets/visuals/slide-04-technological-mediation.png){.slide-image alt="A person points toward a two-page water guide, which points toward a community river landscape, showing technology mediating a relationship with the world."}
+
 ::: {.notes}
 Narrative:
 
@@ -62,7 +66,7 @@ That guide sits between people and something they’re trying to understand or a
 
 Transition: Even this apparently simple relationship contains layers.
 
-Optional image alt-text: The relationship h to w unfolds into h to t to w: human, technology and world. The technology is the hypothetical guide. Lines denote mediation, not measured causal effects.
+Image alt-text: A person points toward a two-page water guide, which points toward a community river landscape, showing technology mediating a relationship with the world.
 
 Support and boundaries: ME-01–ME-03; assessed Ihde (1990), pp. 72–76, 85–86, and Verbeek (2001), pp. 126–130. Philosophical framing, exact wording remains under review.
 :::
@@ -71,6 +75,8 @@ Support and boundaries: ME-01–ME-03; assessed Ihde (1990), pp. 72–76, 85–8
 
 Onions represent layered assumptions and conditions. Chopping represents scrutiny.
 
+![](assets/visuals/slide-05-onions-and-scrutiny.png){.slide-image alt="Nested purple ovals surround a horizontal mediation line. Beside them, a knife slices a purple onion, separating layered assumptions from the work of scrutiny."}
+
 ::: {.notes}
 Narrative:
 
@@ -78,7 +84,7 @@ This is where I bring in the onions. At the center is the relationship as we fir
 
 Transition: Now introduce the bot into developing the guide.
 
-Optional image alt-text: Nested oval onion layers sit along mediation lines. Dark centers indicate apparently straightforward mediation; lighter outer layers indicate broader assumptions and conditions. A separate chopping metaphor represents scrutiny; shading does not encode privilege.
+Image alt-text: Nested purple ovals surround a horizontal mediation line. Beside them, a knife slices a purple onion, separating layered assumptions from the work of scrutiny. Shading does not encode privilege.
 
 Support and boundaries: DR-02; author-defined metaphor and revised shading meaning, session 2026-10-28.
 :::
@@ -87,6 +93,8 @@ Support and boundaries: DR-02; author-defined metaphor and revised shading meani
 
 We can question assumptions in a bot’s response without establishing, from the conversation alone, how they arose.
 
+![](assets/visuals/slide-06-bot-generative-branch.png){.slide-image alt="A developer exchanges information with a friendly bot, which leads to a guide and a river community. A hazy vertical branch from the bot passes through an abstract generative process toward an implied landscape, with purple onion layers along both paths."}
+
 ::: {.notes}
 Narrative:
 
@@ -94,7 +102,7 @@ Let’s bring the bot into the picture. I’m working with it to develop the gui
 
 Transition: That limited visibility matters when the conversation feels easy to carry forward.
 
-Optional image alt-text: Horizontal h ↔ b → t → w links developer, bot, guide and practical world. A vertical b → t′ → w′ branch labels generative operations and represented presuppositions. Onion layers appear along both axes. Different arrow labels distinguish development, use and interpretive unpacking.
+Image alt-text: A developer exchanges information with a friendly bot, which leads to a guide and a river community. A hazy vertical branch from the bot passes through an abstract generative process toward an implied landscape, with purple onion layers along both paths.
 
 Support and boundaries: OP-02, DR-03; Turpin et al. (2023), official NeurIPS abstract: https://papers.neurips.cc/paper_files/paper/2023/hash/ed3fea9033a80fea1376299fa7863f4a-Abstract-Conference.html. Abstract-only check supports caution about explanations, not universal opacity or validation of w-prime.
 :::
@@ -103,6 +111,8 @@ Support and boundaries: OP-02, DR-03; Turpin et al. (2023), official NeurIPS abs
 
 A coherent draft can carry us forward before we examine whether its assumptions fit.
 
+![](assets/visuals/slide-07-frictionless-reasoning.png){.slide-image alt="A person and bot follow a smooth blue path past intact purple onions toward a guide. A lower scrutiny loop through a record, a conversation and a landscape rejoins the path before the guide."}
+
 ::: {.notes}
 Narrative:
 
@@ -110,7 +120,7 @@ This is the tension behind frictionless reasoning. We have a coherent draft, the
 
 Transition: I will turn now to my work at the Oregon Water Resources Department.
 
-Optional image alt-text: A smooth path from conversation to a polished guide passes onions that have not been chopped. A separate scrutiny point brings contextual knowledge and participation into view, without suggesting that all assumptions become visible.
+Image alt-text: A person and bot follow a smooth blue path past intact purple onions toward a guide. A lower scrutiny loop through a record, a conversation and a landscape rejoins the path before the guide without suggesting that all assumptions become visible.
 
 Support and boundaries: ME-09, OP-01–OP-02; author interpretation and hypothetical illustration, not a measured universal user effect.
 :::
@@ -119,6 +129,8 @@ Support and boundaries: ME-09, OP-01–OP-02; author interpretation and hypothet
 
 My technical-assistance work connects people and water data for planning.
 
+![](assets/visuals/slide-08-owrd-technical-assistance.png){.slide-image alt="A diverse community group, water-data maps and charts, and a planning group gathered around a map exchange information through two-way arrows."}
+
 ::: {.notes}
 Narrative:
 
@@ -126,7 +138,7 @@ I work at the Oregon Water Resources Department, OWRD. Part of my job is helping
 
 Transition: The TAPs direction changes how we are trying to make that assistance available.
 
-Optional image alt-text: People, water data and planning are connected through technical assistance. The image avoids an unverified employee count and does not reproduce an official mission statement.
+Image alt-text: A diverse community group, water-data maps and charts, and a planning group gathered around a map exchange information through two-way arrows.
 
 Support and boundaries: DR-01, TP-01; author account. Official program wording remains for review; no unverified headcount is asserted.
 :::
@@ -135,6 +147,8 @@ Support and boundaries: DR-01, TP-01; author account. Official program wording r
 
 TAPs aims to make technical assistance available through open, reproducible products.
 
+![](assets/visuals/slide-09-connecting-people-data-proactively.png){.slide-image alt="Three equal stages show a small internal team, repeatable files and code, and a folder connected to community members. The last stage has a dashed boundary and dotted continuation to show that it is still being developed."}
+
 ::: {.notes}
 Narrative:
 
@@ -142,7 +156,7 @@ The direction is toward assistance that people can return to, examine and work w
 
 Transition: That ambition involves responsibilities across the product lifecycle.
 
-Optional image alt-text: Three stages—internal workflows, reproducible workflows, open and reproducible products—are compared across coverage, timing, labor, approach and connection. Future capabilities are explicitly marked as intended; no unsupported performance values appear.
+Image alt-text: Three equal stages show a small internal team, repeatable files and code, and a folder connected to community members. The last stage has a dashed boundary and dotted continuation to show that it is still being developed.
 
 Support and boundaries: TP-02; author-proposed evolution. Detailed historical comparison and implemented capabilities are not independently checked.
 :::
@@ -151,6 +165,8 @@ Support and boundaries: TP-02; author-proposed evolution. Detailed historical co
 
 The work spans planning, design, implementation, testing, launch and user engagement.
 
+![](assets/visuals/slide-10-can-genai-assist.png){.slide-image alt="Six equal lifecycle icons for planning, design, implementation, testing, launch and engagement surround a project lead, two collaborators and an assisting bot."}
+
 ::: {.notes}
 Narrative:
 
@@ -158,7 +174,7 @@ As project lead, I have a hand in planning, design, implementation, testing, lau
 
 Transition: I will walk through three touchpoints where that examination changed the work.
 
-Optional image alt-text: A project lifecycle lists planning, design, implementation, testing, launch and engagement around the available project capacity. No pie slices or fractional FTE values are shown because allocations have not been established.
+Image alt-text: Six equal lifecycle icons for planning, design, implementation, testing, launch and engagement surround a project lead, two collaborators and an assisting bot. No pie slices or fractional FTE values are shown.
 
 Support and boundaries: TP-03, DR-04; author-reported responsibilities and capacity constraints; no quantitative staffing claim.
 :::
@@ -167,6 +183,8 @@ Support and boundaries: TP-03, DR-04; author-reported responsibilities and capac
 
 Planning, dataset design and implementation each introduce further equity questions.
 
+![](assets/visuals/slide-11-three-touchpoints.png){.slide-image alt="Three parallel lanes show a future planning horizon becoming durable documents, historical records becoming a map through discussion, and a structured folder connecting to people. Each lane ends with a purple onion and a dotted continuation."}
+
 ::: {.notes}
 Narrative:
 
@@ -174,7 +192,7 @@ I’ll take you through three touchpoints. First, planning: developing a longer-
 
 Transition: Let us start with the longer-term vision—and what it asks of us today.
 
-Optional image alt-text: A three-row roadmap names planning and durable documentation, WRIS design and interpretive translation, and smart-folder implementation and access. Each row ends with an open question rather than a completed outcome.
+Image alt-text: Three parallel lanes show a future planning horizon becoming durable documents, historical records becoming a map through discussion, and a structured folder connecting to people. Each lane ends with a purple onion and a dotted continuation rather than a completed outcome.
 
 Support and boundaries: TP-04; author-selected talk sequence; readiness concerns narrative organization, not completed implementation.
 :::
@@ -183,6 +201,8 @@ Support and boundaries: TP-04; author-selected talk sequence; readiness concerns
 
 A long-term vision still requires choices about what to do now and whose capacity it assumes.
 
+![](assets/visuals/slide-12-planning-longer-horizon.png){.slide-image alt="A project lead at a modest desk faces a path toward an open-data map, a repeatable workflow and a packaged-software box. Upper steps are dashed, and a large arrow returns from the future to the desk."}
+
 ::: {.notes}
 Narrative:
 
@@ -190,7 +210,7 @@ I wanted a longer-term vision: open data, work that people could run again, and 
 
 Transition: Repeated conversations then raised a different problem: how to follow the reasoning across them.
 
-Optional image alt-text: A staircase leads from open data toward reproducible execution and eventual containerization. Steps are labeled as a working vision, not a completion chart. Present-day capacity and decisions appear at its base.
+Image alt-text: A project lead at a modest desk faces a path toward an open-data map, a repeatable workflow and a packaged-software box. Upper steps are dashed, and a large arrow returns from the future to the desk, marking the path as a working vision.
 
 Support and boundaries: DR-04, TP-05; author-reported planning experience and ambitions; no validated implementation claim.
 :::
@@ -199,6 +219,8 @@ Support and boundaries: DR-04, TP-05; author-reported planning experience and am
 
 A durable record addressed tracing difficulties while creating selection decisions and documentation burden.
 
+![](assets/visuals/slide-13-planning-durable-record.png){.slide-image alt="Disconnected conversation cards surround a person who selects some for an organized folder while others remain outside. A purple onion halo marks the selection point, and documents accumulate beside the folder."}
+
 ::: {.notes}
 Narrative:
 
@@ -206,7 +228,7 @@ As the conversations accumulated, I started losing the thread. Which assumption 
 
 Transition: The design example shows why preserving a particular change in understanding can matter.
 
-Optional image alt-text: Separate conversations feed a selected durable record. A decision point asks what is preserved; a growing documentation pile represents reported maintenance burden. The graphic does not imply automatic or complete capture.
+Image alt-text: Disconnected conversation cards surround a person who selects some for an organized folder while others remain outside. A purple onion halo marks the selection point, and documents accumulate beside the folder. The graphic does not imply automatic or complete capture.
 
 Support and boundaries: DR-05, TP-05; author-reported isolated chats, conversation limits, externalization and burden; no general productivity effect established.
 :::
@@ -215,6 +237,8 @@ Support and boundaries: DR-05, TP-05; author-reported isolated chats, conversati
 
 Learning sessions changed what I thought the records could provide directly.
 
+![](assets/visuals/slide-14-wris-revising-understanding.png){.slide-image alt="On the left, one record points directly to a watershed map. On the right, two colleagues trace a route through connected historical records and an archive box toward the same map. This depicts a change in understanding, not a verified technical schema."}
+
 ::: {.notes}
 Narrative:
 
@@ -222,7 +246,7 @@ The Water Rights Information System, WRIS, gave me a concrete encounter with cha
 
 Transition: That learning changed what our specifications needed to explain.
 
-Optional image alt-text: An initial expectation of one record containing readily available answers is contrasted with a family of connected historical records requiring interpretation. This depicts the author’s conceptual change, not a verified technical schema. Existing comparison artwork requires separate accuracy and redistribution review.
+Image alt-text: On the left, one record points directly to a watershed map. On the right, two colleagues trace a route through connected historical records and an archive box toward the same map. This depicts the author’s conceptual change, not a verified technical schema.
 
 Support and boundaries: WR-01–WR-03; author account, session 2026-10-28. Comparison PNG visually inspected; underlying metadata, technical relationships and specifications not independently checked.
 :::
@@ -231,6 +255,8 @@ Support and boundaries: WR-01–WR-03; author account, session 2026-10-28. Compa
 
 GenAI helped document our evolving understanding and the decisions shaping revised specifications.
 
+![](assets/visuals/slide-15-wris-preserving-decisions.png){.slide-image alt="Two colleagues examine connected records, leading to a shared conceptual map and more explicit specification pages. A smaller bot branch organizes selected notes after the human learning, and a purple scrutiny boundary separates the documented product from prospective reviewers."}
+
 ::: {.notes}
 Narrative:
 
@@ -238,7 +264,7 @@ Those conversations with colleagues changed how I understood the records. I used
 
 Transition: How do we give that evolving record somewhere to live, and a way for others to work with it?
 
-Optional image alt-text: A sequence links initial assumptions, human learning discussions, revised understanding and explicit specifications. GenAI assistance is attached to processing and documenting that evolution; it is not shown as the source of domain expertise.
+Image alt-text: Two colleagues examine connected records, leading to a shared conceptual map and more explicit specification pages. A smaller bot branch organizes selected notes after the human learning, and a purple scrutiny boundary separates the documented product from prospective reviewers. GenAI is not shown as the source of domain expertise.
 
 Support and boundaries: WR-02–WR-05; author-reported revised specifications, not an inspected artifact comparison or demonstrated improvement in community understanding.
 :::
@@ -247,6 +273,8 @@ Support and boundaries: WR-02–WR-05; author-reported revised specifications, n
 
 The smart folder connects GenAI assistance with a durable record—and opens questions about access and participation.
 
+![](assets/visuals/slide-16-smart-folder.png){.slide-image alt="A person and an assisting bot select material for a central structured folder connected to six record types. Diverse people approach through different paths and a purple onion boundary, representing questions about access, skills and participation."}
+
 ::: {.notes}
 Narrative:
 
@@ -254,7 +282,7 @@ The smart folder is one way I’m working on that connection. It’s a project f
 
 Transition: Making it available raises a further question: does participation require AI?
 
-Optional image alt-text: The bot connects through a structured project folder to editable sessions, synthesis, sources and decisions. Other people approach the record through access, skills and participation questions. Links represent selected provenance, not complete model reasoning.
+Image alt-text: A person and an assisting bot select material for a central structured folder connected to six record types. Diverse people approach through different paths and a purple onion boundary, representing questions about access, skills and participation. Links represent selected provenance, not complete model reasoning.
 
 Support and boundaries: DR-06, TP-06; inspectable repository structure plus author-proposed collaborative use; no demonstrated access or accountability benefit.
 :::
@@ -263,6 +291,8 @@ Support and boundaries: DR-06, TP-06; inspectable repository structure plus auth
 
 People should be able to read, question and maintain the record without GenAI.
 
+![](assets/visuals/slide-17-ai-assisted-not-dependent.png){.slide-image alt="People connect directly to editable project files through a thick two-way path. An optional bot loop rejoins the same files, while dashed branches lead toward a proposed website and local model as future directions."}
+
 ::: {.notes}
 Narrative:
 
@@ -270,7 +300,7 @@ The principle is AI-assisted, not AI-dependent. People should be able to read, q
 
 Transition: These approaches bring us back to the work of chopping.
 
-Optional image alt-text: Human readers access the durable record directly, with an optional GenAI path alongside it. A proposed human-readable website and possible future local-model assistance are marked as development directions, not achieved accessibility.
+Image alt-text: People connect directly to editable project files through a thick two-way path. An optional bot loop rejoins the same files, while dashed branches lead toward a proposed website and local model. The branches mark future directions, not achieved accessibility or model portability.
 
 Support and boundaries: TP-06–TP-07; design principle, existing editable files, and explicitly prospective interface/model ambitions. No tested accessibility or model portability claim.
 :::
@@ -279,6 +309,8 @@ Support and boundaries: TP-06–TP-07; design principle, existing editable files
 
 Scrutiny takes work. Who has the time, knowledge, access and authority to participate?
 
+![](assets/visuals/slide-18-onion-chopping-capacity.png){.slide-image alt="At a shared table, a diverse group prepares purple onions and salad. People contribute by cutting, reading a record, arranging ingredients, scheduling and discussing; icons above represent time, knowledge, access and shared authority."}
+
 ::: {.notes}
 Narrative:
 
@@ -286,7 +318,7 @@ So, how many onions are you willing to chop? And perhaps more importantly: how m
 
 Transition: Our project-level relationships also sit within larger systems.
 
-Optional image alt-text: Several onions sit beside questions about time, expertise, access and authority. People have differing resources for scrutiny; the image avoids treating nonparticipation as a simple lack of willingness.
+Image alt-text: At a shared table, a diverse group prepares purple onions and salad. People contribute by cutting, reading a record, arranging ingredients, scheduling and discussing; icons above represent time, knowledge, access and shared authority. Differing contributions do not imply differing willingness.
 
 Support and boundaries: DR-07; author-directed normative questions and scope, not empirical findings about a community.
 :::
@@ -295,6 +327,8 @@ Support and boundaries: DR-07; author-directed normative questions and scope, no
 
 Our project decisions sit within larger systems of power and influence.
 
+![](assets/visuals/slide-19-larger-systems.png){.slide-image alt="A highlighted project circle of people, a folder, an assisting bot, a public map and a water landscape sits inside a larger network of computing infrastructure, government, organizational decisions, environmental systems and wider publics. Lines show relationships, not measured power or causal effects."}
+
 ::: {.notes}
 Narrative:
 
@@ -302,7 +336,7 @@ Before closing, I want to acknowledge the larger picture. Our work sits within m
 
 Transition: Let me bring that back to the work we can keep doing together.
 
-Optional image alt-text: A smaller development relationship is nested within a larger technological relationship involving people at unequal positions of power and influence. The image locates the case rather than claiming to quantify those differences.
+Image alt-text: A highlighted project circle of people, a folder, an assisting bot, a public map and a water landscape sits inside a larger network of computing infrastructure, government, organizational decisions, environmental systems and wider publics. Lines show relationships, not measured power or causal effects.
 
 Support and boundaries: TP-08; author-proposed discussion framing. No quotations, factual assertions or identifying material from private event notes are reproduced.
 :::
@@ -311,6 +345,8 @@ Support and boundaries: TP-08; author-proposed discussion framing. No quotations
 
 Each approach opens further equity questions. Productive resistance keeps them visible and open to participation as the work evolves.
 
+![](assets/visuals/slide-20-conclusion-open-questions.png){.slide-image alt="A winding path passes selected documents, connected records becoming a watershed map, and a structured folder, with a purple onion after each. The path reaches a diverse group around shared materials and continues as dots toward another onion."}
+
 ::: {.notes}
 Narrative:
 
@@ -318,7 +354,7 @@ What I hope this story leaves with you is a sense of the work continuing. I trie
 
 Transition: Thank you. I look forward to continuing these questions in the shared Q&A at the end of the presentation cycle.
 
-Optional image alt-text: The three touchpoints form an open-ended sequence: challenge, approach, further equity questions. The sequence remains open; no final resolution or measured benefit is implied.
+Image alt-text: A winding path passes selected documents, connected records becoming a watershed map, and a structured folder, with a purple onion after each. The path reaches a diverse group around shared materials and continues as dots toward another onion. No final resolution or measured benefit is implied.
 
 Support and boundaries: DR-08; author-directed conclusion checkpoint. Ready concerns the agreed framing, not empirical proof or completed participation.
 :::

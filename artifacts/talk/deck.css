@@ -54,14 +54,17 @@
   line-height: 1.4;
 }
 
-/* Optional future figure placement; no empty box appears in the deck. */
+/* Integrated slide figures sit below the core message and preserve aspect ratio. */
 .reveal .slide-image {
   display: block;
   position: static;
-  width: 100%;
-  max-height: 360px;
-  margin: 0.5em 0 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 340px;
+  margin: 0.45em auto 0;
   object-fit: contain;
+  object-position: center top;
 }
 .reveal #title-slide { text-align: center; }
 .reveal #title-slide h1.title { color: var(--owrd-blue) !important; }

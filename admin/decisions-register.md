@@ -6,6 +6,14 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25",
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
 
+## 2026-10-28 — integrated-illustrated-deck {#integrated-illustrated-deck}
+
+Decision: Use the complete tracked set of 18 presentation visuals on slides 3 through 20, positioned below the visible core messages. Preserve the full speaker-note narratives and image descriptions in the notes while also providing true image alt attributes in the rendered deck.
+
+Rationale: Move from the image-ready Plan A fallback to an illustrated presentation while retaining the deck's traceable narrative and nonvisual descriptions.
+
+Status: explicit author instruction. The focused deck rendered and the image-bearing slides passed a visual fit review; this does not establish the factual accuracy of artwork beyond the recorded narrative boundaries. Timed rehearsal and author preview remain. The author subsequently requested committing this integration; no push or publication is authorized.
+
 ## 2026-10-28 — presentation-readiness-and-layout {#presentation-readiness-and-layout}
 
 Decision: Promote current statements to ready for presentation, remove visible readiness labels, enlarge titles in bold Georgia and left-align text with image space on the right. Render this version.
