@@ -59,3 +59,6 @@ desktop.ini
 **/assets/**/*.[tT][iI][fF][fF]
 **/assets/**/*.[iI][cC][oO]
 !artifacts/talk/assets/owrd-logos/ALTERNATE Logo.png
+
+# Author-approved presentation visual candidates.
+!artifacts/talk/assets/visuals/*.[pP][nN][gG]

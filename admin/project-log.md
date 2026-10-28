@@ -6,6 +6,8 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22",
 
 ## 2026-10-28
 
+Completed a candidate visual set for slides 3 through 20 using transparent PNGs, agency colors and the agreed purple onion scale. The author explicitly requested tracking the visual folder and committing this checkpoint. Added a narrow ignore exception for `artifacts/talk/assets/visuals/`; the images remain outside the deck pending author selection and integration. The separate interpreter PDF and image-reference PowerPoint remain untracked. No push or publication authorized.
+
 Author approved the agency-branded presentation checkpoint and requested a commit. Added a narrow ignore exception for the referenced alternate logo so the source remains reproducible. Preparing a separate organizer PDF with speaker notes for ASL support; no push or publication authorized.
 
 Adjusted the title slide to centered agency blue, added the alternate agency logo clear of the menu, and restored full-width left-aligned messages with image space below. Changes remain uncommitted.
