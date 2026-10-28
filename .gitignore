@@ -45,3 +45,16 @@ Thumbs.db
 desktop.ini
 
 **/*.quarto_ipynb
+
+# Temporarily keep image files in assets folders out of version control.
+**/assets/**/*.[pP][nN][gG]
+**/assets/**/*.[jJ][pP][gG]
+**/assets/**/*.[jJ][pP][eE][gG]
+**/assets/**/*.[gG][iI][fF]
+**/assets/**/*.[sS][vV][gG]
+**/assets/**/*.[wW][eE][bB][pP]
+**/assets/**/*.[aA][vV][iI][fF]
+**/assets/**/*.[bB][mM][pP]
+**/assets/**/*.[tT][iI][fF]
+**/assets/**/*.[tT][iI][fF][fF]
+**/assets/**/*.[iI][cC][oO]
