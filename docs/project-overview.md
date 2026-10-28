@@ -19,7 +19,7 @@ Prepare *Frictionless Reasoning About a Resistant World*, a talk on GenAI suppor
 
 ## Scope and current state
 
-**October 28 current state:** the illustrated, agency-branded 20-slide deck includes the reviewed core messages, full speaker notes, 18 visuals and image descriptions. The focused build links the deck with selected preparation and project-record pages. The author has authorized public deployment through GitHub Pages. A timed rehearsal and any final author-directed refinements remain. Evidence and implementation limits stay visible in the claims register and notes. See [today's session](../sessions/2026-10-28.md) and [current synthesis](../knowledge-base/01_core-thesis-and-contribution.md).
+**October 28 current state:** the illustrated, agency-branded 20-slide deck includes the reviewed core messages, full speaker notes, 18 visuals and image descriptions. The [public focused site](https://oregonwater.github.io/gen_ai_workflows_data_equity/) links the deck with selected preparation and project-record pages. A timed rehearsal and any final author-directed refinements remain. Evidence and implementation limits stay visible in the claims register and notes. See [today's session](../sessions/2026-10-28.md) and [current synthesis](../knowledge-base/01_core-thesis-and-contribution.md).
 
 The following paragraphs preserve earlier development context; the October 28 state above governs current preparation.
 

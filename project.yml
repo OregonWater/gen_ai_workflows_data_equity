@@ -3,7 +3,7 @@ project: gen_ai_workflows_data_equity
 stage: drafting
 stages: [scaffold, outline, drafting, rehearsal, delivered]
 last_session: "2026-10-28"
-critical_path_blocker: "The focused site and illustrated deck are ready for public deployment. GitHub Pages URL verification, a timed rehearsal and any final author-directed refinements remain. Organizer PDF deferred by the author."
+critical_path_blocker: "The focused site and illustrated deck are published. A timed rehearsal and any final author-directed refinements remain. Organizer PDF deferred by the author."
 paths:
   knowledge_base: knowledge-base
   docs: docs
@@ -21,6 +21,6 @@ components:
 external_gates:
   - "Focused-site publication explicitly authorized on 2026-10-28; future publication updates require separate confirmation."
 next_actions:
-  - "Publish the reviewed focused build to GitHub Pages and verify the public landing page, deck, visual assets and speaker-note support."
   - "Complete a timed rehearsal and apply only author-directed refinements needed for delivery."
+  - "Republish only if the author requests further public-site changes."
   - "Keep the organizer PDF deferred unless the author reopens it. Preserve unresolved evidence limits in the claims register and notes."

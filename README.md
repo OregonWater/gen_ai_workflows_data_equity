@@ -10,6 +10,7 @@ A presentation project by **Francisco J. Guerrero** on GenAI supported workflows
 ## Start here
 
 - [Project overview](docs/project-overview.md)
+- [Public focused site](https://oregonwater.github.io/gen_ai_workflows_data_equity/)
 - [Repository guide](docs/repository-guide.md)
 - [Current project state](project.yml)
 - [Latest session](sessions/2026-10-28.md)
@@ -36,7 +37,7 @@ Use `quarto preview --profile complete` or `quarto preview --profile focused` fo
 
 ## Scope and status
 
-The illustrated 20-slide deck, full speaker notes and focused review site are assembled and validated. The author has authorized public deployment of the focused site through GitHub Pages. A timed rehearsal and any final author-directed refinements remain; evidence limits stay recorded in the claims register and slide notes.
+The illustrated 20-slide deck, full speaker notes and focused review site are assembled, validated and published through GitHub Pages. A timed rehearsal and any final author-directed refinements remain; evidence limits stay recorded in the claims register and slide notes.
 
 No raw transcripts are stored. Session containers are the session record; the project log and decision register serve the distinct roles specified by the workflow.
 

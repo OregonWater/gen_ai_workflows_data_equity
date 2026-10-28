@@ -12,7 +12,7 @@ Decision: Publish the focused Quarto profile through GitHub Pages using a manual
 
 Rationale: Make the current presentation and its traceable development record publicly accessible while keeping generated output off `main` and preserving a review step before each deployment.
 
-Status: active; the author explicitly requested publication. Landing-page and focused-session cleanup are in progress. Deployment and public-URL verification remain pending. The ignored nonpublic and reference files remain outside the publication boundary.
+Status: active and implemented. The author explicitly requested publication. The focused site is live at https://oregonwater.github.io/gen_ai_workflows_data_equity/ from the `gh-pages` branch. Live checks confirmed the landing page, deck, visual assets, speaker notes and current search entries. The ignored nonpublic and reference files remain outside the publication boundary.
 
 ## 2026-10-28 — integrated-illustrated-deck {#integrated-illustrated-deck}
 
