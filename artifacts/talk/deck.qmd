@@ -1,25 +1,27 @@
 ---
 title: "Frictionless Reasoning About a Resistant World"
 subtitle: "Equity questions from developing public water-data products with GenAI"
-author: "Francisco J. Guerrero"
+author:
+  - name: "Francisco J. Guerrero"
+    affiliation: "2026 Oregon Data Equity Summit"
 format:
   revealjs:
     theme: white
     slide-number: true
     transition: none
-    center: true
+    center: false
     width: 1280
     height: 720
     margin: 0.08
     title-slide-attributes:
       data-background-color: "#FFFFFF"
     css: deck.css
-    footer: "2026 Oregon Data Equity Summit · Working draft"
+    logo: "assets/owrd-logos/ALTERNATE Logo.png"
 ---
 
 ## GenAI assistance
 
-GenAI assisted the preparation of this presentation. I am responsible for its claims, decisions, and final wording. (ready)
+GenAI assisted the preparation of this presentation. I am responsible for its claims, decisions, and final wording.
 
 ::: {.notes}
 Narrative:
@@ -35,7 +37,7 @@ Support and boundaries: Project authorship rules; session 2026-10-28.
 
 ## A two-page guide
 
-A readable draft still leaves questions about the circumstances its advice assumes. (ready)
+A readable draft still leaves questions about the circumstances its advice assumes.
 
 ::: {.notes}
 Narrative:
@@ -51,7 +53,7 @@ Support and boundaries: OP-01; author-approved hypothetical illustration.
 
 ## Technological mediation
 
-Technologies help shape how we encounter and interpret the world. (requires review)
+Technologies help shape how we encounter and interpret the world.
 
 ::: {.notes}
 Narrative:
@@ -67,7 +69,7 @@ Support and boundaries: ME-01–ME-03; assessed Ihde (1990), pp. 72–76, 85–8
 
 ## Onions and the work of scrutiny
 
-Onions represent layered assumptions and conditions. Chopping represents scrutiny. (ready)
+Onions represent layered assumptions and conditions. Chopping represents scrutiny.
 
 ::: {.notes}
 Narrative:
@@ -83,7 +85,7 @@ Support and boundaries: DR-02; author-defined metaphor and revised shading meani
 
 ## The bot’s generative branch
 
-We can question assumptions in a bot’s response without establishing, from the conversation alone, how they arose. (ready)
+We can question assumptions in a bot’s response without establishing, from the conversation alone, how they arose.
 
 ::: {.notes}
 Narrative:
@@ -99,7 +101,7 @@ Support and boundaries: OP-02, DR-03; Turpin et al. (2023), official NeurIPS abs
 
 ## Frictionless reasoning
 
-A coherent draft can carry us forward before we examine whether its assumptions fit. (requires review)
+A coherent draft can carry us forward before we examine whether its assumptions fit.
 
 ::: {.notes}
 Narrative:
@@ -115,7 +117,7 @@ Support and boundaries: ME-09, OP-01–OP-02; author interpretation and hypothet
 
 ## My work at OWRD
 
-My technical-assistance work connects people and water data for planning. (requires review)
+My technical-assistance work connects people and water data for planning.
 
 ::: {.notes}
 Narrative:
@@ -131,7 +133,7 @@ Support and boundaries: DR-01, TP-01; author account. Official program wording r
 
 ## Connecting people to data proactively
 
-TAPs aims to make technical assistance available through open, reproducible products. (requires review)
+TAPs aims to make technical assistance available through open, reproducible products.
 
 ::: {.notes}
 Narrative:
@@ -147,7 +149,7 @@ Support and boundaries: TP-02; author-proposed evolution. Detailed historical co
 
 ## Can GenAI assist?
 
-The work spans planning, design, implementation, testing, launch and user engagement. (requires review)
+The work spans planning, design, implementation, testing, launch and user engagement.
 
 ::: {.notes}
 Narrative:
@@ -163,7 +165,7 @@ Support and boundaries: TP-03, DR-04; author-reported responsibilities and capac
 
 ## Three touchpoints in an ongoing process
 
-Planning, dataset design and implementation each introduce further equity questions. (ready)
+Planning, dataset design and implementation each introduce further equity questions.
 
 ::: {.notes}
 Narrative:
@@ -179,7 +181,7 @@ Support and boundaries: TP-04; author-selected talk sequence; readiness concerns
 
 ## Planning: a longer horizon
 
-A long-term vision still requires choices about what to do now and whose capacity it assumes. (requires review)
+A long-term vision still requires choices about what to do now and whose capacity it assumes.
 
 ::: {.notes}
 Narrative:
@@ -195,7 +197,7 @@ Support and boundaries: DR-04, TP-05; author-reported planning experience and am
 
 ## Planning: bringing reasoning into a record
 
-A durable record addressed tracing difficulties while creating selection decisions and documentation burden. (requires review)
+A durable record addressed tracing difficulties while creating selection decisions and documentation burden.
 
 ::: {.notes}
 Narrative:
@@ -211,7 +213,7 @@ Support and boundaries: DR-05, TP-05; author-reported isolated chats, conversati
 
 ## WRIS: revising our understanding
 
-Learning sessions changed what I thought the records could provide directly. (requires review)
+Learning sessions changed what I thought the records could provide directly.
 
 ::: {.notes}
 Narrative:
@@ -227,7 +229,7 @@ Support and boundaries: WR-01–WR-03; author account, session 2026-10-28. Compa
 
 ## WRIS: preserving the translation decisions
 
-GenAI helped document our evolving understanding and the decisions shaping revised specifications. (requires review)
+GenAI helped document our evolving understanding and the decisions shaping revised specifications.
 
 ::: {.notes}
 Narrative:
@@ -243,7 +245,7 @@ Support and boundaries: WR-02–WR-05; author-reported revised specifications, n
 
 ## Implementation: a smart folder
 
-The smart folder connects GenAI assistance with a durable record—and opens questions about access and participation. (requires review)
+The smart folder connects GenAI assistance with a durable record—and opens questions about access and participation.
 
 ::: {.notes}
 Narrative:
@@ -259,7 +261,7 @@ Support and boundaries: DR-06, TP-06; inspectable repository structure plus auth
 
 ## AI-assisted, not AI-dependent
 
-People should be able to read, question and maintain the record without GenAI. (requires review)
+People should be able to read, question and maintain the record without GenAI.
 
 ::: {.notes}
 Narrative:
@@ -275,7 +277,7 @@ Support and boundaries: TP-06–TP-07; design principle, existing editable files
 
 ## How many onions are you willing to chop?
 
-Scrutiny takes work. Who has the time, knowledge, access and authority to participate? (ready)
+Scrutiny takes work. Who has the time, knowledge, access and authority to participate?
 
 ::: {.notes}
 Narrative:
@@ -291,7 +293,7 @@ Support and boundaries: DR-07; author-directed normative questions and scope, no
 
 ## Our work within larger systems
 
-Our project decisions sit within larger systems of power and influence. (requires review)
+Our project decisions sit within larger systems of power and influence.
 
 ::: {.notes}
 Narrative:
@@ -307,7 +309,7 @@ Support and boundaries: TP-08; author-proposed discussion framing. No quotations
 
 ## Conclusion: keeping equity questions open
 
-Each approach opens further equity questions. Productive resistance keeps them visible and open to participation as the work evolves. (ready)
+Each approach opens further equity questions. Productive resistance keeps them visible and open to participation as the work evolves.
 
 ::: {.notes}
 Narrative:

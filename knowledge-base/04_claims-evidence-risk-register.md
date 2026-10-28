@@ -95,3 +95,8 @@ This 20-slide revision supersedes earlier slide counts and assignments. Each con
 | TP-08 | Project relationships sit within larger systems; acknowledge concerns while focusing discussion | Author's scope and Q&A framing | Requires review; conceptual/normative statement, not quantified power analysis; private notes not reproduced |
 
 WRIS wording is deliberately limited to the author's conceptual change, human learning, assisted documentation and revised-specification account. It avoids technical water-rights instruction. The full narrative does not establish independently checked specification content, legal correctness or improved public understanding. DR-07 now anchors the chopping/participation slide; DR-08 retains the reviewed conclusion.
+
+
+## Author readiness promotion — October 28
+
+The author promoted the current statements to ready for presentation and requested removal of visible readiness labels. This supersedes earlier presentation-readiness labels; source-reading coverage, author-report attribution, hypothetical framing and outstanding artifact-verification limits remain as recorded. No new technical or empirical verification was performed in this layout pass.

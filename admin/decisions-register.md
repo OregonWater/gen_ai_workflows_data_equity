@@ -6,6 +6,14 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25",
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
 
+## 2026-10-28 — presentation-readiness-and-layout {#presentation-readiness-and-layout}
+
+Decision: Promote current statements to ready for presentation, remove visible readiness labels, enlarge titles in bold Georgia and left-align text with image space on the right. Render this version.
+
+Rationale: Prepare the reviewed narrative for optional illustration while preserving an image-free version.
+
+Status: explicit author instruction. Evidence limits remain recorded. Do not commit until the author gives further instructions.
+
 ## 2026-10-28 — plan-a-checkpoint {#plan-a-checkpoint}
 
 Decision: Preserve the current 20-slide text-first deck and its full narrative as Plan A, usable without images after rendering.

@@ -21,21 +21,60 @@
   --r-selection-color: #FFFFFF;
 }
 
-.reveal h1 { font-size: 1.75em; color: var(--owrd-blue); }
+.reveal h1 { font-size: 1.85em; color: var(--owrd-blue); }
+.reveal h1, .reveal h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  text-transform: none;
+}
 .reveal .subtitle { font-size: 0.7em; color: var(--owrd-green); }
-.reveal .footer { font-size: 0.45em; color: var(--owrd-brown); }
+.reveal #title-slide .quarto-title-affiliation {
+  margin-top: 0.35em;
+  color: var(--owrd-brown);
+  font-size: 0.62em;
+}
 .reveal strong { color: var(--owrd-green); }
 .reveal .controls { color: var(--owrd-blue); }
 .reveal .progress { color: var(--owrd-green); background: var(--owrd-sand); }
 .reveal .slide-number { color: var(--owrd-blue); background: #FFFFFF; }
 .reveal a:focus-visible { outline: 3px solid var(--owrd-blue); outline-offset: 4px; }
 
-/* Text-first slides stand alone without their optional illustrations. */
-.reveal .slides section { text-align: center; }
-.reveal h2 { font-size: 1.15em; margin-bottom: 1em; }
-.reveal .slides section > p {
-  max-width: 1000px;
-  margin: 0 auto;
+/* Full-width message above the area reserved for optional images. */
+.reveal .slides section { text-align: left; }
+.reveal h2 {
+  font-size: 1.5em;
+  line-height: 1.15;
+  margin-bottom: 0.75em;
+}
+.reveal .slides section.slide > p {
+  width: 100%;
+  max-width: none;
+  margin: 0;
   font-size: 1.05em;
   line-height: 1.4;
+}
+
+/* Optional future figure placement; no empty box appears in the deck. */
+.reveal .slide-image {
+  display: block;
+  position: static;
+  width: 100%;
+  max-height: 360px;
+  margin: 0.5em 0 0;
+  object-fit: contain;
+}
+.reveal #title-slide { text-align: center; }
+.reveal #title-slide h1.title { color: var(--owrd-blue) !important; }
+.reveal #title-slide > p { width: 100%; max-width: none; }
+
+/* Keep the agency mark clear of the menu button at bottom left. */
+.reveal .slide-logo {
+  left: 64px !important;
+  right: auto !important;
+  bottom: 8px !important;
+  width: 180px !important;
+  height: auto !important;
+  max-width: 45vw !important;
+  max-height: 80px !important;
+  object-fit: contain !important;
 }

@@ -6,6 +6,12 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22",
 
 ## 2026-10-28
 
+Author approved the agency-branded presentation checkpoint and requested a commit. Added a narrow ignore exception for the referenced alternate logo so the source remains reproducible. Preparing a separate organizer PDF with speaker notes for ASL support; no push or publication authorized.
+
+Adjusted the title slide to centered agency blue, added the alternate agency logo clear of the menu, and restored full-width left-aligned messages with image space below. Changes remain uncommitted.
+
+Author promoted statements to presentation-ready and requested label removal, larger Georgia Bold headings, left alignment and space for images. Updated source and styling; rendering authorized. Changes remain uncommitted pending explicit instruction.
+
 Author designated the 20-slide text-first presentation as Plan A and requested a checkpoint commit with its supporting records. Optional images remain future work. Provenance and whitespace checks passed; rendered HTML remains an earlier version under the standing render deferral. No publication authorized.
 
 Applied the supplied agency image's seven printed hex colors to deck CSS, using blue headings, green accents and a white title background. Centered layout retained; full-template compliance and rendered layout not asserted. Rendering remains deferred.

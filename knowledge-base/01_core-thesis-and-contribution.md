@@ -6,6 +6,10 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22",
 
 ## One-sentence message
 
+### October 28 author readiness and layout checkpoint
+
+The author promoted the statements to ready for presentation, requested removing readiness labels and authorized rendering. The deck now uses larger bold Georgia titles, left-aligned messages and right-side space for optional images. Support notes retain their evidence limits. Commit authorization is withheld pending further instructions. Earlier render deferrals and visible-label descriptions below are historical.
+
 ### October 28 spoken-voice revision
 
 At the author's direction, the full narrative now uses warmer, conversational language and gentle humor in the onion metaphor. The aim is connection while retaining rigor through bounded claims and separate support notes. No readiness labels or factual support levels changed. See today's session.

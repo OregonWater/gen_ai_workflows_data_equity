@@ -3,7 +3,7 @@ project: gen_ai_workflows_data_equity
 stage: drafting
 stages: [scaffold, outline, drafting, rehearsal, delivered]
 last_session: "2026-10-28"
-critical_path_blocker: "Complete 20-slide text-first narrative drafted. Author wording review, remaining support limits, timed read-through and visual rendering remain; rendering deferred until first-draft review is complete."
+critical_path_blocker: "Presentation-ready text and agency-branded layout approved and rendered. Optional illustrations and timed rehearsal remain; organizer PDF with speaker notes is being prepared."
 paths:
   knowledge_base: knowledge-base
   docs: docs
