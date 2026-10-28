@@ -1,9 +1,9 @@
 # Present state only; rationale and history live in admin/ and sessions/.
 project: gen_ai_workflows_data_equity
-stage: scaffold
+stage: drafting
 stages: [scaffold, outline, drafting, rehearsal, delivered]
-last_session: "2026-10-26"
-critical_path_blocker: "No infrastructure blocker. Working w-prime definition accepted; project-design, WRIS and smart-folder narrative direction established. Targeted foundation and case review, diagram semantics, slide wording and timed sequence remain open before October 27 rehearsal."
+last_session: "2026-10-28"
+critical_path_blocker: "Complete 20-slide text-first narrative drafted. Author wording review, remaining support limits, timed read-through and visual rendering remain; rendering deferred until first-draft review is complete."
 paths:
   knowledge_base: knowledge-base
   docs: docs
@@ -20,7 +20,7 @@ open_decisions:
 components:
   scripts/00_setup.R: stub
   tools/build-provenance.R: complete
-  artifacts/talk/deck.qmd: stub
+  artifacts/talk/deck.qmd: in-progress
 external_gates:
   - "Explicit author request before committing; separate confirmation before publication."
 next_actions:

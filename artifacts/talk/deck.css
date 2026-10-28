@@ -1,3 +1,41 @@
-.reveal h1 { font-size: 1.75em; }
-.reveal .subtitle { font-size: 0.7em; }
-.reveal .footer { font-size: 0.45em; }
+/* Agency palette: official_agency_color_codes.png, supplied by the author.
+   Use the printed hexadecimal values as the screen-color reference. */
+:root {
+  --owrd-blue: #005DA6;
+  --owrd-light-blue: #0F9AD6;
+  --owrd-green: #4A7729;
+  --owrd-light-green: #7A9A01;
+  --owrd-brown: #7A6855;
+  --owrd-taupe: #B7A99A;
+  --owrd-sand: #D1CCBD;
+}
+
+.reveal {
+  --r-background-color: #FFFFFF;
+  --r-main-color: #222222;
+  --r-heading-color: var(--owrd-blue);
+  --r-link-color: var(--owrd-blue);
+  --r-link-color-dark: var(--owrd-blue);
+  --r-link-color-hover: var(--owrd-green);
+  --r-selection-background-color: var(--owrd-blue);
+  --r-selection-color: #FFFFFF;
+}
+
+.reveal h1 { font-size: 1.75em; color: var(--owrd-blue); }
+.reveal .subtitle { font-size: 0.7em; color: var(--owrd-green); }
+.reveal .footer { font-size: 0.45em; color: var(--owrd-brown); }
+.reveal strong { color: var(--owrd-green); }
+.reveal .controls { color: var(--owrd-blue); }
+.reveal .progress { color: var(--owrd-green); background: var(--owrd-sand); }
+.reveal .slide-number { color: var(--owrd-blue); background: #FFFFFF; }
+.reveal a:focus-visible { outline: 3px solid var(--owrd-blue); outline-offset: 4px; }
+
+/* Text-first slides stand alone without their optional illustrations. */
+.reveal .slides section { text-align: center; }
+.reveal h2 { font-size: 1.15em; margin-bottom: 1em; }
+.reveal .slides section > p {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 1.05em;
+  line-height: 1.4;
+}

@@ -1,8 +1,26 @@
 ---
 title: 'Project log'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25", "2026-10-26"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25", "2026-10-26", "2026-10-28"]
 ---
+
+## 2026-10-28
+
+Author designated the 20-slide text-first presentation as Plan A and requested a checkpoint commit with its supporting records. Optional images remain future work. Provenance and whitespace checks passed; rendered HTML remains an earlier version under the standing render deferral. No publication authorized.
+
+Applied the supplied agency image's seven printed hex colors to deck CSS, using blue headings, green accents and a white title background. Centered layout retained; full-template compliance and rendered layout not asserted. Rendering remains deferred.
+
+Revised all spoken narratives for the author's warm, conversational style, with light onion humor and invitations to shared reflection. Preserved support notes, claim boundaries and readiness labels. Rendering remains deferred.
+
+Completed a 20-slide text-first source draft with centered core messages, full spoken narrative, transitions and optional-image alt-text. Added the agreed TAPs setup and larger-systems discussion framing; limited WRIS to the conceptual-change story. No images are required. Source checks passed; rendering and timed rehearsal remain pending under the author's review sequence.
+
+Refined the WRIS touchpoint from the author's specific account of changing conceptual understanding and revised specifications. Visually inspected the working diagram without treating it as verified technical evidence. Updated two slides to requires review; underlying artifact comparison remains pending. Rendering held.
+
+Updated the opening with a hypothetical conservation guide, mediation, clarified onion/chopping distinction, generative branch and frictionless reasoning. Registered a bounded explanation-faithfulness source check and recorded the superseded shading meaning. Expanded to 14 slides; no render performed under the author's explicit deferral. Next: opening read-through and TAPs touchpoints.
+
+Closed the conclusion review checkpoint at the author's request under an approximately one-hour deck deadline. Reframed slide 13 around evolving challenges and further equity questions; recorded participation, solo-process limitations and repository-access questions. Ready denotes this checkpoint; supporting case review remains open.
+
+Drafted the author-requested 13-slide rough narrative with presentation-assistance disclosure, labeled core messages, definitions and transitions in notes, and a tentative conclusion. Registered provisional claims and slide assignments; WRIS artifacts, onion semantics, final wording and timing remain open. See today's session for assistance and checks. No commit or publication performed.
 
 ## 2026-10-26
 

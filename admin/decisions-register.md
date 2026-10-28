@@ -1,10 +1,50 @@
 ---
 title: 'Decisions register'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25", "2026-10-26"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25", "2026-10-26", "2026-10-28"]
 ---
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
+
+## 2026-10-28 — plan-a-checkpoint {#plan-a-checkpoint}
+
+Decision: Preserve the current 20-slide text-first deck and its full narrative as Plan A, usable without images after rendering.
+
+Rationale: Secure a presentation fallback before optional illustration work.
+
+Status: author explicitly requested the checkpoint commit. Readiness labels and support limits remain; rendering is still deferred. No push or publication authorized.
+
+## 2026-10-28 — text-first-presentation {#text-first-presentation}
+
+Decision: Prepare centered core messages with full narrative and optional-image alt-text in speaker notes, so the deck can be used without illustrations. Keep readiness labels and the agreed case/conclusion framing.
+
+Rationale: Prioritize a complete usable narrative under the author's time constraint; illustrations remain optional. A larger-systems slide acknowledges concerns and focuses Q&A.
+
+Status: author-requested format; assistant selected 20 slides and drafted narrative. Final wording, timing and layout remain for review. Rendering deferred by standing instruction.
+
+## 2026-10-28 — onion-meaning-and-opening {#onion-meaning-and-opening}
+
+Decision: Onions represent assumptions and conditions within mediation; chopping means scrutiny. Dark-to-light shows apparently straightforward mediation and its broader conditions, superseding the earlier privilege shading. Use the hypothetical conservation guide in the opening; reserve TAPs episodes for the case section.
+
+Rationale: Separate mediation, scrutiny and participation; avoid conflating shading with equity. Keep the generative branch an interpretive mental map with bounded claims about explanation.
+
+Status: author-agreed distinctions and example. Wording updated at the author's request; rendering deferred until first-draft review is complete.
+
+## 2026-10-28 — evolving-equity-conclusion {#evolving-equity-conclusion}
+
+Decision: Frame the conclusion around the evolving sequence of challenges, approaches and further equity questions. Productive resistance keeps questions visible and open to participation; its meaning remains context dependent.
+
+Rationale: The author rejects treating the talk as a closed case or settled solution. The smart folder and repository open further participation and access questions.
+
+Status: author-directed conceptual framing; author requested closing this review and proceeding. Slide wording is assistant synthesis marked ready for the checkpoint; supporting cases remain under review. No publication authorized.
+
+## 2026-10-28 — rough-deck-format {#rough-deck-format}
+
+Decision: Draft the 20-minute mediation/onion and project-design → WRIS → smart-folder narrative with a presentation-assistance disclaimer after the title and a conclusion. Keep tentative titles and labeled core messages visible; place definitions and transitions in speaker notes.
+
+Rationale: Give the author a minimal, reviewable narrative before polishing slides. The author delegated slide count and a tentative conclusion; the assistant selected 13 slides including the title.
+
+Status: author-authorized format and drafting scope. Readiness labels are assistant preparation assessments; wording, case evidence and conclusion remain for author review. No commit or publication authorized.
 
 ## 2026-10-26 — presentation-title-and-subtitle {#presentation-title-and-subtitle}
 

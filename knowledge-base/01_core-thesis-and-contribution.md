@@ -1,10 +1,35 @@
 ---
 title: 'Core thesis and contribution'
 sources: [taps-genai-initial-presentation, draining-oregon-2016, midcoast-water-rights-memo-2021, verbeek-mediation-theory, ihde-1990-phenomenology-technics, verbeek-2001-ihde-lifeworld, bommasani-etal-2021-foundation-models, lewis-etal-2020-rag, expert-systems-panel-2017]
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25", "2026-10-26"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25", "2026-10-26", "2026-10-28"]
 ---
 
 ## One-sentence message
+
+### October 28 spoken-voice revision
+
+At the author's direction, the full narrative now uses warmer, conversational language and gentle humor in the onion metaphor. The aim is connection while retaining rigor through bounded claims and separate support notes. No readiness labels or factual support levels changed. See today's session.
+
+### October 28 complete text-first draft
+
+The source deck now contains 20 slides including title, covering the agreed opening, OWRD/TAPs setup, three touchpoints, participation/access questions, larger-systems discussion framing and conclusion. Centered messages stand alone; notes contain the full assistant-drafted narrative, transitions and optional image alt-text. About 2,160 spoken words provide a planning estimate, not a rehearsed duration. No images are required or embedded; rendering remains deferred. WRIS stays at the conceptual-change level. See today's session and TP-01–TP-08 for support boundaries.
+
+### October 28 WRIS example checkpoint
+
+The author supplies a specific before/learning/after: initial metadata specified variables not readily available through the records; learning sessions reframed understanding toward a historical family of connected records requiring careful human translation; revised query specifications reportedly make the steps to a public spatial representation more explicit. GenAI helped document the evolution into the working comparison diagram. The PNG was visually inspected, but its technical content and the underlying specifications remain unchecked. Both WRIS slides now require review. This refines the earlier statement that the specific change was missing; the artifact-verification gap remains. See today's session.
+
+### October 28 opening checkpoint
+
+The opening uses an explicitly hypothetical two-page water-conservation guide, reserving TAPs episodes for the case section. Onions represent assumptions and conditions within mediation; chopping represents scrutiny. Dark-to-light describes apparently straightforward mediation and its broader conditions, replacing the earlier privilege interpretation. The salad-bar metaphor introduces effort, discomfort and participation without claiming benefits. The generative branch is an interpretive mental map, with the accepted caution that questioning assumptions does not establish their origins from conversation alone. A newly registered publisher abstract supports the narrow explanation-faithfulness caution; it does not validate the whole model. The expanded text-first deck has 14 slides; diagrams remain specified in notes and rendering is deferred. See today's session.
+
+### October 28 conclusion review checkpoint
+
+The author clarifies that the talk illustrates an ongoing sequence: approaches to prior challenges introduce further equity questions. The smart folder interfaces between GenAI assistance and a durable record; repository access opens further questions about audiences, skills and meaningful participation. Productive resistance means keeping questions visible and open to participation, with its meaning defined in context. The largely solo process and the possible exclusion of generation and feedback-incorporation conditions from team review remain limitations and concerns. Slide 13 now reflects this direction; its supporting examples remain under review. See today's session for the conclusion checkpoint.
+
+### October 28 rough deck — for author review
+
+A 13-slide text-first rough deck now follows the author-confirmed mediation/onion opening and project-design, WRIS and smart-folder sequence. The author requested a presentation-assistance disclaimer, visible core messages with readiness labels, definitions and transitions in notes, and a tentative conclusion. Draft wording and conclusion remain assistant proposals; the WRIS artifact comparison and onion semantics require substantial review. Labels assess preparation against recorded support, not final author approval. See [today's session](../sessions/2026-10-28.md) and the claim assignments in knowledge-base/04. The October 26 handoff below remains historical.
+
 
 ### October 26 conceptual checkpoint — current direction
 

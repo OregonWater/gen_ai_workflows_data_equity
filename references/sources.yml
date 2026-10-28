@@ -2,6 +2,13 @@
 # name, kind, location, tracked, bib retain the seed registry schema.
 # Additional verification notes make the status of each input explicit.
 sources:
+  turpin-etal-2023-unfaithful-explanations:
+    name: "Turpin, Michael, Perez and Bowman (2023): Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting"
+    kind: conference-paper
+    location: "https://papers.neurips.cc/paper_files/paper/2023/hash/ed3fea9033a80fea1376299fa7863f4a-Abstract-Conference.html"
+    tracked: false
+    bib: null
+    verification: "Checked 2026-10-28: official NeurIPS 2023 publisher metadata and abstract only. Reports tested explanations omitting experimentally introduced influences in GPT-3.5 and Claude 1.0. Supports bounded caution that conversational explanations alone do not establish the origin of assumptions. Full paper not read; does not prove universal opacity, characterize current products, or validate w-prime."
   vaswani-etal-2017-attention:
     name: "Vaswani et al. (2017): Attention Is All You Need"
     kind: conference-paper
