@@ -18,11 +18,19 @@ Install R and Quarto, open the .Rproj, and run renv::restore(). Then run quarto 
 
 `quarto render` defaults to the complete profile. Its site is `_site-complete/index.html`; its deck is `_site-complete/artifacts/talk/deck.html`. The explicit command is `quarto render --profile complete`.
 
-`quarto render --profile focused` builds ten selected pages in `_site-focused/`, including its own copy of the deck. Both outputs are local and ignored. The earlier `_site/` folder is legacy output, not updated by these profiles. No publication is part of the build.
+`quarto render --profile focused` builds the selected pages in `_site-focused/`, including its own copy of the deck. Both outputs are local and ignored. The earlier `_site/` folder is legacy output, not updated by these profiles. No publication is part of the build.
 
-Run `quarto inspect . --profile complete` or `quarto inspect . --profile focused` to inspect selections. The complete count grows with sessions and documentation; focused stays at ten until its explicit list changes. Both run the same full provenance check during rendering. See the repository guide for maintaining selections and repository-link routing.
+Run `quarto inspect . --profile complete` or `quarto inspect . --profile focused` to inspect selections. The complete count grows with sessions and documentation; focused follows its explicit page list. Both run the same full provenance check during rendering. See the repository guide for maintaining selections and repository-link routing.
 
 ## Validation
+
+For presenting the already-rendered site without Quarto's Render dialog, run:
+
+```powershell
+./tools/serve-site.ps1 -Profile focused -Port 7188
+```
+
+Open `http://localhost:7188/docs/smart-folder.html`. This read-only local server serves existing output; it does not watch or render source files. Stop it with Ctrl+C. Run `quarto render --profile focused` again when source changes should appear. The same command accepts `-Profile complete` to browse that output instead.
 
 On 2026-10-26, both profile renders completed: complete selected 30 targets and focused selected ten. Full provenance validation passed with 17 content pages, seven sessions and 28 sources; automated checks found no broken local HTML links in either output. The author subsequently previewed both sites and reported that both work. This is author-reported browser validation; no assistant visual inspection is claimed.
 
