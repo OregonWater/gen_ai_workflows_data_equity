@@ -6,7 +6,7 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22",
 
 ## One-sentence message
 
-### October 26 discussion checkpoint — review continues today
+### October 26 conceptual checkpoint — current direction
 
 **Author-confirmed narrative direction:** walk through challenges encountered while developing products intended to support public interactions with natural resources, using a mediation model to help situate where equity questions arise. Follow TAPs project design, creation of an open-data version of WRIS, and the smart folder represented by this repository. Attempts to address a difficulty introduce further choices and questions. This is an account of approaches taken, not a defense of documentation or a conclusion that those approaches deliver benefits or resolve equity concerns. Final wording, timing and slide claims remain open.
 
@@ -26,7 +26,7 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22",
 
 **Checkpoint as a possible example:** the author observes that choosing to preserve this discussion before review is itself a judgment about what counts as consequential. This may illustrate the selection process in the session record; it does not establish a general selection criterion or beneficial effect of committing.
 
-**Next, in this same session:** review the relevant mediation passages, bounded technical distinctions, project-design account, one WRIS before/learning/after episode and a repository provenance connection. Then reconcile knowledge-base/00–04, including the claims register before slide use. The assistant's proposed 20-minute allocation is preparation advice, not an adopted outline. Protect the October 27 final/rehearsal deadline. See the [session checkpoint](../sessions/2026-10-26.md#conceptual-checkpoint-before-review).
+**End-of-day handoff:** the session is closed; targeted review remains for October 27. The author selected the subtitle “Equity questions from developing public water-data products with GenAI” for the retained title. A descriptive [smart-folder page](../docs/smart-folder.md) and reproducible summary PNG now illustrate that work in progress. They do not propose team adoption or establish benefits. The deck body is still a placeholder. Review the relevant mediation passages, bounded technical distinctions, project-design account, one WRIS before/learning/after episode and a repository provenance connection; then reconcile knowledge-base/00–04 and register selected claims before slide use. The assistant's proposed 20-minute allocation remains preparation advice, not an adopted outline. New feedback is held only in the session for discussion before any transition revisions. Protect the October 27 final/rehearsal deadline. See the [session checkpoint](../sessions/2026-10-26.md#conceptual-checkpoint-before-review) and its end-of-day close-out.
 
 ### October 25 direction — retained background
 

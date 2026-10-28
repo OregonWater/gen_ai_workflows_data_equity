@@ -26,7 +26,7 @@ The local build first validates provenance, then renders the site including the 
 
 ## Author review
 
-A build profile selects settings for a particular view of the same source documents. Complete renders the whole configured site; focused renders ten selected documents. Separate output folders keep one build from overwriting the other. Neither profile publishes files. Both validate the entire provenance record first.
+A build profile selects settings for a particular view of the same source documents. Complete renders the whole configured site; focused renders the explicitly selected documents. Separate output folders keep one build from overwriting the other. Neither profile publishes files. Both validate the entire provenance record first.
 
 In focused output, a Lua filter (a small program run during document conversion) sends links to omitted Markdown documents to the repository. It reads the profile's render list, so that list is the authority for which pages stay local. Local source edits are unchanged; repository destinations reflect only published versions. Review unpushed omitted documents in the complete build. Profile and filter comprehension review remains open.
 

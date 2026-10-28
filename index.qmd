@@ -1,10 +1,12 @@
 ---
 title: 'Frictionless Reasoning About a Resistant World'
 sources: []
-sessions: ["2026-10-12"]
+sessions: ["2026-10-12", "2026-10-26"]
 ---
 
 **Francisco J. Guerrero**
+
+*Equity questions from developing public water-data products with GenAI*
 
 A talk on GenAI supported workflows and data equity for the **3rd Annual State of Oregon Data Equity Summit — Building Sustainable Data Equity Practices**.
 

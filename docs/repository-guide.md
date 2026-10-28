@@ -41,7 +41,7 @@ sources lists registry keys; sessions lists dated containers. Session raw-inputs
 
 ## Local builds
 
-Run `quarto render` (or `quarto render --profile complete`) for the complete review site in `_site-complete/`. Run `quarto render --profile focused` for the ten selected pages in `_site-focused/`. Preview either with `quarto preview --profile complete` or `quarto preview --profile focused`. Use one profile at a time.
+Run `quarto render` (or `quarto render --profile complete`) for the complete review site in `_site-complete/`. Run `quarto render --profile focused` for the selected pages in `_site-focused/`. Preview either with `quarto preview --profile complete` or `quarto preview --profile focused`. Use one profile at a time.
 
 For simultaneous review, use separate preview processes with distinct ports; see the commands in docs/reproducibility-notes.md. Preview may render pages during navigation, displaying its Render dialog.
 

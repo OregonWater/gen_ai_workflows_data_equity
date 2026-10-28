@@ -12,6 +12,7 @@ project:
     - admin/project-log.md
     - sessions/2026-10-26.md
     - docs/reproducibility-notes.md
+    - docs/smart-folder.md
     - "!/tmp/"
 website:
   sidebar:
@@ -19,6 +20,8 @@ website:
     contents:
       - index.qmd
       - artifacts/talk/deck.qmd
+      - text: A smart folder?
+        href: docs/smart-folder.md
       - section: Preparation
         contents:
           - knowledge-base/01_core-thesis-and-contribution.md

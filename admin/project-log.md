@@ -6,6 +6,12 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22",
 
 ## 2026-10-26
 
+End-of-day close-out: preserved progress through the conceptual checkpoint, smart-folder page/graphic and title selection. Targeted evidence review and slide-body development remain incomplete. Captured new reported feedback only in the dated session for October 27 discussion; omitted the unapproved transition table and deferred its implications. Updated the handoff for tomorrow's review and rehearsal. No staging, commit or publication performed during close-out.
+
+The author retained the original title and selected the subtitle “Equity questions from developing public water-data products with GenAI.” Updated deck metadata, landing page and project descriptions; the title choice does not settle the final script or evidence review.
+
+Smart-folder continuation: added the author-requested descriptive page and reproducible summary PNG, linked the page in both profiles and expanded focused output to eleven targets. Kept team adoption outside the page's purpose and retained open selection/maintenance questions. Added static local browsing for presenting generated output without preview rendering. See today's session for authorship and validation.
+
 Conceptual checkpoint before same-session review: accepted the working definition of w′ and distinction between generation influences and answer presuppositions. Captured the author's project-design account, documentation burden and three-example narrative, explicitly correcting a benefits-oriented interpretation. Preserved the provisional example table in knowledge-base/01 and recorded choosing a checkpoint as a possible illustration of selecting consequential changes. Updated bounded technical-source coverage and review priorities; no new slide claims or case-artifact verification. Session remains open.
 
 Implemented author-approved complete/focused build profiles after diagnosing 23 temporary duplicate render targets. Complete retains the full review site; focused selects ten pages with repository links to omitted documents. Both run full provenance validation and use separate ignored outputs. Today's session records the mechanism, checks and open comprehension review. No presentation claims changed.

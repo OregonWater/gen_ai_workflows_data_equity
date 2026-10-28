@@ -1,6 +1,6 @@
 ---
 title: "Frictionless Reasoning About a Resistant World"
-subtitle: "GenAI Supported Workflows and Data Equity"
+subtitle: "Equity questions from developing public water-data products with GenAI"
 author: "Francisco J. Guerrero"
 format:
   revealjs:

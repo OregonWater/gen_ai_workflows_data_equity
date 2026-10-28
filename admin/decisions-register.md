@@ -6,6 +6,16 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25",
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
 
+## 2026-10-26 — presentation-title-and-subtitle {#presentation-title-and-subtitle}
+
+Decision: Retain “Frictionless Reasoning About a Resistant World” and adopt “Equity questions from developing public water-data products with GenAI” as the subtitle.
+
+Rationale: Preserve the original central tension while identifying the case and contribution more concretely.
+
+Alternatives considered: “Whose World Does the Answer Assume?” and “Each Approach Opens Another Question,” with their proposed subtitles.
+
+Status: active; author explicitly selected option one. Refines the original identity decision's subtitle without changing its title or establishing new factual claims.
+
 ## 2026-10-26 — working-w-prime-and-challenge-narrative {#working-w-prime-and-challenge-narrative}
 
 Decision: Accept w′ as “the world as represented and presupposed through the bot's context-dependent responses, shaped by its learned configuration,” distinguishing generation influences from answer presuppositions. Walk through challenges across project design, open-data WRIS development and the smart folder; describe documentation as an approach taken, without defending it or concluding beneficial value.

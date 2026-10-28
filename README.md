@@ -1,5 +1,7 @@
 # Frictionless Reasoning About a Resistant World
 
+*Equity questions from developing public water-data products with GenAI*
+
 A presentation project by **Francisco J. Guerrero** on GenAI supported workflows and data equity.
 
 **Venue:** 3rd Annual State of Oregon Data Equity Summit — Building Sustainable Data Equity Practices.
@@ -29,7 +31,7 @@ quarto render
 
 The build validates provenance and renders both the notebook site and the reveal.js deck.
 The default complete build writes `_site-complete/index.html` and `_site-complete/artifacts/talk/deck.html`.
-Use `quarto render --profile focused` for the ten-page working site in `_site-focused/`.
+Use `quarto render --profile focused` for the selected-page working site in `_site-focused/`.
 Use `quarto preview --profile complete` or `quarto preview --profile focused` for local browsing. Both validate the full provenance record. See [reproducibility notes](docs/reproducibility-notes.md) for versions and Windows setup.
 
 ## Scope and status

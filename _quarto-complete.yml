@@ -19,6 +19,8 @@ website:
         contents:
           - index.qmd
           - docs/project-overview.md
+          - text: A smart folder?
+            href: docs/smart-folder.md
           - knowledge-base/01_core-thesis-and-contribution.md
       - section: Knowledge base
         contents: knowledge-base/*.md

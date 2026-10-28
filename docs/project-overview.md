@@ -1,12 +1,14 @@
 ---
 title: 'Project overview'
 sources: [event-website]
-sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22", "2026-10-25"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-21", "2026-10-22", "2026-10-25", "2026-10-26"]
 ---
 
 ## Purpose
 
 Prepare *Frictionless Reasoning About a Resistant World*, a talk on GenAI supported workflows and data equity.
+
+**Subtitle, selected October 26:** Equity questions from developing public water-data products with GenAI.
 
 ## Identity
 
@@ -16,6 +18,10 @@ Prepare *Frictionless Reasoning About a Resistant World*, a talk on GenAI suppor
 - [Official website](https://www.oregon.gov/odhs/data/Pages/data-equity-summit.aspx): checked October 13; event October 27-28, virtual, primarily for state staff with partners welcome. See the [audience research](../knowledge-base/08_audience-and-venue.md).
 
 ## Scope and current state
+
+**October 26 close-out — current handoff:** the author has accepted a working w′ definition and a challenge-centered sequence through project design, open-data WRIS development and the smart folder. A descriptive smart-folder page and reproducible overview graphic are available in the focused build. The title retains its original wording with the new subtitle above. Evidence review, final diagram meanings, timed narrative and slide development remain incomplete; the deck body is still a placeholder. Begin October 27 with the new feedback held in the session, then complete the bounded foundation/case checks and rehearse. No transition table is adopted. See [today's session](../sessions/2026-10-26.md) and [current synthesis](../knowledge-base/01_core-thesis-and-contribution.md).
+
+The following paragraphs preserve earlier development context; the October 26 handoff above governs current preparation.
 
 This is a presentation project with a public development record. Infrastructure is established. The author chose a practitioner-first, inductive case about evolving GenAI support for TAP development, followed by implications for managers/reviewers. The talk is 20 minutes, virtual, with Q&A after the presentation cycle. Organizer feedback, as reported by the author, favors reasoning and judgment over a deep technical walkthrough, while actual attendee composition remains unknown. An author-assembled WRIS evidence matrix may support a concrete example; its underlying organizational records still need checking. The central argument, selected episode, and desired takeaway remain open. See [the case foundation](../knowledge-base/01_core-thesis-and-contribution.md) and [audience baseline](../knowledge-base/08_audience-and-venue.md).
 
