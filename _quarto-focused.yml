@@ -10,11 +10,12 @@ project:
     - admin/governance.md
     - admin/decisions-register.md
     - admin/project-log.md
-    - sessions/2026-10-26.md
+    - sessions/2026-10-28.md
     - docs/reproducibility-notes.md
     - docs/smart-folder.md
     - "!/tmp/"
 website:
+  site-url: https://oregonwater.github.io/gen_ai_workflows_data_equity/
   sidebar:
     style: docked
     contents:
@@ -32,7 +33,7 @@ website:
           - admin/governance.md
           - admin/decisions-register.md
           - admin/project-log.md
-          - sessions/2026-10-26.md
+          - sessions/2026-10-28.md
       - docs/reproducibility-notes.md
 filters:
   - tools/focused-links.lua

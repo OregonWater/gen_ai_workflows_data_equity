@@ -1,7 +1,7 @@
 ---
 title: 'How the workflow works'
-sources: [renv-sandbox-docs]
-sessions: ["2026-10-12", "2026-10-22", "2026-10-26"]
+sources: [renv-sandbox-docs, quarto-github-pages]
+sessions: ["2026-10-12", "2026-10-22", "2026-10-26", "2026-10-28"]
 ---
 
 ## Provenance checker
@@ -23,6 +23,12 @@ On Windows, this project's .Rprofile gives each R session its own sandbox inside
 Quarto converts editable Markdown into a browsable website. The deck uses reveal.js, an HTML slide format. The build profiles select public pages; nonpublic_notes is neither a page nor a resource.
 
 The local build first validates provenance, then renders the site including the deck. An error stops the build. Rendering does not publish anything.
+
+## Publishing the focused site
+
+Rendering and publishing remain separate actions. `quarto render --profile focused` validates the project and builds the selected public pages in `_site-focused/`. After explicit publication authorization and review, `quarto publish gh-pages --profile focused --no-render --no-browser` copies that reviewed output to the dedicated `gh-pages` branch and pushes the branch to GitHub. The generated site remains excluded from `main`.
+
+This is a manual deployment, not an automatic workflow. Repeat the render, review and publish steps when the public site should change. Treat the Pages site as public: the focused deck, its embedded speaker notes and the project-record pages selected in `_quarto-focused.yml` are all within the publication boundary. See the [official Quarto GitHub Pages guide](https://quarto.org/docs/publishing/github-pages.html).
 
 ## Author review
 

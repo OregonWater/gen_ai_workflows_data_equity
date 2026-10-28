@@ -12,7 +12,7 @@ A presentation project by **Francisco J. Guerrero** on GenAI supported workflows
 - [Project overview](docs/project-overview.md)
 - [Repository guide](docs/repository-guide.md)
 - [Current project state](project.yml)
-- [Latest session](sessions/2026-10-26.md)
+- [Latest session](sessions/2026-10-28.md)
 - [Decisions](admin/decisions-register.md)
 - [Working protocol](knowledge-base/09_ai-working-instructions.md)
 
@@ -36,11 +36,11 @@ Use `quarto preview --profile complete` or `quarto preview --profile focused` fo
 
 ## Scope and status
 
-The structure and provenance checks are in place. The author successfully rendered and previewed the project site on 2026-10-12 and confirmed it works as expected; see reproducibility notes. The 20-minute virtual format and preparation deadlines are established. A WRIS evidence matrix is available to shape a candidate example, with its underlying sources still to be checked. Organizer feedback suggests emphasizing reasoning over a deep technical walkthrough; the audience's actual composition remains unknown. Narrative, central argument and desired takeaway remain open. The deck is a placeholder, not an approved narrative.
+The illustrated 20-slide deck, full speaker notes and focused review site are assembled and validated. The author has authorized public deployment of the focused site through GitHub Pages. A timed rehearsal and any final author-directed refinements remain; evidence limits stay recorded in the claims register and slide notes.
 
 No raw transcripts are stored. Session containers are the session record; the project log and decision register serve the distinct roles specified by the workflow.
 
-Data, source PDFs, generated output, and `nonpublic_notes/` are excluded from version control. Never force-add them. Git ignores do not provide encryption or access control.
+Data, source PDFs, local generated output, and `nonpublic_notes/` are excluded from the `main` branch. GitHub Pages output is maintained separately on `gh-pages`. Never force-add ignored materials. Git ignores do not provide encryption or access control.
 
 ## Licensing
 

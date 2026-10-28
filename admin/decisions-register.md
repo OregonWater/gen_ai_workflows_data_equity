@@ -6,6 +6,14 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-22", "2026-10-25",
 
 Format: date, decision, rationale, alternatives considered, status. Do not silently reverse active decisions.
 
+## 2026-10-28 — focused-site-publication {#focused-site-publication}
+
+Decision: Publish the focused Quarto profile through GitHub Pages using a manually rendered and reviewed `gh-pages` branch. Publish the illustrated deck, its embedded notes and the other pages explicitly selected by the focused profile. Do not add an automatic deployment workflow at this checkpoint.
+
+Rationale: Make the current presentation and its traceable development record publicly accessible while keeping generated output off `main` and preserving a review step before each deployment.
+
+Status: active; the author explicitly requested publication. Landing-page and focused-session cleanup are in progress. Deployment and public-URL verification remain pending. The ignored nonpublic and reference files remain outside the publication boundary.
+
 ## 2026-10-28 — integrated-illustrated-deck {#integrated-illustrated-deck}
 
 Decision: Use the complete tracked set of 18 presentation visuals on slides 3 through 20, positioned below the visible core messages. Preserve the full speaker-note narratives and image descriptions in the notes while also providing true image alt attributes in the rendered deck.

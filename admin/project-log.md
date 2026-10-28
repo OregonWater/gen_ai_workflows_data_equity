@@ -6,6 +6,8 @@ sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22",
 
 ## 2026-10-28
 
+The author explicitly requested publishing the focused site through GitHub Pages. Confirmed that the current illustrated deck is already included and linked, then replaced stale placeholder wording, selected the October 28 session in the focused profile, added the expected site URL and documented the manual `gh-pages` mechanism. A full focused render, public-boundary check and deployment verification remain before reconciliation. No automatic workflow is being added.
+
 Integrated the complete tracked visual set into slides 3 through 20 below each core message, retained all 19 speaker-note narratives, and reconciled each image description with both a true HTML alt attribute and the corresponding note. Rendered the focused Reveal deck successfully. Automated checks found 18 referenced and copied visuals, 18 nonempty alt attributes, 19 populated note blocks and the registered Reveal notes plugin. A headless review of slides 2 through 20 found no clipping or overlap with the logo or menu; the author-approved title layout was unchanged. The author subsequently requested committing this integration and will render from RStudio; no push or publication is authorized.
 
 Completed a candidate visual set for slides 3 through 20 using transparent PNGs, agency colors and the agreed purple onion scale. The author explicitly requested tracking the visual folder and committing this checkpoint. Added a narrow ignore exception for `artifacts/talk/assets/visuals/`; the images remain outside the deck pending author selection and integration. The separate interpreter PDF and image-reference PowerPoint remain untracked. No push or publication authorized.

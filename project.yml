@@ -3,7 +3,7 @@ project: gen_ai_workflows_data_equity
 stage: drafting
 stages: [scaffold, outline, drafting, rehearsal, delivered]
 last_session: "2026-10-28"
-critical_path_blocker: "The illustrated, agency-branded deck is rendered with 18 visuals and embedded speaker notes. Author preview, any requested visual refinements and a timed rehearsal remain. Organizer PDF deferred by the author."
+critical_path_blocker: "The focused site and illustrated deck are ready for public deployment. GitHub Pages URL verification, a timed rehearsal and any final author-directed refinements remain. Organizer PDF deferred by the author."
 paths:
   knowledge_base: knowledge-base
   docs: docs
@@ -11,26 +11,16 @@ open_decisions:
   - id: audience-and-duration
     question: "How should the provisional audience baseline be refined after thesis, narrative and evidence work?"
     gated_on: "Use organizer feedback and the selected, evidence-checked example to refine the provisional audience baseline; duration and format settled"
-  - id: core-message
-    question: "Which TAPs equity challenges and audience takeaway will make the technological-mediation direction concrete?"
-    gated_on: "Review the selected project-design, WRIS and smart-folder examples; settle diagram meanings and the timed narrative under the October 26 direction"
   - id: tool-literacy
     question: "Can the author explain provenance, renv, and the local build unaided?"
     gated_on: "Author review of docs/workflow-literacy.md"
 components:
   scripts/00_setup.R: stub
   tools/build-provenance.R: complete
-  artifacts/talk/deck.qmd: in-progress
+  artifacts/talk/deck.qmd: complete
 external_gates:
-  - "Explicit author request before committing; separate confirmation before publication."
+  - "Focused-site publication explicitly authorized on 2026-10-28; future publication updates require separate confirmation."
 next_actions:
-  - "Resume October 27 with the feedback held in the October 26 session note; discuss implications before adopting transition revisions. Then complete the bounded mediation, technical and case reviews, reconcile knowledge-base/00–04, register selected claims and assemble the rehearsal narrative."
-  - "Refine the selected project-design, WRIS and smart-folder examples; distinguish author-reported encounters, artifact-checked evidence and candidate equity questions."
-  - "Refine the onion-proliferation opening and diagram arrows using the accepted working w-prime definition. Resolve t-prime and feedback meanings without depicting an internal world or direct access to training data. Keep source review proportionate to the story."
-  - "Check the initial specification, selected underlying passages from the existing WRIS reconstruction table, and the revised specification against provisional claims WR-01–WR-05."
-  - "Preserve HRE and its literature exploration as development history. Revisit Kirsh's open assessment only as needed for the selected examples; defining HRE is no longer a prerequisite for this talk."
-  - "Assemble the 20-minute challenge narrative across project design, WRIS and the smart folder. Documentation is an approach taken that introduces further questions; do not claim beneficial value or resolution. Final timing, wording and takeaway remain open. Protect the October 27 final/rehearsal deadline."
-  - "Use the memorandum-based framing of known limitations and TAPs' response. Keep the article's calculations and controversy outside the talk's scope."
-  - "Verify the conceptual-model image's technical assertions and document creator, AI assistance and redistribution terms before slide use or inclusion in Git."
-  - "Keep optional conceptual and literature exploration bounded by the chosen case and the material needed for the slides."
-  - "Incorporate OWRD styling into deck CSS during slide development."
+  - "Publish the reviewed focused build to GitHub Pages and verify the public landing page, deck, visual assets and speaker-note support."
+  - "Complete a timed rehearsal and apply only author-directed refinements needed for delivery."
+  - "Keep the organizer PDF deferred unless the author reopens it. Preserve unresolved evidence limits in the claims register and notes."
