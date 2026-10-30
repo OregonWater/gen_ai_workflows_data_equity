@@ -72,8 +72,8 @@
 
 /* Keep the agency mark clear of the menu button at bottom left. */
 .reveal .slide-logo {
-  left: 64px !important;
-  right: auto !important;
+  left: auto !important;
+  right: 44px !important;
   bottom: 8px !important;
   width: 180px !important;
   height: auto !important;
