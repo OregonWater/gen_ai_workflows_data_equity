@@ -1,7 +1,7 @@
 ---
 title: 'Reproducibility notes'
-sources: [renv-sandbox-docs]
-sessions: ["2026-10-12", "2026-10-22", "2026-10-26"]
+sources: [renv-sandbox-docs, quarto-github-pages]
+sessions: ["2026-10-12", "2026-10-22", "2026-10-26", "2026-10-29"]
 ---
 
 ## Environment
@@ -21,6 +21,72 @@ Install R and Quarto, open the .Rproj, and run renv::restore(). Then run quarto 
 `quarto render --profile focused` builds the selected pages in `_site-focused/`, including its own copy of the deck. Both outputs are local and ignored. The earlier `_site/` folder is legacy output, not updated by these profiles. No publication is part of the build.
 
 Run `quarto inspect . --profile complete` or `quarto inspect . --profile focused` to inspect selections. The complete count grows with sessions and documentation; focused follows its explicit page list. Both run the same full provenance check during rendering. See the repository guide for maintaining selections and repository-link routing.
+
+## Updating and publishing site content
+
+Edit source files, not generated copies in `_site-complete/`, `_site-focused/` or the `gh-pages` branch. The focused profile is the routine review and publication build. The complete profile is a periodic comprehensive check; it does not need to be rendered after every focused-site change.
+
+### Updating existing files
+
+For an existing page already selected by the focused profile, edit the source once and render focused:
+
+```powershell
+quarto render --profile focused
+```
+
+This runs the full provenance check and refreshes the public-site candidate in `_site-focused/`. Existing supporting files such as CSS or images do not normally need their own `project.render` entries: a selected page or the project configuration incorporates or copies them when referenced. Confirm that new or changed assets are tracked, redistributable and outside ignored or restricted locations.
+
+Review the rendered candidate through the repository's static server:
+
+```powershell
+./tools/serve-site.ps1 -Profile focused -Port 7188
+```
+
+Open `http://localhost:7188/` for the site, `http://localhost:7188/artifacts/talk/deck.html` for the presentation and `http://localhost:7188/docs/reproducibility-notes.html` for these instructions. Stop the server with Ctrl+C. If port 7188 is already in use, choose another port and use that number in the URLs.
+
+The server presents the existing `_site-focused/` output over local HTTP, which is closer to GitHub Pages behavior than opening an HTML file directly from File Explorer. It allows relative links, scripts, search and copied assets to be checked without the browser restrictions and path differences associated with `file://` URLs. Unlike `quarto preview`, this read-only server does not watch source files, display Quarto's Render dialog or trigger another render during review. The files being reviewed therefore remain the exact publication candidate produced by the preceding focused render.
+
+Check the landing page and focused navigation; the changed pages or slides; deck images, layout and transitions; Speaker View and notes using the `S` key; affected links and search results; and the absence of unintended, ignored or nonpublic files. Do not edit generated files to correct a problem: stop the server, edit the source, render focused again and repeat the review.
+
+Render the complete profile periodically rather than as part of every routine edit:
+
+```powershell
+quarto render --profile complete
+```
+
+Appropriate checkpoints include a broad project review or close-out, changes to complete-profile selection or navigation, adding or moving pages, reviewing unpushed edits to pages omitted from focused, and checking that the full knowledge base, sessions, documentation and deck still render together. An existing file shared by both profiles requires no profile-configuration change; each output reflects the edit the next time that profile is rendered.
+
+### Adding new files
+
+For a new page, distinguish render selection from navigation. `project.render` determines whether Quarto creates the page. `website.sidebar` or `website.navbar` determines whether readers can discover it through site navigation. A rendered page may intentionally be absent from navigation when another page links to it directly.
+
+The complete profile automatically selects Markdown files directly within `knowledge-base/`, `sessions/` and `docs/`. Those patterns are not recursive and do not cover every directory or file type. Add an explicit entry to `_quarto-complete.yml` when a new page falls outside its existing patterns.
+
+The focused profile is an explicit publication boundary. Add a new public page to `project.render` in `_quarto-focused.yml`, and add a sidebar or navbar entry when it should be discoverable through navigation. Render each affected profile once after adding or restructuring pages to verify its selection, navigation and links. Subsequent routine edits can return to the focused cadence above.
+
+A link alone does not include its target in a profile. During a focused render, `tools/focused-links.lua` keeps local links to selected pages and redirects links to omitted Markdown pages to their source on the repository's `main` branch. A redirected repository link does not make that page part of the GitHub Pages site.
+
+New images, stylesheets and similar supporting assets normally belong in a tracked source location and are referenced by an included page or configuration; they do not normally belong in `project.render`. After rendering, verify that they appear in every intended output and that no ignored, nonpublic or restricted material was copied.
+
+### Commit and publish
+
+After reviewing the affected output, inspect the source changes and exclusions:
+
+```powershell
+git status --short
+git diff --check
+git diff
+```
+
+Stage explicit source and provenance files, inspect the staged diff, and commit only with the author's authorization. Do not stage `_site-focused/`, `_site-complete/`, private notes, data, source PDFs or unrelated working files. Use the commit convention in the repository guide. Pushing `main` requires separate explicit authorization.
+
+After an authorized source push and a successful focused render, publish the exact reviewed focused output only with separate publication authorization:
+
+```powershell
+quarto publish gh-pages --profile focused --no-render
+```
+
+The `--no-render` option prevents publication from silently rebuilding the candidate after review. Quarto updates and pushes the dedicated `gh-pages` branch; `_site-complete/` remains a local review output and is not published. Confirm the new `gh-pages` build, open the public landing page and affected URLs, verify key assets and deck behavior, review Git status again, and record the result in the dated session.
 
 ## Validation
 
