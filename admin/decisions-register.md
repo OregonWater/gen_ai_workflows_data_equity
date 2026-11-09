@@ -300,6 +300,14 @@ The earlier managed-session cache failure remains historical diagnostic informat
 
 Status: resolved.
 
+## 2026-11-09 — reading-edition {#reading-edition}
+
+Decision: Add a continuous HTML reading edition generated from the existing deck, preserving slide order, illustrations, narrative, transitions and supporting notes. Use only a browser print button and small print stylesheet for PDF saving.
+
+Rationale: Make the talk readable and copyable without maintaining a second manuscript or installing a PDF dependency.
+
+Status: author authorized implementation. Wording and claims remain unchanged; pagination depends on the browser. Publication requires separate authorization. See [session](../sessions/2026-11-09.md).
+
 ## Remaining open items after baseline agreement
 
 - **audience-and-duration:** duration and format settled; audience assumptions remain provisional until thesis/narrative/evidence review. Actual composition and AI familiarity remain unknown.

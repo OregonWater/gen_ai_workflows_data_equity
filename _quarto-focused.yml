@@ -4,6 +4,7 @@ project:
   render:
     - index.qmd
     - artifacts/talk/deck.qmd
+    - artifacts/talk/read.qmd
     - knowledge-base/01_core-thesis-and-contribution.md
     - knowledge-base/04_claims-evidence-risk-register.md
     - knowledge-base/08_audience-and-venue.md
@@ -12,6 +13,7 @@ project:
     - admin/project-log.md
     - sessions/2026-10-28.md
     - sessions/2026-10-30.md
+    - sessions/2026-11-09.md
     - docs/reproducibility-notes.md
     - docs/smart-folder.md
     - "!/tmp/"
@@ -22,6 +24,8 @@ website:
     contents:
       - index.qmd
       - artifacts/talk/deck.qmd
+      - text: Read the presentation
+        href: artifacts/talk/read.qmd
       - text: A smart folder?
         href: docs/smart-folder.md
       - section: Preparation
@@ -36,6 +40,7 @@ website:
           - admin/project-log.md
           - sessions/2026-10-28.md
           - sessions/2026-10-30.md
+          - sessions/2026-11-09.md
       - docs/reproducibility-notes.md
 filters:
   - tools/focused-links.lua

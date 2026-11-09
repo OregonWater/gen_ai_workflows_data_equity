@@ -1,7 +1,7 @@
 ---
 title: 'Repository guide'
 sources: []
-sessions: ["2026-10-12", "2026-10-22", "2026-10-25", "2026-10-26"]
+sessions: ["2026-10-12", "2026-10-22", "2026-10-25", "2026-10-26", "2026-11-09"]
 ---
 
 ## Folder roles
@@ -50,6 +50,8 @@ Shared settings and the default profile group live in `_quarto.yml`. Each `_quar
 `tools/focused-links.lua` reads the focused profile's target list and redirects links to omitted Markdown pages to their sources on the repository's main branch. Included pages retain local links. Repository links show published content, so use the complete build to review unpushed changes to omitted pages. The filter changes output only. No documents are deleted or copied into a separate source tree.
 
 ## Commit messages
+
+The reading edition at `artifacts/talk/read.qmd` uses `tools/reading-edition.lua` to read `deck.qmd` during rendering. Edit slide text and notes in the deck; the companion page contains only its introduction and print button. `reading.css` controls reading and browser-print layout. Both profiles include the reading edition; no extra package or PDF service is required.
 
 Use `type(scope): description`, or `type: description` when a scope adds no useful detail. Choose the type by the purpose of the change.
 

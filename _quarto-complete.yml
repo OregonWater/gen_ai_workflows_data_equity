@@ -10,6 +10,7 @@ project:
     - /docs/*.md
     - LICENSING.md
     - artifacts/talk/deck.qmd
+    - artifacts/talk/read.qmd
     - "!/tmp/"
 website:
   sidebar:
@@ -18,6 +19,8 @@ website:
       - section: Start here
         contents:
           - index.qmd
+          - text: Read the presentation
+            href: artifacts/talk/read.qmd
           - docs/project-overview.md
           - text: A smart folder?
             href: docs/smart-folder.md

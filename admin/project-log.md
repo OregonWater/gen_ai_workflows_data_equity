@@ -1,8 +1,12 @@
 ---
 title: 'Project log'
 sources: []
-sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25", "2026-10-26", "2026-10-28"]
+sessions: ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-21", "2026-10-22", "2026-10-25", "2026-10-26", "2026-10-28", "2026-11-09"]
 ---
+
+## 2026-11-09
+
+Added an author-requested HTML reading edition generated from the existing deck, with visible speaker narrative, separate support notes, navigation links and lightweight browser printing. Slide content remains unchanged. See the dated session for validation; no commit or publication performed.
 
 ## 2026-10-28
 

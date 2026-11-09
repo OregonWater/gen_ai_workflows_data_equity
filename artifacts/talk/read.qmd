@@ -1,0 +1,22 @@
+---
+title: "Frictionless Reasoning About a Resistant World"
+subtitle: "Read the presentation · Slides and speaker notes"
+author: "Francisco J. Guerrero"
+format:
+  html:
+    css: reading.css
+    toc: true
+    toc-title: "Slides"
+    toc-depth: 2
+    toc-expand: true
+filters:
+  - ../../tools/reading-edition.lua
+---
+
+This reading edition follows the presentation in slide order, with its illustrations, messages, speaker narrative, transitions, and supporting notes. It is generated from the same source as the slides.
+
+[Open the slide presentation](deck.qmd)
+
+```{=html}
+<p class="print-control"><button type="button" onclick="window.print()">Print / Save as PDF</button></p>
+```

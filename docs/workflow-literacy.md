@@ -1,7 +1,7 @@
 ---
 title: 'How the workflow works'
 sources: [renv-sandbox-docs, quarto-github-pages]
-sessions: ["2026-10-12", "2026-10-22", "2026-10-26", "2026-10-28"]
+sessions: ["2026-10-12", "2026-10-22", "2026-10-26", "2026-10-28", "2026-11-09"]
 ---
 
 ## Provenance checker
@@ -31,6 +31,8 @@ Rendering and publishing remain separate actions. `quarto render --profile focus
 This is a manual deployment, not an automatic workflow. Repeat the render, review and publish steps when the public site should change. Treat the Pages site as public: the focused deck, its embedded speaker notes and the project-record pages selected in `_quarto-focused.yml` are all within the publication boundary. See the [official Quarto GitHub Pages guide](https://quarto.org/docs/publishing/github-pages.html).
 
 ## Author review
+
+The reading edition is another view of the same deck. During rendering, a small Lua filter reads the deck and places each slide's illustration, message and notes into normal HTML sections. Notes become visible paragraphs; evidence limits remain separate. Edit the deck to update both views. The print button opens the browser's own print dialog; its PDF option and pagination depend on the browser. Print styles hide navigation and constrain image size. No separate PDF generator is installed. Author comprehension review of this mechanism remains open.
 
 A build profile selects settings for a particular view of the same source documents. Complete renders the whole configured site; focused renders the explicitly selected documents. Separate output folders keep one build from overwriting the other. Neither profile publishes files. Both validate the entire provenance record first.
 

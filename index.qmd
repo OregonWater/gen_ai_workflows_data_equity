@@ -1,7 +1,7 @@
 ---
 title: 'Frictionless Reasoning About a Resistant World'
 sources: []
-sessions: ["2026-10-12", "2026-10-26", "2026-10-28"]
+sessions: ["2026-10-12", "2026-10-26", "2026-10-28", "2026-11-09"]
 ---
 
 **Francisco J. Guerrero**
@@ -13,6 +13,7 @@ A talk on GenAI supported workflows and data equity for the **3rd Annual State o
 This focused site presents the illustrated talk and records the development process behind it.
 
 - [Open the presentation](artifacts/talk/deck.qmd)
+- [Read the presentation with speaker notes](artifacts/talk/read.qmd)
 - [Project overview](docs/project-overview.md)
 - [Follow the provenance trail](admin/governance.md)
 - [Read the setup session](sessions/2026-10-12.md)
