@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Francisco J. Guerrero">
+
+<title>Frictionless Reasoning About a Resistant World – Frictionless Reasoning</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../docs/smart-folder.html" rel="next">
+<link href="../../artifacts/talk/deck.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4e663f3a4ff1a491e18bd6a28adf0390.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="reading.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Frictionless Reasoning</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
+<span class="menu-text">Overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../artifacts/talk/deck.html"> 
+<span class="menu-text">Presentation</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../artifacts/talk/read.html">Read the presentation</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Frictionless Reasoning About a Resistant World</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../artifacts/talk/deck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Frictionless Reasoning About a Resistant World</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../artifacts/talk/read.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Read the presentation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/smart-folder.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A smart folder?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Preparation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../knowledge-base/01_core-thesis-and-contribution.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core thesis and contribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../knowledge-base/04_claims-evidence-risk-register.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Claims, evidence, and risk</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../knowledge-base/08_audience-and-venue.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Audience and venue</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Project record</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../admin/governance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Governance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../admin/decisions-register.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Decisions register</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../admin/project-log.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project log</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sessions/2026-10-28.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Session — 2026-10-28</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sessions/2026-10-30.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Session — 2026-10-30</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sessions/2026-11-09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Session — 2026-11-09</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reproducibility notes</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Slides</h2>
+   
+  <ul class="collapse">
+  <li><a href="#slide-1" id="toc-slide-1" class="nav-link active" data-scroll-target="#slide-1">Slide 1 · Frictionless Reasoning About a Resistant World</a></li>
+  <li><a href="#slide-2" id="toc-slide-2" class="nav-link" data-scroll-target="#slide-2">Slide 2 · GenAI assistance</a></li>
+  <li><a href="#slide-3" id="toc-slide-3" class="nav-link" data-scroll-target="#slide-3">Slide 3 · A two-page guide</a></li>
+  <li><a href="#slide-4" id="toc-slide-4" class="nav-link" data-scroll-target="#slide-4">Slide 4 · Technological mediation</a></li>
+  <li><a href="#slide-5" id="toc-slide-5" class="nav-link" data-scroll-target="#slide-5">Slide 5 · Onions and the work of scrutiny</a></li>
+  <li><a href="#slide-6" id="toc-slide-6" class="nav-link" data-scroll-target="#slide-6">Slide 6 · The bot’s generative branch</a></li>
+  <li><a href="#slide-7" id="toc-slide-7" class="nav-link" data-scroll-target="#slide-7">Slide 7 · Frictionless reasoning</a></li>
+  <li><a href="#slide-8" id="toc-slide-8" class="nav-link" data-scroll-target="#slide-8">Slide 8 · My work at OWRD</a></li>
+  <li><a href="#slide-9" id="toc-slide-9" class="nav-link" data-scroll-target="#slide-9">Slide 9 · Connecting people to data proactively</a></li>
+  <li><a href="#slide-10" id="toc-slide-10" class="nav-link" data-scroll-target="#slide-10">Slide 10 · Can GenAI assist?</a></li>
+  <li><a href="#slide-11" id="toc-slide-11" class="nav-link" data-scroll-target="#slide-11">Slide 11 · Three touchpoints in an ongoing process</a></li>
+  <li><a href="#slide-12" id="toc-slide-12" class="nav-link" data-scroll-target="#slide-12">Slide 12 · Planning: a longer horizon</a></li>
+  <li><a href="#slide-13" id="toc-slide-13" class="nav-link" data-scroll-target="#slide-13">Slide 13 · Planning: bringing reasoning into a record</a></li>
+  <li><a href="#slide-14" id="toc-slide-14" class="nav-link" data-scroll-target="#slide-14">Slide 14 · WRIS: revising our understanding</a></li>
+  <li><a href="#slide-15" id="toc-slide-15" class="nav-link" data-scroll-target="#slide-15">Slide 15 · WRIS: preserving the translation decisions</a></li>
+  <li><a href="#slide-16" id="toc-slide-16" class="nav-link" data-scroll-target="#slide-16">Slide 16 · Implementation: a smart folder</a></li>
+  <li><a href="#slide-17" id="toc-slide-17" class="nav-link" data-scroll-target="#slide-17">Slide 17 · AI-assisted, not AI-dependent</a></li>
+  <li><a href="#slide-18" id="toc-slide-18" class="nav-link" data-scroll-target="#slide-18">Slide 18 · How many onions are you willing to chop?</a></li>
+  <li><a href="#slide-19" id="toc-slide-19" class="nav-link" data-scroll-target="#slide-19">Slide 19 · Our work within larger systems</a></li>
+  <li><a href="#slide-20" id="toc-slide-20" class="nav-link" data-scroll-target="#slide-20">Slide 20 · Conclusion: keeping equity questions open</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Frictionless Reasoning About a Resistant World</h1>
+<p class="subtitle lead">Read the presentation · Slides and speaker notes</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Francisco J. Guerrero </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This reading edition follows the presentation in slide order, with its illustrations, messages, speaker narrative, transitions, and supporting notes. It is generated from the same source as the slides.</p>
+<p><a href="../../artifacts/talk/deck.html">Open the slide presentation</a></p>
+<p class="print-control"><button type="button" onclick="window.print()">Print / Save as PDF</button></p>
+
+
+<section id="slide-1" class="level2">
+<h2 class="anchored" data-anchor-id="slide-1">Slide 1 · Frictionless Reasoning About a Resistant World</h2>
+<p>Equity questions from developing public water-data products with GenAI</p>
+</section>
+<section id="slide-2" class="level2">
+<h2 class="anchored" data-anchor-id="slide-2">Slide 2 · GenAI assistance</h2>
+<p>GenAI assisted the preparation of this presentation. I am responsible for its claims, decisions, and final wording.</p>
+<div class="speaker-narrative">
+<p>Before we get started, a quick note: I used generative AI—GenAI—to help think through, organize and draft this presentation. I’m responsible for what I share with you today. And that experience is part of the story. What happens when we bring this kind of assistance into work that other people will eventually rely on? That’s the question I’d like us to explore together.</p>
+<p>Transition: To introduce that problem, imagine a short guide intended for public use.</p>
+</div>
+<div class="supporting-notes">
+<p>Optional image alt-text: Plain text disclosure; no image is needed.</p>
+<p>Support and boundaries: Project authorship rules; session 2026-10-28.</p>
+</div>
+</section>
+<section id="slide-3" class="level2">
+<h2 class="anchored" data-anchor-id="slide-3">Slide 3 · A two-page guide</h2>
+<p><img src="assets/visuals/slide-03-two-page-guide.png" class="slide-image img-fluid" alt="A person holds a two-page water-conservation guide beside a drought-affected community. Icons above the guide suggest cost, household control of water and readable information. This is a hypothetical example, not a real community."></p>
+<p>A readable draft still leaves questions about the circumstances its advice assumes.</p>
+<div class="speaker-narrative">
+<p>Imagine we’re putting together a two-page water-conservation guide for communities experiencing water scarcity. We ask a bot for help, and soon we have something that reads pretty well. Two pages, clear headings, sensible-looking advice. But who does that advice imagine its readers to be? Do they own their homes? Can they control their water use? Can they afford the changes? Is it in a language and format they can use? The draft gives us somewhere to start. Those questions give us work to do.</p>
+<p>Transition: The guide helps shape a relationship between people and the world. That brings us to mediation.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: OP-01; author-approved hypothetical illustration.</p>
+</div>
+</section>
+<section id="slide-4" class="level2">
+<h2 class="anchored" data-anchor-id="slide-4">Slide 4 · Technological mediation</h2>
+<p><img src="assets/visuals/slide-04-technological-mediation.png" class="slide-image img-fluid" alt="A person points toward a two-page water guide, which points toward a community river landscape, showing technology mediating a relationship with the world."></p>
+<p>Technologies help shape how we encounter and interpret the world.</p>
+<div class="speaker-narrative">
+<p>That guide sits between people and something they’re trying to understand or act on. It selects what to include, what to emphasize, and how to explain it. This is what I mean by technological mediation: technologies help shape our relationships with the world. We can start with a very simple map—human, technology, world. In this example, the technology is the guide. As we look more closely, we begin to notice the choices inside what first looked like a straightforward connection.</p>
+<p>Transition: Even this apparently simple relationship contains layers.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: ME-01–ME-03; assessed Ihde (1990), pp.&nbsp;72–76, 85–86, and Verbeek (2001), pp.&nbsp;126–130. Philosophical framing, exact wording remains under review.</p>
+</div>
+</section>
+<section id="slide-5" class="level2">
+<h2 class="anchored" data-anchor-id="slide-5">Slide 5 · Onions and the work of scrutiny</h2>
+<p><img src="assets/visuals/slide-05-onions-and-scrutiny.png" class="slide-image img-fluid" alt="Nested purple ovals surround a horizontal mediation line. Beside them, a knife slices a purple onion, separating layered assumptions from the work of scrutiny."></p>
+<p>Onions represent layered assumptions and conditions. Chopping represents scrutiny.</p>
+<div class="speaker-narrative">
+<p>This is where I bring in the onions. At the center is the relationship as we first picture it: a person uses a guide. Around it are layers of assumptions and conditions. They’re there whether we look at them or not. Chopping is the work of looking closely. Think of getting onions ready for a salad bar. Somebody has to do the preparation. Not everybody volunteers. And sometimes there are tears. The questions are familiar: who does the work, who gets a say, and whose idea of a better salad are we working toward? For me, the metaphor makes room for effort and discomfort—and for asking how we share that work.</p>
+<p>Transition: Now introduce the bot into developing the guide.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: DR-02; author-defined metaphor and revised shading meaning, session 2026-10-28.</p>
+</div>
+</section>
+<section id="slide-6" class="level2">
+<h2 class="anchored" data-anchor-id="slide-6">Slide 6 · The bot’s generative branch</h2>
+<p><img src="assets/visuals/slide-06-bot-generative-branch.png" class="slide-image img-fluid" alt="A developer exchanges information with a friendly bot, which leads to a guide and a river community. A hazy vertical branch from the bot passes through an abstract generative process toward an implied landscape, with purple onion layers along both paths."></p>
+<p>We can question assumptions in a bot’s response without establishing, from the conversation alone, how they arose.</p>
+<div class="speaker-narrative">
+<p>Let’s bring the bot into the picture. I’m working with it to develop the guide: asking questions, providing context, reading responses, making changes. Eventually, other people may use what we create. There’s another branch I want to draw from the bot: the generative process and the world its responses seem to assume. I call that represented world w-prime. Think of it as a question we can ask of an answer: what would have to be true for this advice to make sense? We can examine those assumptions. Establishing how they arose is harder. Asking the bot for an explanation gives us more words to examine; it doesn’t, on its own, establish their origin. Those vertical onions give us a particular challenge.</p>
+<p>Transition: That limited visibility matters when the conversation feels easy to carry forward.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: OP-02, DR-03; Turpin et al. (2023), official NeurIPS abstract: https://papers.neurips.cc/paper_files/paper/2023/hash/ed3fea9033a80fea1376299fa7863f4a-Abstract-Conference.html. Abstract-only check supports caution about explanations, not universal opacity or validation of w-prime.</p>
+</div>
+</section>
+<section id="slide-7" class="level2">
+<h2 class="anchored" data-anchor-id="slide-7">Slide 7 · Frictionless reasoning</h2>
+<p><img src="assets/visuals/slide-07-frictionless-reasoning.png" class="slide-image img-fluid" alt="A person and bot follow a smooth blue path past intact purple onions toward a guide. A lower scrutiny loop through a record, a conversation and a landscape rejoins the path before the guide."></p>
+<p>A coherent draft can carry us forward before we examine whether its assumptions fit.</p>
+<div class="speaker-narrative">
+<p>This is the tension behind frictionless reasoning. We have a coherent draft, the conversation is moving, and it’s easy to feel ready for the next step. Meanwhile, questions about affordability, control or access may still be waiting for us. The onions haven’t gone anywhere. We can bring some resistance into the process: check a record, ask someone with relevant experience, invite a different interpretation. Then we have choices about whose knowledge to bring in, what to question, and what to preserve. That unfolding process is what I want to share through my work.</p>
+<p>Transition: I will turn now to my work at the Oregon Water Resources Department.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: ME-09, OP-01–OP-02; author interpretation and hypothetical illustration, not a measured universal user effect.</p>
+</div>
+</section>
+<section id="slide-8" class="level2">
+<h2 class="anchored" data-anchor-id="slide-8">Slide 8 · My work at OWRD</h2>
+<p><img src="assets/visuals/slide-08-owrd-technical-assistance.png" class="slide-image img-fluid" alt="A diverse community group, water-data maps and charts, and a planning group gathered around a map exchange information through two-way arrows."></p>
+<p>My technical-assistance work connects people and water data for planning.</p>
+<div class="speaker-narrative">
+<p>I work at the Oregon Water Resources Department, OWRD. Part of my job is helping connect people with water data for planning. I think of technical assistance as working on that connection: what can these data help people understand, and what do people need in order to use them? Technical Assistance Packages—TAPs—is the work I’ll use to tell this story. We’re developing packages of analysis instructions, code and draft interpretations to support place-based water planning. There’s an ambitious direction here, and there are very practical questions about how we get there.</p>
+<p>Transition: The TAPs direction changes how we are trying to make that assistance available.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: DR-01, TP-01; author account. Official program wording remains for review; no unverified headcount is asserted.</p>
+</div>
+</section>
+<section id="slide-9" class="level2">
+<h2 class="anchored" data-anchor-id="slide-9">Slide 9 · Connecting people to data proactively</h2>
+<p><img src="assets/visuals/slide-09-connecting-people-data-proactively.png" class="slide-image img-fluid" alt="Three equal stages show a small internal team, repeatable files and code, and a folder connected to community members. The last stage has a dashed boundary and dotted continuation to show that it is still being developed."></p>
+<p>TAPs aims to make technical assistance available through open, reproducible products.</p>
+<div class="speaker-narrative">
+<p>The direction is toward assistance that people can return to, examine and work with: moving from internal workflows toward reproducible work, and toward open, reproducible products. Reproducible means keeping the materials and steps needed to run the work again. As we develop that approach, I keep coming back to some practical questions. Who can we reach? When is the assistance available? Where does the work fall? And how does this change our connection with the people using it? Making something open is a step. Understanding what it takes for someone to use it gives us the next set of questions.</p>
+<p>Transition: That ambition involves responsibilities across the product lifecycle.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: TP-02; author-proposed evolution. Detailed historical comparison and implemented capabilities are not independently checked.</p>
+</div>
+</section>
+<section id="slide-10" class="level2">
+<h2 class="anchored" data-anchor-id="slide-10">Slide 10 · Can GenAI assist?</h2>
+<p><img src="assets/visuals/slide-10-can-genai-assist.png" class="slide-image img-fluid" alt="Six equal lifecycle icons for planning, design, implementation, testing, launch and engagement surround a project lead, two collaborators and an assisting bot."></p>
+<p>The work spans planning, design, implementation, testing, launch and user engagement.</p>
+<div class="speaker-narrative">
+<p>As project lead, I have a hand in planning, design, implementation, testing, launch and engagement with users. There’s cross-division support, and much of the day-to-day development rests with me. So the question is very practical: can GenAI help us move this work forward with the capacity we have? It can help explore possibilities and put a strategy into words. But then I need to ask: whose working conditions does this strategy assume? Does it fit the people, time and support available here? That’s where the smooth conversation starts meeting the circumstances of the project.</p>
+<p>Transition: I will walk through three touchpoints where that examination changed the work.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: TP-03, DR-04; author-reported responsibilities and capacity constraints; no quantitative staffing claim.</p>
+</div>
+</section>
+<section id="slide-11" class="level2">
+<h2 class="anchored" data-anchor-id="slide-11">Slide 11 · Three touchpoints in an ongoing process</h2>
+<p><img src="assets/visuals/slide-11-three-touchpoints.png" class="slide-image img-fluid" alt="Three parallel lanes show a future planning horizon becoming durable documents, historical records becoming a map through discussion, and a structured folder connecting to people. Each lane ends with a purple onion and a dotted continuation."></p>
+<p>Planning, dataset design and implementation each introduce further equity questions.</p>
+<div class="speaker-narrative">
+<p>I’ll take you through three touchpoints. First, planning: developing a longer-term vision and deciding what needs to happen today. Second, design: learning how to turn water-rights records into the public dataset we have in mind. Third, implementation: organizing the evolving work through a smart folder. In each one, we try an approach to a difficulty, and another set of questions comes into view. Follow the onions as we go.</p>
+<p>Transition: Let us start with the longer-term vision—and what it asks of us today.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: TP-04; author-selected talk sequence; readiness concerns narrative organization, not completed implementation.</p>
+</div>
+</section>
+<section id="slide-12" class="level2">
+<h2 class="anchored" data-anchor-id="slide-12">Slide 12 · Planning: a longer horizon</h2>
+<p><img src="assets/visuals/slide-12-planning-longer-horizon.png" class="slide-image img-fluid" alt="A project lead at a modest desk faces a path toward an open-data map, a repeatable workflow and a packaged-software box. Upper steps are dashed, and a large arrow returns from the future to the desk."></p>
+<p>A long-term vision still requires choices about what to do now and whose capacity it assumes.</p>
+<div class="speaker-narrative">
+<p>I wanted a longer-term vision: open data, work that people could run again, and eventually possibilities such as containerization. That means packaging software with its operating environment to help run it in a specified way. Then comes the question that brings a vision back to the desk: what do we need to do today? GenAI helped me explore that. Some plans also assumed data architects, dedicated IT support or established processes beyond my working setup. I kept bringing the conversation back to our circumstances. That was already resistance: asking the plan to meet the setting where we would actually have to carry it out.</p>
+<p>Transition: Repeated conversations then raised a different problem: how to follow the reasoning across them.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: DR-04, TP-05; author-reported planning experience and ambitions; no validated implementation claim.</p>
+</div>
+</section>
+<section id="slide-13" class="level2">
+<h2 class="anchored" data-anchor-id="slide-13">Slide 13 · Planning: bringing reasoning into a record</h2>
+<p><img src="assets/visuals/slide-13-planning-durable-record.png" class="slide-image img-fluid" alt="Disconnected conversation cards surround a person who selects some for an organized folder while others remain outside. A purple onion halo marks the selection point, and documents accumulate beside the folder."></p>
+<p>A durable record addressed tracing difficulties while creating selection decisions and documentation burden.</p>
+<div class="speaker-narrative">
+<p>As the conversations accumulated, I started losing the thread. Which assumption came from which chat? What had we changed, and why? Sometimes a conversation would reach its limit while we were still working through something. I began moving selected reasoning into a durable record—files we could return to beyond an individual chat. That brought decisions into view: what deserves to stay, where does it go, and how do I explain it? Soon I also had a lot of documentation to look after. I was trying to build products, and keeping the record could become a job of its own. Preserving the reasoning gave me another set of onions to chop.</p>
+<p>Transition: The design example shows why preserving a particular change in understanding can matter.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: DR-05, TP-05; author-reported isolated chats, conversation limits, externalization and burden; no general productivity effect established.</p>
+</div>
+</section>
+<section id="slide-14" class="level2">
+<h2 class="anchored" data-anchor-id="slide-14">Slide 14 · WRIS: revising our understanding</h2>
+<p><img src="assets/visuals/slide-14-wris-revising-understanding.png" class="slide-image img-fluid" alt="On the left, one record points directly to a watershed map. On the right, two colleagues trace a route through connected historical records and an archive box toward the same map. This depicts a change in understanding, not a verified technical schema."></p>
+<p>Learning sessions changed what I thought the records could provide directly.</p>
+<div class="speaker-narrative">
+<p>The Water Rights Information System, WRIS, gave me a concrete encounter with changing understanding. I initially expected information we could retrieve more directly. We had metadata listing variables that weren’t readily available through the records in the way I had pictured. Through learning sessions, I came to understand a historical family of connected records that needed careful translation. Imagine answering the latest email in a long thread. The answer depends on an attachment, which sends you to an older file, which points somewhere else. Suddenly, answering that top email takes more context than you expected. Colleagues helped me understand those connections. Some are approaching retirement, which adds urgency to the question of how that knowledge carries forward.</p>
+<p>Transition: That learning changed what our specifications needed to explain.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: WR-01–WR-03; author account, session 2026-10-28. Comparison PNG visually inspected; underlying metadata, technical relationships and specifications not independently checked.</p>
+</div>
+</section>
+<section id="slide-15" class="level2">
+<h2 class="anchored" data-anchor-id="slide-15">Slide 15 · WRIS: preserving the translation decisions</h2>
+<p><img src="assets/visuals/slide-15-wris-preserving-decisions.png" class="slide-image img-fluid" alt="Two colleagues examine connected records, leading to a shared conceptual map and more explicit specification pages. A smaller bot branch organizes selected notes after the human learning, and a purple scrutiny boundary separates the documented product from prospective reviewers."></p>
+<p>GenAI helped document our evolving understanding and the decisions shaping revised specifications.</p>
+<div class="speaker-narrative">
+<p>Those conversations with colleagues changed how I understood the records. I used GenAI to help follow that change and put it into words we could return to, including the comparison diagram. Our query specifications became more comprehensive and explicit about the steps toward the spatial dataset we want to offer publicly. I also moved toward folders organized around particular products, to keep documentation more focused. Now there’s another opportunity: share some of that developing understanding alongside the data, so people can examine the decisions shaping it. And another question: who gets to challenge that interpretation, and how? That includes our team and, eventually, the communities we hope will use the work.</p>
+<p>Transition: How do we give that evolving record somewhere to live, and a way for others to work with it?</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: WR-02–WR-05; author-reported revised specifications, not an inspected artifact comparison or demonstrated improvement in community understanding.</p>
+</div>
+</section>
+<section id="slide-16" class="level2">
+<h2 class="anchored" data-anchor-id="slide-16">Slide 16 · Implementation: a smart folder</h2>
+<p><img src="assets/visuals/slide-16-smart-folder.png" class="slide-image img-fluid" alt="A person and an assisting bot select material for a central structured folder connected to six record types. Diverse people approach through different paths and a purple onion boundary, representing questions about access, skills and participation."></p>
+<p>The smart folder connects GenAI assistance with a durable record—and opens questions about access and participation.</p>
+<div class="speaker-narrative">
+<p>The smart folder is one way I’m working on that connection. It’s a project folder with the work itself, instructions, sources, selected discussions, current understanding and decisions, linked together. This presentation project uses that structure. It gives GenAI assistance an interface with a record we can keep working on. Putting that record in a repository opens a possibility: other people could follow how assistance influenced development, and collaborators could keep accounts of their own assisted work. Then I have to ask: who can really get in? Who am I writing for? What skills and time do they need? An available repository gives us somewhere to begin those questions.</p>
+<p>Transition: Making it available raises a further question: does participation require AI?</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: DR-06, TP-06; inspectable repository structure plus author-proposed collaborative use; no demonstrated access or accountability benefit.</p>
+</div>
+</section>
+<section id="slide-17" class="level2">
+<h2 class="anchored" data-anchor-id="slide-17">Slide 17 · AI-assisted, not AI-dependent</h2>
+<p><img src="assets/visuals/slide-17-ai-assisted-not-dependent.png" class="slide-image img-fluid" alt="People connect directly to editable project files through a thick two-way path. An optional bot loop rejoins the same files, while dashed branches lead toward a proposed website and local model as future directions."></p>
+<p>People should be able to read, question and maintain the record without GenAI.</p>
+<div class="speaker-narrative">
+<p>The principle is AI-assisted, not AI-dependent. People should be able to read, question and maintain the record without needing a model. We’re working with ordinary editable files, with instructions alongside them for assisted work. I’d also like that structure to travel across models, and perhaps eventually help us provide project context to a local language model. Another direction is a website that makes the record easier to navigate. Each of those choices asks something of the people using it. What do we expect them to know? What should be easy to find? How would they add a question or challenge an interpretation? The interface is another part of the equity work.</p>
+<p>Transition: These approaches bring us back to the work of chopping.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: TP-06–TP-07; design principle, existing editable files, and explicitly prospective interface/model ambitions. No tested accessibility or model portability claim.</p>
+</div>
+</section>
+<section id="slide-18" class="level2">
+<h2 class="anchored" data-anchor-id="slide-18">Slide 18 · How many onions are you willing to chop?</h2>
+<p><img src="assets/visuals/slide-18-onion-chopping-capacity.png" class="slide-image img-fluid" alt="At a shared table, a diverse group prepares purple onions and salad. People contribute by cutting, reading a record, arranging ingredients, scheduling and discussing; icons above represent time, knowledge, access and shared authority."></p>
+<p>Scrutiny takes work. Who has the time, knowledge, access and authority to participate?</p>
+<div class="speaker-narrative">
+<p>So, how many onions are you willing to chop? And perhaps more importantly: how much time, support and room do you have to do it? Across these examples, we’ve met assumptions about capacity, choices about what to document, changing interpretations of records, and questions about who can access the result. Even asking a team to review a draft leaves another question: can they see how it was generated and how their feedback shaped the next version? Participation can enter all along the way. Sharing that work means making room for people to question how the product is taking shape.</p>
+<p>Transition: Our project-level relationships also sit within larger systems.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: DR-07; author-directed normative questions and scope, not empirical findings about a community.</p>
+</div>
+</section>
+<section id="slide-19" class="level2">
+<h2 class="anchored" data-anchor-id="slide-19">Slide 19 · Our work within larger systems</h2>
+<p><img src="assets/visuals/slide-19-larger-systems.png" class="slide-image img-fluid" alt="A highlighted project circle of people, a folder, an assisting bot, a public map and a water landscape sits inside a larger network of computing infrastructure, government, organizational decisions, environmental systems and wider publics. Lines show relationships, not measured power or causal effects."></p>
+<p>Our project decisions sit within larger systems of power and influence.</p>
+<div class="speaker-narrative">
+<p>Before closing, I want to acknowledge the larger picture. Our work sits within much larger systems of power and influence. People bring concerns about AI infrastructure, companies, public institutions and environmental consequences into these conversations. Those concerns deserve space. Today I’ve stayed close to decisions I encounter while developing a public-facing product. I’d like us to hold those scales together: keep the wider concerns in view while asking where we can act, question and change practice within our own organizations. For our discussion, how might those broader concerns connect to the choices we’ve been walking through?</p>
+<p>Transition: Let me bring that back to the work we can keep doing together.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: TP-08; author-proposed discussion framing. No quotations, factual assertions or identifying material from private event notes are reproduced.</p>
+</div>
+</section>
+<section id="slide-20" class="level2">
+<h2 class="anchored" data-anchor-id="slide-20">Slide 20 · Conclusion: keeping equity questions open</h2>
+<p><img src="assets/visuals/slide-20-conclusion-open-questions.png" class="slide-image img-fluid" alt="A winding path passes selected documents, connected records becoming a watershed map, and a structured folder, with a purple onion after each. The path reaches a diverse group around shared materials and continues as dots toward another onion."></p>
+<p>Each approach opens further equity questions. Productive resistance keeps them visible and open to participation as the work evolves.</p>
+<div class="speaker-narrative">
+<p>What I hope this story leaves with you is a sense of the work continuing. I tried to preserve reasoning, and found questions about selection and burden. We documented a changing interpretation, and met questions about who could challenge it. We organized a repository, and opened questions about access and skills. Much of this has been a solo effort, and I want to find ways to bring others further into it. Productive resistance means keeping opportunities to question, learn and reconsider alive as we go. What makes that resistance productive is something we need to work out together, in the circumstances of each project. There will be more onions. The question is how we make room to chop them together.</p>
+<p>Transition: Thank you. I look forward to continuing these questions in the shared Q&amp;A at the end of the presentation cycle.</p>
+</div>
+<div class="supporting-notes">
+<p>Support and boundaries: DR-08; author-directed conclusion checkpoint. Ready concerns the agreed framing, not empirical proof or completed participation.</p>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/oregonwater\.github\.io\/gen_ai_workflows_data_equity\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../artifacts/talk/deck.html" class="pagination-link" aria-label="Frictionless Reasoning About a Resistant World">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Frictionless Reasoning About a Resistant World</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../docs/smart-folder.html" class="pagination-link" aria-label="A smart folder?">
+        <span class="nav-page-text">A smart folder?</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

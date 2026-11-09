@@ -1,0 +1,24 @@
+/* Reading flow, independent of the reveal.js slide layout. */
+#quarto-document-content { max-width: 52rem; min-width: 0; }
+#quarto-document-content h2 { margin-top: 2.5rem; }
+.slide-image { display: block; width: 100%; max-width: 100%; height: auto; margin: 1rem auto; }
+@media screen and (max-width: 991px) {
+  #quarto-content { display: block; width: 100%; min-width: 0; }
+  #quarto-document-content { width: calc(100vw - 2rem); max-width: calc(100vw - 2rem); margin: 0 1rem; padding: 1rem 0; overflow-wrap: anywhere; }
+}
+.speaker-narrative { line-height: 1.7; }
+.supporting-notes { border-left: 3px solid #697b89; padding-left: 1rem; margin: 1.25rem 0 2rem; font-size: .9em; }
+.print-control button { padding: .5rem .9rem; border: 1px solid #697b89; border-radius: .25rem; background: white; color: #243746; cursor: pointer; }
+.print-control button:focus-visible { outline: 3px solid #2471a3; outline-offset: 3px; }
+@media print {
+  @page { margin: 18mm; }
+  #quarto-header, #quarto-sidebar, #quarto-margin-sidebar, .quarto-navigation-tool,
+  .quarto-title-meta, .page-navigation, .print-control, .anchorjs-link, footer { display: none !important; }
+  #quarto-content { display: block !important; padding: 0 !important; }
+  main.content, #quarto-document-content { width: 100% !important; max-width: none; margin: 0 !important; }
+  body { font-size: 11pt; color: black; }
+  h1, h2, h3 { break-after: avoid; }
+  p { orphans: 3; widows: 3; }
+  img.slide-image { max-height: 95mm; width: auto; max-width: 100%; break-inside: avoid; }
+  a { color: inherit; text-decoration: underline; }
+}
